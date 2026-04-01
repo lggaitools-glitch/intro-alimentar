@@ -1,26 +1,68 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --cream: #FFF8F0;
+  --cream-dark: #F5EDE3;
+  --green-light: #E8F5E9;
+  --green: #66BB6A;
+  --green-dark: #388E3C;
+  --orange-light: #FFF3E0;
+  --orange: #FF9800;
+  --orange-dark: #E65100;
+  --text-primary: #3E2723;
+  --text-secondary: #5D4037;
+  --text-muted: #8D6E63;
+  --red-light: #FFEBEE;
+  --red: #EF5350;
+  --blue-light: #E3F2FD;
+  --blue: #42A5F5;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-cream: var(--cream);
+  --color-cream-dark: var(--cream-dark);
+  --color-green-light: var(--green-light);
+  --color-green-app: var(--green);
+  --color-green-dark: var(--green-dark);
+  --color-orange-light: var(--orange-light);
+  --color-orange-app: var(--orange);
+  --color-orange-dark: var(--orange-dark);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-red-light: var(--red-light);
+  --color-red-app: var(--red);
+  --color-blue-light: var(--blue-light);
+  --color-blue-app: var(--blue);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--cream);
+  color: var(--text-primary);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Smooth page transitions */
+main {
+  animation: fadeIn 0.2s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Safe area for mobile nav (iPhone notch/home bar) */
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--text-muted);
+  border-radius: 3px;
 }

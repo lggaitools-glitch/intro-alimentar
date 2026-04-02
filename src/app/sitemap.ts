@@ -12,6 +12,13 @@ const routes = [
   '/readiness',
   '/approach',
   '/allergens',
+  '/blog',
+  '/blog/guia-alimentacion-complementaria',
+  '/blog/blw-que-es-como-empezar',
+  '/blog/tabla-introduccion-alimentos-bebe',
+  '/blog/alimentos-prohibidos-bebes',
+  '/blog/introduccion-alergenos-bebes',
+  '/infographics',
 ]
 
 const locales = ['es', 'en', 'pt-br']

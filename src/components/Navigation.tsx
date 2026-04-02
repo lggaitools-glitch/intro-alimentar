@@ -10,6 +10,7 @@ const navKeys = [
   { href: '/', key: 'home', emoji: '🏠' },
   { href: '/plan', key: 'plan', emoji: '📅' },
   { href: '/diary', key: 'diary', emoji: '📓' },
+  { href: '/blog', key: 'blog', emoji: '📝' },
   { href: '/learn', key: 'learn', emoji: '📖' },
   { href: '/reference', key: 'more', emoji: '⚠️' },
 ];
@@ -30,7 +31,7 @@ export default function Navigation() {
 
       {/* Bottom navigation */}
       <nav className="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-t border-cream-dark z-50 safe-area-bottom">
-        <div className="max-w-lg mx-auto grid grid-cols-5">
+        <div className="max-w-lg mx-auto grid grid-cols-6">
           {navKeys.map(item => {
             const isActive = item.href === '/'
               ? pathname === '/'

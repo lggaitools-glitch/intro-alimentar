@@ -1,0 +1,1202 @@
+{
+  "nav": {
+    "home": "Home",
+    "plan": "Plan",
+    "diary": "Diary",
+    "learn": "Learn",
+    "more": "More"
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "seeAll": "See all \u2192",
+    "export": "Export",
+    "search": "Search",
+    "change": "Change",
+    "all": "All",
+    "yes": "Yes",
+    "no": "No",
+    "module": "Module",
+    "completed": "Completed \u2713",
+    "elements": "elements"
+  },
+  "dashboard": {
+    "greeting": "Hello, {name} \ud83d\udc4b",
+    "ageMonths": "{months} months old",
+    "currentPhase": "Current phase",
+    "weekLabel": "Week {week} \u2014 {title}",
+    "foodsTried": "Foods tried",
+    "allergensLabel": "Allergens",
+    "lessonsLabel": "Lessons",
+    "learningTitle": "\ud83d\udcd6 Your learning",
+    "lessonsProgress": "{completed}/{total} lessons",
+    "quickActions": "Quick actions",
+    "weeklyPlan": "Weekly plan",
+    "weeklyPlanDesc": "What foods to introduce this week",
+    "diary": "Diary",
+    "diaryDesc": "Log today's meals",
+    "allergens": "Allergens",
+    "allergensDesc": "Allergen tracking",
+    "quickRef": "Quick reference",
+    "quickRefDesc": "Safety guides & emergencies",
+    "weekTip": "\ud83d\udca1 Tip of the week",
+    "chooseApproach": "\ud83c\udf7d\ufe0f Choose your approach",
+    "chooseApproachDesc": "Purees, BLW or mixed? Find out here.",
+    "disclaimer": "IntroAlimentar is informational. Always consult your pediatrician.",
+    "disclaimerSource": "Based on AEP, WHO and ESPGHAN guidelines.",
+    "notStarted": "You haven't started complementary feeding yet",
+    "checkReadiness": "Check if baby is ready \u2192",
+    "loadingPlan": "Loading plan..."
+  },
+  "setup": {
+    "title": "\ud83c\udf7c Set up profile",
+    "subtitle": "Your baby's details to personalize the plan",
+    "babyName": "Baby's name",
+    "namePlaceholder": "E.g.: Lucy",
+    "birthDate": "Date of birth",
+    "feedingType": "Current feeding type",
+    "breast": "Breast",
+    "formula": "Formula",
+    "mixed": "Mixed",
+    "selectedApproach": "Selected approach:",
+    "approachTraditional": "\ud83e\udd63 Traditional purees",
+    "approachBLW": "\ud83e\udd1a BLW",
+    "approachMixed": "\ud83c\udf7d\ufe0f Mixed",
+    "acStarted": "Started complementary feeding on {date}",
+    "saveAndContinue": "Save and continue",
+    "privacyNote": "Data is stored only on your device. It is not shared with anyone."
+  },
+  "readiness": {
+    "title": "\ud83d\udccb Is your baby ready?",
+    "subtitle": "Readiness signs according to the AEP. All must be present.",
+    "backLink": "\u2190 Back",
+    "checks": [
+      {
+        "id": "sit",
+        "title": "Can sit upright with support",
+        "description": "The baby can sit upright with good head and trunk control, at least with minimal support. This is essential for safe swallowing.",
+        "emoji": "\ud83e\ude91"
+      },
+      {
+        "id": "tongue",
+        "title": "Has lost the tongue-thrust reflex",
+        "description": "No longer pushes out everything that enters the mouth with the tongue. If you offer food and the tongue pushes it out, the baby isn't ready yet.",
+        "emoji": "\ud83d\udc45"
+      },
+      {
+        "id": "grab",
+        "title": "Can grasp objects and bring them to the mouth",
+        "description": "Hand-mouth coordination: grasps objects and brings them to the mouth with some precision.",
+        "emoji": "\u270b"
+      },
+      {
+        "id": "interest",
+        "title": "Shows active interest in food",
+        "description": "Watches curiously when you eat, tries to grab your food, opens mouth when food approaches.",
+        "emoji": "\ud83d\udc40"
+      }
+    ],
+    "notReadyTitle": "\u26a0\ufe0f These do NOT indicate readiness:",
+    "notReadySigns": [
+      "Waking up frequently at night",
+      "Constantly sucking on hands",
+      "Nursing more often (growth spurt)",
+      "Having a \"low percentile\""
+    ],
+    "allReadyTitle": "\u2705 Your baby meets all the signs!",
+    "allReadyDesc": "It looks like your baby is ready to start complementary feeding. Let's choose an approach!",
+    "startButton": "Let's start the adventure! \ud83c\udf89",
+    "remainingSigns": "{count} more sign{plural} to confirm. All must be present."
+  },
+  "approach": {
+    "title": "\ud83c\udf7d\ufe0f Choose your approach",
+    "yourApproach": "\ud83c\udf7d\ufe0f Your approach",
+    "canChange": "You can change it anytime",
+    "aepSays": "AEP says:",
+    "retakeTest": "Retake test",
+    "changeApproach": "Change approach",
+    "howQuestion": "How do you want to feed your baby?",
+    "quizIntro": "Answer a few quick questions and we'll help you find the approach that best fits your family.",
+    "startTest": "Start the quiz",
+    "skipTest": "I already know which one \u2014 choose directly",
+    "questionOf": "Question {current} of {total}",
+    "yourResult": "Your result",
+    "chooseMethods": "Purees, BLW or mixed",
+    "weRecommend": "We recommend: {name}",
+    "advantages": "Advantages",
+    "considerations": "Things to consider",
+    "aepNote": "AEP note",
+    "choose": "Choose {name}",
+    "preferOther": "I prefer a different approach",
+    "backToTest": "\u2190 Back to quiz",
+    "directChoose": "Choose the approach you prefer. You can change it anytime.",
+    "currentApproach": "Current approach \u2713",
+    "aepDisclaimer": "The AEP does not recommend one method over another. What matters is safety and variety.",
+    "quizQuestions": [
+      {
+        "question": "How do you feel about preparing baby's food?",
+        "options": [
+          "I prefer total control over what and how much they eat",
+          "I like the idea of them exploring food on their own",
+          "A bit of both: sometimes purees, sometimes pieces"
+        ]
+      },
+      {
+        "question": "How do you feel about the mess?",
+        "options": [
+          "I prefer to minimize chaos as much as possible",
+          "I don't mind: mess is learning",
+          "I tolerate it, but I'm not enthusiastic"
+        ]
+      },
+      {
+        "question": "How much time can you dedicate to each meal?",
+        "options": [
+          "Not much \u2014 I need it quick and efficient",
+          "I can spend 20-30 minutes without rushing",
+          "Depends on the day, it varies"
+        ]
+      },
+      {
+        "question": "Does your baby go to daycare?",
+        "options": [
+          "Yes, and they give purees there",
+          "No, always eats with me/family",
+          "Yes, but they're flexible with the format"
+        ]
+      },
+      {
+        "question": "How nervous are you about choking?",
+        "options": [
+          "Very \u2014 I prefer to start with soft textures",
+          "I've read about it and I trust the baby's reflexes",
+          "Normal \u2014 I want to learn but it doesn't paralyze me"
+        ]
+      }
+    ],
+    "approaches": {
+      "traditional": {
+        "name": "Traditional (purees)",
+        "emoji": "\ud83e\udd63",
+        "description": "Start with smooth purees and gradually increase texture. The adult spoon-feeds the baby.",
+        "pros": [
+          "Greater control over intake amount",
+          "Less initial stress about choking",
+          "Compatible with daycare",
+          "Faster at the beginning"
+        ],
+        "cons": [
+          "May delay texture acceptance if not progressed",
+          "Less sensory exploration",
+          "Must actively evolve textures (8-9 months: lumpy)"
+        ],
+        "tip": "The AEP reminds: it's essential to progress to lumpy textures before 8-9 months. Don't stay with smooth purees too long."
+      },
+      "blw": {
+        "name": "BLW (Baby-Led Weaning)",
+        "emoji": "\ud83e\udd32",
+        "description": "The baby eats age-appropriate pieces from the start. They decide what to grab, how much to eat and at what pace.",
+        "pros": [
+          "Promotes autonomy and fine motor skills",
+          "Baby eats the same food as the family (adapted)",
+          "Greater acceptance of varied textures",
+          "Naturally respects baby's appetite"
+        ],
+        "cons": [
+          "More chaos and cleanup",
+          "Requires more time at each meal",
+          "Initial gagging can be scary",
+          "Need to learn safe cuts"
+        ],
+        "tip": "The AEP states that BLW is safe when readiness signs are met and safety recommendations are followed."
+      },
+      "mixed": {
+        "name": "Mixed (BLISS)",
+        "emoji": "\ud83c\udf7d\ufe0f",
+        "description": "Combines the best of both worlds: purees when practical and pieces when there's time. The BLISS approach adds a special focus on iron.",
+        "pros": [
+          "Flexibility according to the day and situation",
+          "Compatible with daycare (purees) and home (pieces)",
+          "Baby explores while also getting nutrients efficiently",
+          "Less pressure on parents"
+        ],
+        "cons": [
+          "Less defined: can be confusing at first",
+          "Need to be mindful not to stay only with purees"
+        ],
+        "tip": "Many families naturally end up using a mixed approach. The AEP doesn't recommend one method over another: what matters is variety and safety."
+      }
+    }
+  },
+  "plan": {
+    "title": "\ud83d\udcc5 Weekly plan",
+    "subtitle": "Your week-by-week guide",
+    "weekOf": "Week {week} of introduction",
+    "overallProgress": "Overall progress",
+    "notStartedTitle": "You haven't started yet",
+    "notStartedDesc": "First check if your baby is ready for complementary feeding.",
+    "checkReadiness": "Check readiness \u2192",
+    "foodsToIntroduce": "Foods to introduce",
+    "mealsPerDay": "Meals/day",
+    "milkLabel": "Milk",
+    "tipsLabel": "Tips",
+    "preparationLabel": "{approach} preparation",
+    "phaseLabels": {
+      "1": "Month 6",
+      "2": "Months 7-8",
+      "3": "Months 9-12",
+      "4": "12+ months"
+    },
+    "disclaimer": "Always consult your pediatrician. Every baby has their own pace."
+  },
+  "diary": {
+    "title": "\ud83d\udcd3 Food diary",
+    "foodsTried": "{count} different foods tried",
+    "newEntry": "+ New entry",
+    "export": "\ud83d\udce4 Export",
+    "emptyTitle": "Your diary is empty",
+    "emptyDesc": "Log what your baby eats to keep track.",
+    "exportNote": "You can export the diary as CSV to show your pediatrician.",
+    "form": {
+      "title": "New entry",
+      "food": "Food",
+      "searchFood": "Search food...",
+      "date": "Date",
+      "reaction": "Reaction",
+      "reactionNone": "None \u2705",
+      "reactionMild": "Mild \u26a0\ufe0f",
+      "reactionModerate": "Moderate \ud83d\udfe0",
+      "reactionSevere": "Severe \ud83d\udea8",
+      "liked": "Did they like it?",
+      "likedYes": "Yes \ud83d\ude0b",
+      "likedNo": "No \ud83d\ude15",
+      "notes": "Notes (optional)",
+      "notesPlaceholder": "Amount, texture, how you prepared it..."
+    },
+    "entry": {
+      "noReaction": "\u2705 No reaction",
+      "mild": "\u26a0\ufe0f Mild",
+      "moderate": "\ud83d\udfe0 Moderate",
+      "severe": "\ud83d\udea8 Severe"
+    }
+  },
+  "allergens": {
+    "title": "\ud83e\udd5c Allergens",
+    "subtitle": "Major allergen tracking",
+    "progress": "Progress",
+    "introduced": "{count}/{total} introduced",
+    "aepNote": "According to the AEP: There is no benefit in delaying allergen introduction beyond 6 months. Early introduction may reduce allergy risk.",
+    "aepObserve": "Observe for 2-3 days after each new allergen. If there's family history, consult your pediatrician first.",
+    "statusPending": "Pending",
+    "statusNone": "Introduced without reaction",
+    "statusMild": "Mild reaction",
+    "statusModerate": "Moderate reaction",
+    "statusSevere": "Severe reaction",
+    "howToIntroduce": "How to introduce",
+    "commonFoods": "Common foods",
+    "introducedOn": "Introduced on {date}",
+    "register": "Register introduction",
+    "dateLabel": "Introduction date",
+    "reactionLabel": "Reaction",
+    "notesLabel": "Notes (optional)",
+    "notesPlaceholder": "Observations about the reaction, amount, etc.",
+    "reset": "Reset",
+    "disclaimer": "For any moderate or severe reaction, go to the emergency room."
+  },
+  "learn": {
+    "title": "\ud83d\udcd6 Learn",
+    "subtitle": "Everything you need to know about complementary feeding",
+    "totalProgress": "Total progress",
+    "lessonsProgress": "{completed}/{total} lessons",
+    "moduleLabel": "Module {index}",
+    "basedOn": "Content based on AEP, WHO and ESPGHAN guidelines.",
+    "informational": "For informational use. Always consult your pediatrician.",
+    "moduleNotFound": "Module not found",
+    "backToModules": "Back to Learn",
+    "backToModule": "\u2190 Back to module",
+    "allModules": "\u2190 All modules",
+    "readTime": "{minutes} min read",
+    "lessonCompleted": "Completed \u2713",
+    "keyTakeaways": "Key takeaways",
+    "quizTitle": "\ud83e\udde0 Review question",
+    "checkAnswer": "Check answer",
+    "correct": "Correct!",
+    "incorrect": "Not quite...",
+    "markComplete": "Mark as completed \u2713",
+    "pointsAndQuiz": "{minutes} min \u00b7 {points} key points",
+    "quiz": "Quiz"
+  },
+  "reference": {
+    "title": "\u26a0\ufe0f Quick reference",
+    "subtitle": "Safety guides, foods to avoid, and emergencies",
+    "emergency": "Emergency: 112",
+    "emergencyNote": "In case of real choking or anaphylaxis, call immediately.",
+    "rememberTitle": "Always remember",
+    "rememberItems": [
+      "ALWAYS supervise the baby while eating",
+      "Sitting upright in their high chair, never reclined",
+      "No screens or distractions during meals",
+      "Never force or put food in the mouth",
+      "Differentiate between gagging (normal) and choking (silent)"
+    ],
+    "disclaimer": "This information does not replace medical consultation.",
+    "emergencyDisclaimer": "In case of emergency, call 112."
+  },
+  "foods": {
+    "arroz": {
+      "name": "Rice",
+      "prepPuree": "Cook rice well and blend with vegetable broth or breast milk. Start with a smooth texture.",
+      "prepBLW": "Offer very well-cooked rice in small balls the baby can grab, or soft rice cakes.",
+      "nutrition": "Gluten-free cereal, good energy source. Iron-fortified cereals are preferable."
+    },
+    "avena": {
+      "name": "Oats",
+      "prepPuree": "Fine oat flakes cooked with breast milk or formula. Creamy texture.",
+      "prepBLW": "Prepare thick porridge the baby can grab with hands, or make soft oat pancakes.",
+      "nutrition": "Rich in fiber, iron and zinc. Contains traces of gluten (avenin). Excellent first cereal."
+    },
+    "maiz": {
+      "name": "Corn",
+      "prepPuree": "Soft polenta or cornmeal. Also sweet corn blended.",
+      "prepBLW": "Firm polenta cut in strips. Cooked corn on the cob to suck (under supervision).",
+      "nutrition": "Gluten-free cereal, energy and fiber source."
+    },
+    "trigo": {
+      "name": "Wheat (bread, pasta)",
+      "prepPuree": "Crustless bread soaked in broth or milk. Small pasta well-cooked and blended.",
+      "prepBLW": "Toasted bread strips to suck on, well-cooked fusilli pasta they can grab.",
+      "nutrition": "Energy source and B vitamins. The AEP recommends introducing gluten around 6 months in small amounts."
+    },
+    "quinoa": {
+      "name": "Quinoa",
+      "prepPuree": "Cook quinoa well and blend. Combines well with vegetables.",
+      "prepBLW": "Mix cooked quinoa with egg to make pancakes, or compact balls.",
+      "nutrition": "Gluten-free pseudocereal with complete protein. Rich in iron and zinc."
+    }
+  },
+  "categoryLabels": {
+    "cereales": "Cereals",
+    "verduras": "Vegetables",
+    "frutas": "Fruits",
+    "carnes": "Meats",
+    "pescados": "Fish",
+    "legumbres": "Legumes",
+    "huevos": "Eggs",
+    "lacteos": "Dairy",
+    "otros": "Other"
+  },
+  "allergenData": {
+    "huevo": {
+      "name": "Egg",
+      "description": "One of the most common allergens in childhood. The white is the most allergenic part.",
+      "tip": "Start with well-cooked (hard-boiled) egg. Offer yolk first, then white. French omelet is ideal. Observe 2-3 days after first intake.",
+      "commonFoods": ["Hard-boiled egg", "Omelet", "Battered foods", "Baked goods", "Egg pasta"]
+    },
+    "lacteos": {
+      "name": "Dairy (cow's milk protein)",
+      "description": "Cow's milk protein. Yogurt and cheese from 9-10 months, whole milk as a drink from 12 months.",
+      "tip": "Small amounts of milk can be used for cooking from 6 months. Plain unsweetened yogurt from 9-10 months. If there's family history, consult pediatrician.",
+      "commonFoods": ["Yogurt", "Cheese", "Butter", "Milk in recipes", "B\u00e9chamel"]
+    },
+    "gluten": {
+      "name": "Gluten / Wheat",
+      "description": "Protein found in wheat, barley, rye and oats (cross-contamination). The AEP recommends introducing it around 6 months.",
+      "tip": "Offer small amounts of bread, pasta or cereals with gluten. The AEP recommends introducing between 4-11 months, ideally around 6 months. Do not delay.",
+      "commonFoods": ["Bread", "Pasta", "Cookies", "Cereals", "Oats"]
+    },
+    "pescado": {
+      "name": "Fish",
+      "description": "Relatively common allergen. Start with mild white fish (hake, sole).",
+      "tip": "Start with steamed white fish. Introduce one at a time. Avoid large predators (bluefin tuna, swordfish, shark, pike) due to mercury.",
+      "commonFoods": ["Hake", "Salmon", "Sole", "Sardines", "Cod"]
+    },
+    "cacahuete": {
+      "name": "Peanut",
+      "description": "Early introduction may reduce allergy risk (LEAP study). NEVER offer whole.",
+      "tip": "Offer as diluted peanut butter or powder mixed in puree. Start with very small amount. NEVER whole peanuts until 3+ years.",
+      "commonFoods": ["Peanut butter", "Peanut powder", "Asian sauces"]
+    },
+    "frutos-secos": {
+      "name": "Tree nuts (walnuts, almonds...)",
+      "description": "Includes walnuts, almonds, cashews, hazelnuts, pistachios, etc. Important allergen.",
+      "tip": "Only as smooth butters or ground. Spread on toast or mix with porridge. NEVER whole until 3+ years due to choking risk.",
+      "commonFoods": ["Almond butter", "Nut flour", "Ground walnuts"]
+    },
+    "soja": {
+      "name": "Soy",
+      "description": "Present in many processed foods. Tofu is a good way to introduce it.",
+      "tip": "Offer firm tofu sticks or mashed edamame. Introduce and observe 2-3 days.",
+      "commonFoods": ["Tofu", "Edamame", "Soy sauce", "Soy milk"]
+    },
+    "marisco": {
+      "name": "Shellfish",
+      "description": "Includes crustaceans (shrimp, prawns) and mollusks (mussels, clams).",
+      "tip": "Always well-cooked. Start with small amounts. No reason to delay according to current evidence.",
+      "commonFoods": ["Shrimp", "Prawns", "Mussels", "Clams"]
+    },
+    "sesamo": {
+      "name": "Sesame",
+      "description": "Growing allergen. Tahini (sesame paste) is the most common way to introduce it.",
+      "tip": "Offer tahini diluted in purees or thinly spread on toast. Also as part of hummus.",
+      "commonFoods": ["Tahini", "Hummus", "Sesame bread", "Sesame oil"]
+    }
+  },
+  "moduleData": {
+    "foundations": {
+      "title": "Foundations",
+      "description": "What is complementary feeding, why wait until 6 months, and how to start."
+    },
+    "approaches": {
+      "title": "Choose your approach",
+      "description": "Traditional purees, BLW, BLISS or mixed. Learn about each method and choose yours."
+    },
+    "nutrition": {
+      "title": "Essential nutrition",
+      "description": "Iron, zinc, vitamin D and everything your baby needs. Which foods to prioritize."
+    },
+    "safety": {
+      "title": "Safety",
+      "description": "Choking prevention, safe cuts, forbidden foods and first aid."
+    },
+    "responsive": {
+      "title": "Responsive feeding",
+      "description": "How to respect baby's appetite, create a positive environment and not force."
+    },
+    "practical": {
+      "title": "Practical tips",
+      "description": "Menu planning, eating out, dealing with rejection and when to worry."
+    }
+  },
+  "weekPlanData": {
+    "1": {
+      "phaseLabel": "Month 6 \u2014 First flavors",
+      "title": "Week 1: Let's begin!",
+      "description": "The first days are all about exploration. The goal is NOT for the baby to eat a lot, but to discover textures and flavors. Milk remains the main food.",
+      "tips": [
+        "Choose a time when the baby is happy and not too hungry or full",
+        "Offer milk first, then food as a complement",
+        "One new food every 2-3 days to detect possible reactions",
+        "Don't worry if they barely eat \u2014 that's normal and expected",
+        "Always add a drizzle of extra virgin olive oil (EVOO)"
+      ],
+      "mealsPerDay": "1 meal + milk on demand",
+      "milkNote": "Breast milk or formula remains the main food. Solid food is a complement."
+    },
+    "2": {
+      "phaseLabel": "Month 6 \u2014 First flavors",
+      "title": "Week 2: More vegetables and first fruit",
+      "description": "We continue expanding the flavor repertoire. We introduce the first fruits. Remember: one new food every 2-3 days.",
+      "tips": [
+        "If they reject a food, don't force it. Offer it again another day",
+        "Fruits can be offered as a snack or after lunch",
+        "For BLW, cut in sticks the size of an adult's finger",
+        "Vary flavors: sweet (sweet potato, banana) and more neutral (zucchini)"
+      ],
+      "mealsPerDay": "1-2 meals + milk on demand",
+      "milkNote": "Continue nursing or bottle-feeding on demand. Don't reduce milk feeds."
+    },
+    "3": {
+      "phaseLabel": "Month 6 \u2014 First flavors",
+      "title": "Week 3: Iron \u2014 meat and cereals",
+      "description": "Key moment! The AEP recommends prioritizing iron-rich foods from the start. We introduce meat and cereals.",
+      "tips": [
+        "Iron is critical from 6 months \u2014 birth reserves are running out",
+        "Meat is the best source of heme iron (better absorption)",
+        "Combine iron with vitamin C (orange, tomato) for better absorption",
+        "Cereals may contain gluten \u2014 the AEP says it's fine to introduce it now in small amounts",
+        "For purees: mix well-blended meat with vegetables"
+      ],
+      "mealsPerDay": "1-2 meals + milk on demand",
+      "milkNote": "Milk remains fundamental. Offer breast/bottle first."
+    },
+    "4": {
+      "phaseLabel": "Month 6 \u2014 First flavors",
+      "title": "Week 4: Legumes and more variety",
+      "description": "We expand with legumes (excellent source of plant-based iron) and consolidate what we've learned.",
+      "tips": [
+        "Red lentils are ideal to start: they break down and are smooth",
+        "Homemade hummus (without salt) is perfect for BLW with vegetable sticks",
+        "Apple should ALWAYS be cooked for BLW (raw is a choking risk)",
+        "You can start combining foods the baby has already tried separately",
+        "Start establishing a routine: lunch and snack at similar times"
+      ],
+      "mealsPerDay": "2 meals + milk on demand",
+      "milkNote": "Keep milk feeds. Food complements but doesn't replace."
+    },
+    "5": {
+      "phaseLabel": "Month 7 \u2014 Expanding horizons",
+      "title": "Week 5: Gluten and first allergens",
+      "description": "Good time to introduce gluten-containing foods (bread, pasta) and start with major allergens.",
+      "tips": [
+        "Introduce well-cooked egg: start with yolk, then white",
+        "French omelet cut in strips is ideal for BLW",
+        "Toasted bread sticks for sucking (introduces wheat gluten)",
+        "Remember: no benefit in delaying allergens according to AEP and current evidence",
+        "Observe 2-3 days after each new allergen"
+      ],
+      "mealsPerDay": "2 meals + milk on demand",
+      "milkNote": "Continue breastfeeding on demand. The 2 meals are complementary."
+    },
+    "6": {
+      "phaseLabel": "Month 7 \u2014 Expanding horizons",
+      "title": "Week 6: Fish and more fruits",
+      "description": "We introduce fish (starting with white fish) and continue varying fruits.",
+      "tips": [
+        "White fish is gentler to start with (hake, sole)",
+        "Check VERY carefully for bones",
+        "Strawberries don't need to be delayed \u2014 it's a myth they're allergenic",
+        "Keep varying: the more different flavors they try, the better"
+      ],
+      "mealsPerDay": "2 meals + milk on demand",
+      "milkNote": "Fish doesn't replace milk as the main protein source yet."
+    },
+    "7": {
+      "phaseLabel": "Month 7 \u2014 Expanding horizons",
+      "title": "Week 7: More allergens \u2014 peanut and sesame",
+      "description": "We continue with important allergen introduction. Early peanut introduction may be protective.",
+      "tips": [
+        "Peanut: ONLY as thin diluted butter or powder. NEVER whole",
+        "Tahini (sesame) is perfect in hummus or diluted in purees",
+        "Salmon is an excellent source of omega-3 for brain development",
+        "Avocado is very caloric \u2014 perfect for growing babies",
+        "If there's allergy history in the family, consult the pediatrician first"
+      ],
+      "mealsPerDay": "2 meals + milk on demand",
+      "milkNote": "Continue breastfeeding. You can start offering water in an open cup with meals."
+    },
+    "8": {
+      "phaseLabel": "Month 7 \u2014 Expanding horizons",
+      "title": "Week 8: Tree nuts and soy",
+      "description": "We complete the introduction of major allergens and keep expanding variety.",
+      "tips": [
+        "Tree nuts: ALWAYS as smooth butter or ground. Never whole until 3+ years",
+        "Firm pan-fried tofu is perfect for BLW \u2014 cut in strips",
+        "Orange segments improve iron absorption from legumes",
+        "You can now make more complex combinations with tried foods"
+      ],
+      "mealsPerDay": "2-3 meals + milk on demand",
+      "milkNote": "You can start adding a third meal if the baby shows interest."
+    },
+    "9": {
+      "phaseLabel": "Month 8 \u2014 More textures",
+      "title": "Week 9: Increasing textures",
+      "description": "Important moment! The AEP recommends that by 8-9 months the baby tries lumpy textures. If only eating smooth purees, start thickening them.",
+      "tips": [
+        "For purees: start leaving them lumpier (mash with fork instead of blending)",
+        "The AEP warns: delaying lumpy textures beyond 9-10 months makes acceptance harder",
+        "Sardines are very rich in omega-3 and iron",
+        "Peeled tomato wedges are great for BLW"
+      ],
+      "mealsPerDay": "2-3 meals + milk on demand",
+      "milkNote": "Milk is still important but food is gaining weight."
+    },
+    "10": {
+      "phaseLabel": "Month 8 \u2014 More textures",
+      "title": "Week 10: Combinations and family food",
+      "description": "The baby already knows many foods. Time to combine them and start adapting family meals.",
+      "tips": [
+        "Make salt-free versions of your usual dishes for the baby",
+        "Family stews are perfect: remove the baby's portion before adding salt",
+        "Lentils with rice = complete plant protein (ideal for vegetarian families)",
+        "Let them explore textures \u2014 mess is part of learning"
+      ],
+      "mealsPerDay": "3 meals + milk on demand",
+      "milkNote": "3 established meals + snacks. Milk complements."
+    },
+    "11": {
+      "phaseLabel": "Month 8 \u2014 More textures",
+      "title": "Week 11: Consolidation",
+      "description": "Week to consolidate habits and vary combinations. The baby should be trying soft pieces by now.",
+      "tips": [
+        "Evaluate: eating at least 2-3 meals a day? Accepting varied textures?",
+        "Offer food on a plate: start using spoon and fork (even if clumsy)",
+        "Eat as a family whenever possible \u2014 example is the best teacher",
+        "Blueberries always slightly squashed"
+      ],
+      "mealsPerDay": "3 meals + 1-2 snacks + milk",
+      "milkNote": "More established rhythm. Milk on demand between meals."
+    },
+    "12": {
+      "phaseLabel": "Month 8 \u2014 More textures",
+      "title": "Week 12: Getting ready for more autonomy",
+      "description": "The baby is gaining skill. Encourage self-feeding regardless of your approach.",
+      "tips": [
+        "Grapes ALWAYS cut lengthwise \u2014 one of the most dangerous foods whole",
+        "Let them use hands and start exploring utensils",
+        "Offer water in an open cup",
+        "It's normal for intake to vary greatly from day to day",
+        "If they reject something new, don't give up: it may take 10-15 exposures"
+      ],
+      "mealsPerDay": "3 meals + 1-2 snacks + milk",
+      "milkNote": "Stable pattern. Continue breast/bottle on demand."
+    },
+    "13": {
+      "phaseLabel": "Months 9-10 \u2014 Dairy and autonomy",
+      "title": "Weeks 13-14: Yogurt and fresh cheese",
+      "description": "From 9-10 months, according to the AEP, plain yogurt (no sugar) and pasteurized fresh cheese can be introduced.",
+      "tips": [
+        "Only PLAIN yogurt with no added sugar \u2014 no flavored yogurts",
+        "Pasteurized fresh cheese, cut in sticks for BLW",
+        "You can mix yogurt with mashed fruit",
+        "Avoid aged cheeses due to high salt content",
+        "The baby should be eating soft pieces without problem by now"
+      ],
+      "mealsPerDay": "3 meals + 1-2 snacks + milk",
+      "milkNote": "Yogurt counts as dairy but doesn't replace breast milk/formula."
+    },
+    "15": {
+      "phaseLabel": "Months 9-10 \u2014 Dairy and autonomy",
+      "title": "Weeks 15-18: Adapted family food",
+      "description": "The baby eats practically everything (with exceptions). Adapt family meals: remove their portion before adding salt.",
+      "tips": [
+        "Baby can eat most family meals without salt",
+        "Practice with spoon and fork (hands are fine too)",
+        "Offer variety: if today they reject something, try tomorrow",
+        "Family meals teach habits for life",
+        "The AEP recommends: adults decide WHAT, WHEN and WHERE; baby decides HOW MUCH",
+        "Try to include at least one protein (meat, fish, egg or legume) in each main meal"
+      ],
+      "mealsPerDay": "3 meals + 1-2 snacks + milk",
+      "milkNote": "Continue breastfeeding if you wish. WHO recommends until 2 years or more."
+    },
+    "19": {
+      "phaseLabel": "Months 11-12 \u2014 Almost everything",
+      "title": "Weeks 19-24: Road to first birthday",
+      "description": "Baby is approaching one year. Almost everything is allowed now. Soon they can have whole cow's milk and honey.",
+      "tips": [
+        "Practice open cup \u2014 goal: stop bottle soon",
+        "Start offering utensils more consistently",
+        "If you haven't introduced all allergens yet, now is a good time",
+        "Remember: still NO added salt or sugar",
+        "At 12 months: can have whole cow's milk and honey"
+      ],
+      "mealsPerDay": "3 meals + 2 snacks + milk",
+      "milkNote": "If on formula, at 12 months can switch to whole cow's milk."
+    },
+    "25": {
+      "phaseLabel": "Months 12-24 \u2014 Family food",
+      "title": "From 12 months on",
+      "description": "Baby eats practically everything. Last foods are added: whole cow's milk, honey, spinach/chard in moderation.",
+      "tips": [
+        "Whole cow's milk (not skimmed) as a drink, in open cup",
+        "Honey: now safe but still sugar \u2014 in moderation",
+        "Spinach and chard: now okay, but don't overdo it (nitrates)",
+        "Continue avoiding actively adding salt or sugar",
+        "Whole nuts: still NOT until 3+ years (choking)",
+        "Minimize juices, processed and ultra-processed foods",
+        "Eat as a family whenever possible \u2014 it's the best learning"
+      ],
+      "mealsPerDay": "3 main meals + 2 snacks",
+      "milkNote": "Whole cow's milk (approx 500 ml/day). If still breastfeeding, great \u2014 WHO recommends until 2+ years."
+    }
+  },
+  "safetyData": {
+    "avoid-by-age": {
+      "title": "Foods to AVOID by age",
+      "emoji": "\ud83d\udeab",
+      "items": [
+        {"label": "Honey", "detail": "Forbidden before 12 months (risk of infant botulism). Includes honey in any form, even cooked."},
+        {"label": "Salt", "detail": "Do not add before 12 months. Baby's kidneys cannot process it. After one year, minimal amount."},
+        {"label": "Added sugar", "detail": "Avoid as long as possible, at least the first year. Includes cookies, industrial juices and sugared cereals."},
+        {"label": "Cow's milk (as drink)", "detail": "Not before 12 months. For cooking, small amounts can be used from 6 months."},
+        {"label": "Spinach, chard, borage", "detail": "Avoid before 12 months or limit to <20% of the plate (nitrates). Risk of methemoglobinemia."},
+        {"label": "Whole nuts", "detail": "NEVER before 3 years. Only ground or as butter. Leading cause of fatal choking in children."},
+        {"label": "Large fish (bluefin tuna, swordfish, shark, pike)", "detail": "Avoid until 10 years due to high mercury content. Includes shark and emperor fish."},
+        {"label": "Plant-based milks as milk substitute", "detail": "Not nutritionally adequate as a main drink for babies. Not rice (arsenic), almond, or oat milk."},
+        {"label": "Fruit juices", "detail": "The AEP doesn't recommend them. Whole fruit is always better. Juices provide free sugar without fiber."},
+        {"label": "Seaweed", "detail": "Variable iodine content, potentially excessive. Avoid in children under 3 years."},
+        {"label": "Deli meats and processed foods", "detail": "Very high in salt and nitrites. Avoid at least until 12 months, then in moderation."},
+        {"label": "Rice cakes", "detail": "Contain inorganic arsenic. Limit consumption especially in children under 6 years."},
+        {"label": "Caffeinated drinks", "detail": "Tea, coffee, caffeinated soft drinks: forbidden in early childhood."},
+        {"label": "Shrimp/prawn heads", "detail": "Concentrated cadmium. Avoid in children until 10 years."}
+      ]
+    },
+    "choking-hazards": {
+      "title": "Choking hazards",
+      "emoji": "\u26a0\ufe0f",
+      "items": [
+        {"label": "Whole grapes", "detail": "ALWAYS cut lengthwise into quarters. One of the most dangerous foods for children."},
+        {"label": "Whole cherry tomatoes", "detail": "Cut into quarters. Same danger as grapes due to round shape."},
+        {"label": "Whole or chopped nuts", "detail": "Only ground or as butter until 3+ years. Leading cause of fatal choking."},
+        {"label": "Raw apple pieces", "detail": "Offer cooked (steamed/roasted) or very finely grated. Raw apple is very hard."},
+        {"label": "Raw carrot", "detail": "ALWAYS cooked until very soft. Raw is extremely dangerous."},
+        {"label": "Sausages", "detail": "Cut lengthwise then into pieces. NEVER in round slices (perfect shape to obstruct airway)."},
+        {"label": "Whole olives", "detail": "Cut into small pieces and remove pit."},
+        {"label": "Popcorn", "detail": "Avoid completely in children under 3-4 years."},
+        {"label": "Hard candy", "detail": "Avoid completely in early childhood."},
+        {"label": "Chewing gum", "detail": "Avoid completely."},
+        {"label": "Stone fruits (cherries, olives)", "detail": "Remove the pit, cut if round."},
+        {"label": "Sliced bread or sticky bread", "detail": "Can form a sticky ball. Toast the bread or use crust."},
+        {"label": "Block or cube cheese", "detail": "Offer grated or in thin slices. Cubes can obstruct the airway."},
+        {"label": "Loose corn kernels", "detail": "Squash or lightly blend before offering."},
+        {"label": "Whole shrimp/prawns", "detail": "Cut into small age-appropriate pieces."}
+      ]
+    },
+    "emergency-signs": {
+      "title": "Emergency signs: when to call 112?",
+      "emoji": "\ud83d\udea8",
+      "items": [
+        {"label": "Real choking", "detail": "Baby CANNOT cough, cry or breathe. Silence. Blue lips. \u2192 Choking maneuvers + 112. Do NOT put finger in mouth."},
+        {"label": "Severe allergic reaction (anaphylaxis)", "detail": "Swelling of face/lips/tongue, difficulty breathing, widespread hives, repeated vomiting, loss of tone \u2192 Call 112 immediately."},
+        {"label": "Difficulty breathing after eating", "detail": "Persistent cough, wheezing, noisy breathing or stridor \u2192 112 if not improving within minutes."},
+        {"label": "Loss of consciousness", "detail": "Baby doesn't respond \u2192 112 + CPR if not breathing. Never shake the baby."},
+        {"label": "Blood in vomit or stool", "detail": "After introducing a new food \u2192 Emergency room. May indicate gastrointestinal allergy."},
+        {"label": "Not eating OR drinking for 24+ hours", "detail": "Risk of dehydration \u2192 Urgent pediatrician consultation."},
+        {"label": "Hives (skin welts)", "detail": "If appearing after a new food and spreading or facial swelling \u2192 Emergency room."},
+        {"label": "Repeated vomiting after new food", "detail": "More than 2-3 times within hours \u2192 Emergency room. May be FPIES (allergic enterocolitis)."},
+        {"label": "Gagging vs choking", "detail": "GAGGING is normal (noisy, baby coughs and turns red). CHOKING is silent (can't cough, can't cry, turns blue). Learn to tell them apart."}
+      ]
+    },
+    "daily-schedule": {
+      "title": "Approximate meal schedule",
+      "emoji": "\ud83d\udd50",
+      "items": [
+        {"label": "6 months (start)", "detail": "1 meal at midday + milk on demand (still the main food). No rush."},
+        {"label": "6-7 months", "detail": "1-2 meals (lunch + snack) + milk on demand. Offer breast/bottle first."},
+        {"label": "8-9 months", "detail": "2-3 meals (breakfast + lunch + dinner) + 1-2 snacks + milk. Start offering water."},
+        {"label": "10-12 months", "detail": "3 main meals + 2 snacks + milk. Baby has an established rhythm."},
+        {"label": "12+ months", "detail": "3 meals + 2 snacks. Milk as complement (approx 500ml/day). Open cup."},
+        {"label": "General advice", "detail": "Schedules are approximate. Baby sets the pace. Don't wake them up for solid food."},
+        {"label": "Meal duration", "detail": "15-30 minutes is enough. Don't extend the meal indefinitely. If they lose interest, remove."},
+        {"label": "Best time of day", "detail": "At the start, choose a time when baby is rested and happy, not hungry or tired."}
+      ]
+    },
+    "portion-guide": {
+      "title": "Approximate portion guide",
+      "emoji": "\ud83d\udccf",
+      "items": [
+        {"label": "6 months", "detail": "1-2 tablespoons per meal. Just a taste is fine!"},
+        {"label": "7-8 months", "detail": "2-4 tablespoons per meal. Increase gradually."},
+        {"label": "9-11 months", "detail": "Approx \u00bd cup per main meal. Varies by day."},
+        {"label": "12+ months", "detail": "\u00be cup - 1 cup per meal. Eats almost like a mini adult."},
+        {"label": "Proteins", "detail": "20-30g meat/fish or 1 egg or 40-50g cooked legumes per main meal."},
+        {"label": "Fruit", "detail": "Half a small fruit or handful. Varied in colors and types."},
+        {"label": "Cereals", "detail": "2-3 tablespoons of cooked cereal or half a bread slice (by age)."},
+        {"label": "Olive oil", "detail": "A drizzle (5-10ml) of raw EVOO in each main meal. Essential for vitamin absorption."},
+        {"label": "Important", "detail": "These are guidelines. The baby decides how much to eat. NEVER force. Trust their hunger and fullness cues."}
+      ]
+    },
+    "safe-blw-cuts": {
+      "title": "Safe cuts for BLW",
+      "emoji": "\ud83d\udd2a",
+      "items": [
+        {"label": "General rule", "detail": "Size of an adult's index finger: long thin sticks the baby can grab with their fist."},
+        {"label": "6-7 months (palmar grasp)", "detail": "Long sticks that stick out of the fist. Baby sucks and nibbles the part that shows."},
+        {"label": "8-9 months (crude pincer)", "detail": "Smaller pieces can be offered. Baby starts using thumb and index finger."},
+        {"label": "10-12 months (fine pincer)", "detail": "Small pieces (1cm), thin strips, foods that crumble easily."},
+        {"label": "Round fruits (grapes, blueberries, cherries)", "detail": "ALWAYS cut lengthwise into quarters. Never whole."},
+        {"label": "Meat", "detail": "Long slow-cooked strips (shredded) or flattened meatballs. Never hard cubes."},
+        {"label": "Vegetables", "detail": "Cooked until easily squished between fingers. Long soft sticks."},
+        {"label": "Safety test", "detail": "Does it squish easily between your fingers? Then it's safe. If it resists, cook more."}
+      ]
+    },
+    "first-aid": {
+      "title": "First aid: choking",
+      "emoji": "\ud83c\udd98",
+      "items": [
+        {"label": "Step 1: Assess", "detail": "Can they cough? \u2192 Let them cough, don't intervene. Can they NOT cough or breathe? \u2192 Act immediately."},
+        {"label": "Step 2: Under 1 year \u2014 Back blows", "detail": "Place face down on your forearm. 5 firm blows between shoulder blades with heel of hand."},
+        {"label": "Step 3: Under 1 year \u2014 Chest compressions", "detail": "If not resolved: turn face up, 5 compressions in center of chest with 2 fingers."},
+        {"label": "Step 4: Alternate", "detail": "5 back blows \u2192 5 chest compressions \u2192 repeat until resolved or 112 arrives."},
+        {"label": "NEVER do", "detail": "Do NOT put finger in mouth (pushes object deeper). Do NOT shake baby. Do NOT do Heimlich on children under 1."},
+        {"label": "Over 1 year", "detail": "Adapted Heimlich maneuver: gentle abdominal compressions. Alternate with back blows."},
+        {"label": "If unconscious", "detail": "Start CPR: 30 compressions + 2 breaths. Call 112 immediately."},
+        {"label": "Vital recommendation", "detail": "Take a pediatric first aid course BEFORE starting complementary feeding. Red Cross, hospitals and health centers offer them."}
+      ]
+    }
+  },
+  "lessonData": {
+    "found-1": {
+      "title": "What is complementary feeding?",
+      "content": "**Complementary feeding (CF)** is the process of introducing solid foods and liquids other than breast milk or formula into the baby's diet. It's called \"complementary\" because it doesn't replace milk, but complements it.\n\nThe World Health Organization (WHO) and the Spanish Association of Pediatrics (AEP) recommend starting CF around **6 months of age**, while maintaining breastfeeding simultaneously.\n\n**Key points:**\n- Milk (breast or formula) remains the main food during the first year\n- Solid foods \"complement\" milk, they don't replace it\n- It's a gradual process: from tasting small amounts to eating full meals\n- There's no rigid order for introducing foods\n- The important thing is to prioritize iron-rich foods and offer variety\n\n**Why \"complementary\" and not \"weaning\"?**\nThe term \"weaning\" can be confusing, because it's not about removing milk. In fact, the WHO recommends continuing breastfeeding until 2 years or more, alongside solid foods.\n\n**The end goal** is that by 12-24 months the baby eats practically the same as the family, adapted in texture and without added salt/sugar.",
+      "keyTakeaways": [
+        "Complementary feeding starts around 6 months",
+        "It doesn't replace milk: it complements it",
+        "There's no rigid food order",
+        "Prioritize iron-rich foods"
+      ],
+      "quiz": {
+        "question": "What does 'complementary feeding' mean?",
+        "options": [
+          "Replacing milk with solid foods",
+          "Adding solid foods while maintaining milk",
+          "Only giving purees to the baby",
+          "Stopping breastfeeding"
+        ],
+        "correctIndex": 1,
+        "explanation": "Complementary feeding 'complements' milk, it doesn't replace it. Milk continues to be the main food during the first year."
+      }
+    },
+    "found-2": {
+      "title": "Why at 6 months?",
+      "content": "The WHO and AEP agree: the optimal time to start complementary feeding is **around 6 months**. Why this age and not earlier or later?\n\n**Reasons not to start before 4 months:**\n- The baby's digestive system is not mature\n- Higher risk of infections and allergies\n- Breast milk or formula covers all needs\n\n**Reasons not to delay beyond 7 months:**\n- Iron reserves from birth are depleted\n- The baby needs more nutrients than milk alone provides\n- The window of acceptance for new flavors and textures narrows\n- Motor development allows safe feeding\n\n**The 4-6 month window:**\nESPGHAN indicates that CF should not be introduced before 17 weeks or delayed beyond 26 weeks. However, the general recommendation is to wait until 6 full months.\n\n**Important:** 6 months is a guideline. What truly determines the start are the baby's readiness signs (head control, loss of tongue-thrust reflex, interest in food, ability to sit).",
+      "keyTakeaways": [
+        "6 months is the recommended age by WHO and AEP",
+        "Iron reserves deplete around 6 months",
+        "Readiness signs are more important than exact age",
+        "Don't start before 4 months or delay beyond 7"
+      ],
+      "quiz": {
+        "question": "Why shouldn't CF be delayed beyond 7 months?",
+        "options": [
+          "Because the baby won't want to try new things",
+          "Because iron reserves deplete and more nutrients are needed",
+          "Because milk stops nourishing",
+          "Because the pediatrician says so"
+        ],
+        "correctIndex": 1,
+        "explanation": "Iron reserves from birth deplete around 6 months, and the baby needs additional nutrients that milk alone can no longer fully provide."
+      }
+    },
+    "found-3": {
+      "title": "Readiness signs",
+      "content": "Before starting CF, your baby must show **all** these developmental signs:\n\n**1. Head and postural control**\nThe baby can sit with minimal support and has good head control. Essential for safe swallowing.\n\n**2. Loss of tongue-thrust reflex**\nNo longer automatically pushes out everything entering the mouth. If the tongue pushes food out, they're not ready.\n\n**3. Hand-mouth coordination**\nGrasps objects and brings them to the mouth with some precision.\n\n**4. Interest in food**\nWatches curiously when you eat, tries to grab your food, opens mouth when food approaches.\n\n**What are NOT readiness signs:**\n- Waking more at night (usually a growth spurt)\n- Constantly sucking hands (normal exploration)\n- Nursing more frequently\n- Having a low percentile\n\nThese are common signs confused with hunger or need for solids, but are part of normal development.",
+      "keyTakeaways": [
+        "All signs must be present, not just one",
+        "Postural control is essential for safety",
+        "Waking at night does NOT indicate need for solids",
+        "Readiness signs matter more than exact age"
+      ],
+      "quiz": {
+        "question": "Which is NOT a readiness sign for CF?",
+        "options": [
+          "Can sit with support",
+          "Has lost tongue-thrust reflex",
+          "Wakes up frequently at night",
+          "Shows active interest in food"
+        ],
+        "correctIndex": 2,
+        "explanation": "Waking at night is common and usually due to growth spurts, not a need for solid food. Real signs are: postural control, loss of tongue-thrust reflex, hand-mouth coordination, and interest in food."
+      }
+    },
+    "found-4": {
+      "title": "First days: what to expect",
+      "content": "The first days of complementary feeding are **pure exploration**. Here's what to expect:\n\n**It's normal for the baby to:**\n- Eat very little (a teaspoon or less)\n- Make funny faces trying new flavors\n- Spit out food\n- Play with food more than eat it\n- Gag (it's a protective reflex, not choking)\n\n**It's NOT normal if the baby:**\n- Turns blue (may be real choking)\n- Has hives, swelling or repeated vomiting (possible allergy)\n\n**Practical tips:**\n- Choose a time when baby is happy and not too hungry\n- Offer milk first, then food\n- One new food every 2-3 days\n- No rush: milk is still the main food\n- Always add a drizzle of EVOO (extra virgin olive oil)\n\n**The goal is NOT to feed**, but to discover flavors, textures and the act of eating. Nutrition still comes from milk.",
+      "keyTakeaways": [
+        "First days are about exploration, not nutrition",
+        "It's normal to eat very little or spit out food",
+        "Gagging is normal and protective",
+        "Offer milk first, food after"
+      ]
+    },
+    "appr-1": {
+      "title": "Traditional purees: how to do it",
+      "content": "The traditional method is based on **purees and blended foods**, with gradual texture progression.\n\n**Texture progression:**\n- **6 months:** Smooth, homogeneous purees\n- **7-8 months:** Thicker purees with small lumps\n- **8-9 months:** Mashed with fork, lumpy textures\n- **10+ months:** Soft pieces, adapted family food\n\n**Method advantages:**\n- Control of intake\n- Less initial choking stress\n- Daycare compatible\n\n**Common mistakes:**\n- Staying with smooth purees too long\n- Mixing everything together (better individual flavors at start)\n- Not evolving textures before 9 months\n\n**The AEP warns:** It's essential to progress to lumpy textures before 8-9 months. Delaying textures makes later acceptance harder.",
+      "keyTakeaways": [
+        "Texture progression: smooth \u2192 lumpy \u2192 pieces",
+        "Don't stay with smooth purees beyond 8-9 months",
+        "Offer individual foods before mixing",
+        "AEP recommends lumpy textures before 9 months"
+      ],
+      "quiz": {
+        "question": "By when does the AEP recommend offering lumpy textures?",
+        "options": [
+          "Before 6 months",
+          "Before 8-9 months",
+          "After 12 months",
+          "Age doesn't matter"
+        ],
+        "correctIndex": 1,
+        "explanation": "The AEP recommends that babies try lumpy textures before 8-9 months. Delaying makes texture acceptance harder later."
+      }
+    },
+    "appr-2": {
+      "title": "BLW: Baby-Led Weaning",
+      "content": "BLW allows the baby to **feed themselves** from the start with age-appropriate food pieces.\n\n**BLW principles:**\n- Baby eats the same food as the family (adapted)\n- They decide what to grab, how much to eat, and at what pace\n- Foods offered in graspable format\n- No spoon-feeding (baby can use spoon themselves)\n\n**Cuts by age:**\n- **6-7 months:** Long sticks the size of an adult finger\n- **8-9 months:** Smaller pieces (crude pincer)\n- **10+ months:** 1cm pieces (fine pincer)\n\n**BLW safety:**\n- Always sitting upright\n- Constant supervision\n- Know the difference between gagging and choking\n- Soft foods that crumble easily\n- NEVER hard round foods (whole grapes, nuts)\n\n**Evidence:** The AEP states that BLW is safe when readiness signs are met and safety recommendations are followed.",
+      "keyTakeaways": [
+        "Baby feeds themselves with adapted pieces",
+        "Cuts vary by age and motor skills",
+        "Safety is fundamental: soft foods and supervision",
+        "AEP endorses BLW when recommendations are followed"
+      ],
+      "quiz": {
+        "question": "What's the correct format for a 6-7 month old in BLW?",
+        "options": [
+          "1cm pieces",
+          "Sticks the size of an adult finger",
+          "Blended food",
+          "Any format"
+        ],
+        "correctIndex": 1,
+        "explanation": "At 6-7 months, babies use palmar grasp, so foods should be long sticks that stick out of the fist for sucking and nibbling."
+      }
+    },
+    "appr-3": {
+      "title": "Mixed method and BLISS",
+      "content": "The mixed approach combines purees and BLW depending on the situation. **BLISS** (Baby-Led Introduction to SolidS) is a BLW variant that adds an iron focus.\n\n**Mixed in practice:**\n- Purees when rushed or out\n- BLW when there's time and calm\n- Daycare: purees; home: pieces\n\n**BLISS - 3 rules:**\n1. Always offer an iron-rich food at each meal\n2. Offer an energy-dense (caloric) food\n3. Offer a fruit or vegetable\n\n**Mixed advantages:**\n- Maximum flexibility\n- Compatible with different caregivers\n- Baby exposed to multiple textures\n\n**Watch out for:**\n- Not staying only with purees out of convenience\n- Ensuring regular BLW opportunities\n\n**The AEP doesn't recommend one method over another.** What matters is safety, variety and respecting baby's cues.",
+      "keyTakeaways": [
+        "Mixed combines purees and BLW by situation",
+        "BLISS adds focus on iron-rich foods",
+        "AEP doesn't recommend one method over another",
+        "Important not to stay only with purees"
+      ],
+      "quiz": {
+        "question": "What does the BLISS method add to classic BLW?",
+        "options": [
+          "Only purees",
+          "Focus on iron-rich foods",
+          "Mandatory spoon use",
+          "Strict schedules"
+        ],
+        "correctIndex": 1,
+        "explanation": "BLISS (Baby-Led Introduction to SolidS) keeps BLW principles but adds the recommendation to always include an iron-rich food, an energy food, and a fruit or vegetable at each meal."
+      }
+    },
+    "appr-4": {
+      "title": "Which approach to choose?",
+      "content": "There is no \"better\" or \"worse\" approach. The choice depends on your family, situation and baby.\n\n**Choose purees if:**\n- You have limited time at meals\n- Baby goes to daycare with purees\n- Choking concerns cause significant stress\n\n**Choose BLW if:**\n- You can dedicate 20-30 min without rushing\n- You like the idea of baby exploring alone\n- You don't mind mess and cleanup\n\n**Choose mixed if:**\n- Your situation varies day to day\n- You want maximum flexibility\n- Baby has different caregivers\n\n**What truly matters:**\n- Offering food variety\n- Progressing textures (not staying smooth)\n- Respecting baby's signals\n- Enjoying the process\n- Prioritizing iron-rich foods\n\n**You can change approach at any time.** Many families start with purees and naturally incorporate pieces.",
+      "keyTakeaways": [
+        "No approach is better than another",
+        "Choice depends on your family situation",
+        "What matters is variety and texture progression",
+        "You can change approach whenever you want"
+      ]
+    },
+    "nutr-1": {
+      "title": "Iron: the key nutrient",
+      "content": "Iron is the MOST important nutrient in complementary feeding. Birth iron reserves deplete around 6 months.\n\n**Types of iron:**\n- **Heme iron** (animal): better absorption (15-35%). Red meat, chicken, fish.\n- **Non-heme iron** (plant): lower absorption (2-20%). Legumes, cereals, spinach.\n\n**Iron-rich foods:**\n- Red meat (beef, lamb)\n- Chicken and turkey\n- Legumes (lentils, chickpeas)\n- Fortified cereals\n- Quinoa\n- Tofu\n\n**Tip to improve absorption:**\nCombine iron-rich foods with vitamin C. Examples:\n- Lentils + orange\n- Meat + tomato\n- Chickpeas + bell pepper\n\n**The AEP recommends:** Prioritize iron-rich foods from day one of CF.",
+      "keyTakeaways": [
+        "Iron is the most important nutrient when starting CF",
+        "Heme iron (animal) absorbs better than non-heme (plant)",
+        "Combining iron with vitamin C improves absorption",
+        "Prioritize iron-rich foods from day 1"
+      ],
+      "quiz": {
+        "question": "How is plant iron absorption improved?",
+        "options": [
+          "By cooking it a long time",
+          "By combining it with vitamin C",
+          "By adding salt",
+          "By mixing it with milk"
+        ],
+        "correctIndex": 1,
+        "explanation": "Vitamin C significantly improves non-heme (plant) iron absorption. For example, squeezing orange over lentils doubles or triples iron absorption."
+      }
+    },
+    "nutr-2": {
+      "title": "Other essential nutrients",
+      "content": "Besides iron, other key nutrients for baby:\n\n**Zinc:**\nImportant for immune system and growth. Sources: meat, legumes, whole grains, egg.\n\n**Vitamin D:**\nEssential for bones. AEP recommends supplementing 400 IU/day during the first year. Sun exposure isn't sufficient in babies.\n\n**Calcium:**\nFor bones and teeth. Main sources: breast milk/formula, yogurt (from 9-10 months), cheese.\n\n**Omega-3 (DHA):**\nCritical for brain development. Sources: oily fish (salmon, sardines), ground walnuts.\n\n**Vitamin B12:**\nOnly in animal foods. If diet is vegetarian/vegan, supplementation is mandatory.\n\n**Extra virgin olive oil:**\nEssential healthy fat. Add a drizzle to each meal. Helps absorb fat-soluble vitamins.",
+      "keyTakeaways": [
+        "Zinc, vitamin D, calcium and omega-3 are key nutrients",
+        "AEP recommends vitamin D supplementation for all babies",
+        "Oily fish omega-3 is crucial for brain development",
+        "In vegetarian diets, B12 supplementation is mandatory"
+      ],
+      "quiz": {
+        "question": "What vitamin does the AEP recommend supplementing in all babies?",
+        "options": [
+          "Vitamin C",
+          "Vitamin A",
+          "Vitamin D",
+          "Vitamin B12"
+        ],
+        "correctIndex": 2,
+        "explanation": "The AEP recommends supplementing vitamin D (400 IU/day) during at least the first year of life, as sun exposure is insufficient and not recommended for babies."
+      }
+    },
+    "nutr-3": {
+      "title": "Foods to avoid and why",
+      "content": "Some foods should be avoided for safety or health:\n\n**Before 12 months:**\n- **Honey:** Risk of infant botulism (C. botulinum bacteria)\n- **Salt:** Baby's kidneys can't process it well\n- **Added sugar:** No nutritional benefit, creates sweet preference\n- **Cow's milk as drink:** Doesn't have adequate composition\n- **Excess spinach/chard:** Nitrates (methemoglobinemia risk)\n\n**Always avoid under 3 years:**\n- **Whole nuts:** Leading cause of fatal choking\n- **Seaweed:** Excessive iodine\n- **Popcorn:** Choking risk\n\n**Avoid due to mercury (until 10 years):**\n- Bluefin tuna, swordfish, shark, pike\n\n**No need to avoid:**\n- Strawberries, kiwi, peach (popular myth)\n- Egg before one year\n- Gluten at 6 months\n\n**The AEP and AESAN** update these recommendations periodically.",
+      "keyTakeaways": [
+        "Honey: forbidden until 12 months (botulism)",
+        "Salt and sugar: don't add during the first year",
+        "Whole nuts: never before 3 years",
+        "Strawberries, kiwi and egg do NOT need to be delayed"
+      ],
+      "quiz": {
+        "question": "Why is honey forbidden before 12 months?",
+        "options": [
+          "Because it has too much sugar",
+          "Risk of cavities",
+          "Risk of infant botulism",
+          "Can cause allergy"
+        ],
+        "correctIndex": 2,
+        "explanation": "Honey can contain Clostridium botulinum spores that, in the immature baby's gut, can produce botulinum toxin. After 12 months, the gut can defend itself."
+      }
+    },
+    "nutr-4": {
+      "title": "Vegetarian and vegan feeding",
+      "content": "A vegetarian or vegan diet can be adequate for babies, but requires careful planning.\n\n**Vegetarian (with egg and/or dairy):**\n- Generally safe with good planning\n- Prioritize legumes, cereals, egg\n- Always combine plant iron with vitamin C\n\n**Vegan:**\n- Requires MANDATORY B12 supplementation\n- Higher risk of iron, zinc, omega-3 deficiency\n- Consult a pediatric dietitian-nutritionist\n\n**Plant iron sources:**\n- Lentils and chickpeas\n- Quinoa\n- Tofu\n- Fortified cereals\n\n**Smart combinations:**\n- Legumes + cereal = complete protein (lentils with rice)\n- Plant iron + vitamin C = better absorption\n\n**The AEP recommends:** If the family diet is vegan, mandatory consultation with a professional to ensure complete baby nutrition.",
+      "keyTakeaways": [
+        "Vegetarian diet is viable with good planning",
+        "Vegan diet requires mandatory B12 supplementation",
+        "Combining legumes with cereals provides complete protein",
+        "Consult a professional for vegan diets"
+      ]
+    },
+    "safe-1": {
+      "title": "Choking prevention",
+      "content": "Prevention is key. Most choking can be avoided by following these rules:\n\n**Golden rules:**\n1. Always sitting upright (never reclined or moving)\n2. Constant supervision throughout the meal\n3. No distractions (TV, tablet)\n4. Never force or put food in the mouth\n5. Foods adapted to age and ability\n\n**MOST dangerous foods:**\n- Grapes, cherry tomatoes whole \u2192 cut into lengthwise quarters\n- Whole nuts \u2192 only ground or as butter\n- Raw apple \u2192 offer cooked or grated\n- Raw carrot \u2192 always cook until very soft\n- Sausages in slices \u2192 cut lengthwise\n\n**Safety test:**\nDoes the food squish easily between your fingers? Then it's safe for baby.\n\n**Gagging vs Choking:**\n- **Gagging:** Noisy, baby coughs, turns red \u2192 DO NOT intervene\n- **Choking:** Silent, can't cough, blue lips \u2192 ACT",
+      "keyTakeaways": [
+        "Always sitting upright and under supervision",
+        "Know the most dangerous foods and how to cut them",
+        "Safety test: if it squishes between fingers, it's safe",
+        "Gagging (noisy/normal) \u2260 Choking (silent/emergency)"
+      ],
+      "quiz": {
+        "question": "How do you tell gagging from choking apart?",
+        "options": [
+          "Gagging is more dangerous",
+          "They're the same thing",
+          "Gagging is noisy and normal; choking is silent",
+          "Choking always makes noise"
+        ],
+        "correctIndex": 2,
+        "explanation": "Gagging is a protective reflex: baby coughs, makes noise, turns red. Real choking is silent: baby can't cough, cry or breathe, may turn blue. Learning to tell them apart is fundamental."
+      }
+    },
+    "safe-2": {
+      "title": "First aid: airway clearance",
+      "content": "ALL caregivers must know how to act during choking. Ideally, take an in-person course.\n\n**If baby CAN cough:**\n\u2192 Don't intervene. Let them cough. Stay calm.\n\n**If baby CANNOT cough (under 1 year):**\n\n**Step 1:** Place face down on forearm, supporting the jaw.\n**Step 2:** Give 5 firm blows between shoulder blades with heel of hand.\n**Step 3:** If not resolved, turn face up.\n**Step 4:** 5 compressions in center of chest with 2 fingers.\n**Step 5:** Alternate: 5 back blows \u2192 5 compressions. Repeat.\n**Step 6:** If unconscious \u2192 CPR + call 112.\n\n**NEVER do:**\n- Do NOT put finger in mouth (pushes object deeper)\n- Do NOT shake baby\n- Do NOT do Heimlich on children under 1\n\n**For over 1 year:**\nAdapted Heimlich (gentle abdominal compressions).\n\n**Recommendation:** Take a first aid course BEFORE starting CF.",
+      "keyTakeaways": [
+        "If they can cough, don't intervene \u2014 let them cough",
+        "Under 1 year: back blows + chest compressions",
+        "NEVER put finger in mouth",
+        "Take an in-person first aid course"
+      ],
+      "quiz": {
+        "question": "If an 8-month-old is choking and CANNOT cough, what to do first?",
+        "options": [
+          "Put finger in to remove object",
+          "Shake upside down",
+          "Place face down and give 5 back blows between shoulder blades",
+          "Perform Heimlich maneuver"
+        ],
+        "correctIndex": 2,
+        "explanation": "For children under 1, place face down on forearm and give 5 firm blows between shoulder blades. NEVER put finger in or shake. Heimlich (abdominal compressions) is only for over 1 year."
+      }
+    },
+    "safe-3": {
+      "title": "Food allergies",
+      "content": "Food allergies are a common concern. Key information:\n\n**The 9 major allergens:**\nEgg, dairy, gluten, fish, peanut, tree nuts, soy, shellfish, sesame.\n\n**How to introduce them:**\n- One new every 2-3 days\n- Small amount at first\n- Preferably in the morning (for observation)\n- Keep offering regularly after introduction\n\n**Don't delay allergens.**\nThe AEP and current evidence indicate that early introduction (around 6 months) may be protective. The LEAP study showed early peanut introduction reduces allergy risk.\n\n**Signs of allergy (mild/moderate):**\n- Localized hives\n- Redness around mouth\n- Isolated vomiting\n\n**Signs of anaphylaxis (EMERGENCY):**\n- Swelling of face/lips/tongue\n- Difficulty breathing\n- Widespread hives\n- Loss of tone\n\u2192 Call 112 immediately",
+      "keyTakeaways": [
+        "9 major allergens to introduce one by one",
+        "Don't delay allergens \u2014 early introduction may be protective",
+        "Observe 2-3 days after each new allergen",
+        "Know the signs of anaphylaxis (emergency)"
+      ],
+      "quiz": {
+        "question": "According to current evidence, when is it best to introduce allergens?",
+        "options": [
+          "After one year",
+          "After 3 years",
+          "Around 6 months",
+          "Doesn't matter when"
+        ],
+        "correctIndex": 2,
+        "explanation": "Current evidence (including the LEAP study) shows that early allergen introduction, around 6 months, may be protective and reduce the risk of developing allergies."
+      }
+    },
+    "safe-4": {
+      "title": "Hygiene and food safety",
+      "content": "Hygiene in baby food preparation is fundamental:\n\n**Basic rules:**\n- Wash hands before preparing food\n- Wash fruits and vegetables thoroughly\n- Cook meats and fish completely\n- Don't offer raw or undercooked egg\n\n**Storage:**\n- Homemade purees: 24-48h in fridge, 3 months in freezer\n- Thaw in fridge, never at room temperature\n- Don't refreeze already thawed foods\n\n**Temperature:**\n- Always check temperature before offering\n- Mouth burns are common and preventable\n\n**Utensils:**\n- Soft silicone spoons (not metal at first)\n- Suction plates to prevent spills\n- Bibs with catcher\n- High chair with harness and tray",
+      "keyTakeaways": [
+        "Always wash hands and clean foods",
+        "Cook meats, fish and eggs completely",
+        "Homemade purees: max 48h in fridge",
+        "Check temperature before offering"
+      ]
+    },
+    "resp-1": {
+      "title": "Responsive feeding: what it is",
+      "content": "Responsive feeding is a model that respects baby's hunger and fullness cues.\n\n**Fundamental principle:**\nThe adult decides WHAT is offered, WHEN and WHERE.\nThe baby decides IF they eat and HOW MUCH.\n\n**Hunger signs:**\n- Gets excited seeing food\n- Opens mouth\n- Leans forward\n- Points at food\n\n**Fullness signs:**\n- Turns head away\n- Closes mouth\n- Pushes food away\n- Gets distracted, loses interest\n- Plays with food without eating\n\n**What NOT to do:**\n- Force finishing the plate\n- Use distractions to make them eat more\n- Use food as reward or punishment\n- Insist when they say no\n\n**The AEP recommends:** Trust the baby's ability to self-regulate intake.",
+      "keyTakeaways": [
+        "Adult decides what, when and where; baby decides how much",
+        "Learn to recognize hunger and fullness signs",
+        "Never force eating or use distractions",
+        "Trust baby's self-regulation"
+      ],
+      "quiz": {
+        "question": "Who decides HOW MUCH the baby eats?",
+        "options": [
+          "Pediatrician based on percentiles",
+          "Parents based on recommended amount",
+          "The baby based on their fullness cues",
+          "Depends on age"
+        ],
+        "correctIndex": 2,
+        "explanation": "In responsive feeding, the baby decides if and how much to eat, based on their own hunger and fullness cues. Adults decide what, when and where, but not the amount."
+      }
+    },
+    "resp-2": {
+      "title": "Creating a positive environment",
+      "content": "The mealtime atmosphere is as important as the food itself:\n\n**Ideal environment:**\n- Eat as a family whenever possible\n- No screens or toys\n- Calm atmosphere, no rushing\n- Regular but flexible schedules\n\n**Modeling behavior:**\nBaby learns by imitation. If they see you eating varied foods and enjoying, they'll want the same. Eating together is the best tool.\n\n**When faced with rejection:**\n- Don't force or insist\n- Stay calm (no visible frustration)\n- Offer again another day\n- May take 10-15 exposures to accept a food\n- Offer the food in different forms\n\n**Avoid:**\n- Negative comments about food\n- Comparisons with other children\n- Rewarding with sweets for eating vegetables\n- Punishing for not eating\n\n**Remember:** Some days they'll eat a lot and others barely anything. That's completely normal.",
+      "keyTakeaways": [
+        "Eating as a family is the best learning tool",
+        "No screens or distractions during meals",
+        "For rejection: calm, don't force, try again another day",
+        "May take 10-15 exposures to accept a food"
+      ],
+      "quiz": {
+        "question": "How many exposures may be needed for a baby to accept a new food?",
+        "options": [
+          "1-2 times",
+          "3-5 times",
+          "10-15 times",
+          "Just 1 is enough"
+        ],
+        "correctIndex": 2,
+        "explanation": "Evidence shows it may take 10-15 exposures to a new food before a baby accepts it. Persistence without forcing is key."
+      }
+    },
+    "resp-3": {
+      "title": "Portions and realistic expectations",
+      "content": "One of the biggest sources of stress is thinking the baby eats too little. Let's calibrate expectations:\n\n**Approximate portions:**\n- **6 months:** 1-2 tablespoons. Just a taste is fine!\n- **7-8 months:** 2-4 tablespoons\n- **9-11 months:** About half a cup\n- **12+ months:** A small plate\n\n**It's NORMAL for:**\n- Intake to vary enormously from day to day\n- Baby to eat a lot one day and almost nothing the next\n- Baby to reject foods they previously liked\n- Baby to go through phases of eating only 2-3 foods\n\n**NOT normal (consult pediatrician):**\n- Sustained weight loss\n- Total rejection of solids beyond 8 months\n- Constant gagging with all textures\n- Extreme irritability during meals\n\n**Remember:** Milk continues to be the main nutrient source until 12 months. Solids are a complement, not the main course.",
+      "keyTakeaways": [
+        "Initial portions are VERY small \u2014 and that's fine",
+        "Daily intake variability is completely normal",
+        "Milk remains the main nutrient source until 12 months",
+        "Consult pediatrician for weight loss or total solid rejection"
+      ]
+    },
+    "prac-1": {
+      "title": "Weekly menu planning",
+      "content": "Planning makes complementary feeding much easier:\n\n**Basic meal structure:**\n- **Lunch:** Protein + vegetable + cereal or tuber + EVOO\n- **Snack:** Fruit + cereal or dairy (if already taking)\n- **Dinner:** Similar to lunch, varying ingredients\n\n**Practical tips:**\n- Batch cooking: cook for several days on weekends\n- Freeze purees in ice cube trays\n- Always have ripe fruit at home\n- Adapt family food by removing salt\n\n**Weekly protein rotation:**\n- Meat (chicken, beef, turkey, lamb): 3-4 times\n- Fish: 2-3 times\n- Egg: 3-4 times\n- Legumes: 2-3 times\n\n**Olive oil:** Always a drizzle of raw EVOO. The healthiest fat that helps absorb vitamins.",
+      "keyTakeaways": [
+        "Structure: protein + vegetable + cereal + EVOO",
+        "Batch cooking saves time",
+        "Rotate proteins throughout the week",
+        "EVOO in every main meal"
+      ]
+    },
+    "prac-2": {
+      "title": "Eating out",
+      "content": "Eating out with a baby on CF is possible and recommended:\n\n**Basic kit:**\n- Foldable silicone bib\n- Baby utensils\n- Airtight container with prepared food\n- Bag for dirty clothes\n\n**Restaurant options:**\n- Steamed vegetables without salt (ask the chef)\n- Bread (if already taking gluten)\n- Fruit for dessert\n- Grilled fish, shredded\n\n**At family/friends' houses:**\n- Bring prepared food just in case\n- Briefly explain your approach\n- Don't feel pressured by comments\n\n**Travel:**\n- Commercial emergency purees (check ingredients)\n- Travel-friendly fruit: banana, ripe pear\n- Organic baby food jars as plan B (not as norm)\n\n**Most important:** Baby participates in social and family life.",
+      "keyTakeaways": [
+        "A basic kit makes eating out easier",
+        "Simple, safe options available at restaurants",
+        "Bring prepared food as backup",
+        "Important to include baby in social life"
+      ]
+    },
+    "prac-3": {
+      "title": "Dealing with rejection",
+      "content": "Food rejection is one of the most frustrating situations. But it's completely normal:\n\n**Why they reject:**\n- Food neophobia: natural fear of new things (peaks at 18-24 months)\n- Exploring preferences\n- Not hungry at the moment\n- Texture, smell or presentation doesn't convince them\n\n**Strategies that work:**\n1. **Repeated exposure:** Offer the food up to 10-15 times, in different forms\n2. **No pressure:** Offer and if they say no, remove without drama\n3. **Varied presentation:** If they reject broccoli puree, try steamed broccoli sticks\n4. **Family meals:** Seeing others eat the food helps\n5. **Involve baby:** Let them touch, smell, play with food\n\n**What DOESN'T work:**\n- Forcing or insisting\n- Distracting with screens\n- Bribing (\"eat this and you get dessert\")\n- Making alternative meals on demand\n\n**Remember:** A healthy baby will NOT starve themselves. Trust the process.",
+      "keyTakeaways": [
+        "Rejection is normal, especially between 18-24 months",
+        "Repeated exposure without pressure is the best strategy",
+        "Offer the same food in different formats",
+        "Never force, distract, or bribe"
+      ]
+    },
+    "prac-4": {
+      "title": "When to worry",
+      "content": "Most CF situations are normal. But there are signs needing attention:\n\n**Consult pediatrician if:**\n- Doesn't accept any solids after 8 months\n- Loses weight or doesn't gain for 2+ months\n- Very intense gagging with ALL textures\n- Vomits frequently when eating\n- Only accepts 2-3 foods persistently\n- Has an allergic reaction (hives, swelling)\n\n**Go to emergency if:**\n- Real choking (silent, blue lips)\n- Severe allergic reaction (facial swelling, difficulty breathing)\n- Blood in vomit or stool\n- Loss of consciousness\n\n**IS normal and not concerning:**\n- Eating a lot one day and nothing the next\n- Rejecting previously accepted foods\n- Occasional gagging with new textures\n- Preferring certain foods over others\n\n**Professionals who can help:**\n- Pediatrician (first consultation)\n- Pediatric dietitian-nutritionist\n- Speech therapist (swallowing problems)\n- Occupational therapist (sensory aversion)",
+      "keyTakeaways": [
+        "Not accepting solids after 8 months warrants consultation",
+        "Sustained weight loss requires medical attention",
+        "Emergency: real choking, anaphylaxis, blood in stool",
+        "Daily intake variability is normal and not concerning"
+      ]
+    }
+  },
+  "seo": {
+    "title": "IntroAlimentar \u2014 Baby Complementary Feeding Guide",
+    "description": "Complete guide for introducing solid foods to babies, based on AEP and WHO recommendations. Weekly plan, diary, allergens and more.",
+    "ogTitle": "IntroAlimentar \u2014 Your Baby Complementary Feeding Guide",
+    "twitterTitle": "IntroAlimentar \u2014 Complementary Feeding"
+  }
+}

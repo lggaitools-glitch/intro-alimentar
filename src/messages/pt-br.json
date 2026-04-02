@@ -1,0 +1,909 @@
+{
+  "nav": {
+    "home": "Início",
+    "plan": "Plano",
+    "diary": "Diário",
+    "learn": "Aprender",
+    "more": "Mais"
+  },
+  "common": {
+    "loading": "Carregando...",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "back": "Voltar",
+    "seeAll": "Ver tudo →",
+    "export": "Exportar",
+    "search": "Buscar",
+    "change": "Mudar",
+    "all": "Todas",
+    "yes": "Sim",
+    "no": "Não",
+    "module": "Módulo",
+    "completed": "Concluído ✓",
+    "elements": "elementos"
+  },
+  "dashboard": {
+    "greeting": "Olá, {name} 👋",
+    "ageMonths": "{months} meses de idade",
+    "currentPhase": "Fase atual",
+    "weekLabel": "Semana {week} — {title}",
+    "foodsTried": "Alimentos experimentados",
+    "allergensLabel": "Alérgenos",
+    "lessonsLabel": "Lições",
+    "learningTitle": "📖 Seu aprendizado",
+    "lessonsProgress": "{completed}/{total} lições",
+    "quickActions": "Ações rápidas",
+    "weeklyPlan": "Plano semanal",
+    "weeklyPlanDesc": "Quais alimentos introduzir esta semana",
+    "diary": "Diário",
+    "diaryDesc": "Registre o que comeu hoje",
+    "allergens": "Alérgenos",
+    "allergensDesc": "Acompanhamento de alérgenos",
+    "quickRef": "Referência rápida",
+    "quickRefDesc": "Guias de segurança e emergências",
+    "weekTip": "💡 Dica da semana",
+    "chooseApproach": "🍽️ Escolha sua abordagem",
+    "chooseApproachDesc": "Papinhas, BLW ou misto? Descubra aqui.",
+    "disclaimer": "IntroAlimentar é informativo. Consulte sempre seu pediatra.",
+    "disclaimerSource": "Baseado nas diretrizes da SBP, OMS e ESPGHAN.",
+    "notStarted": "Você ainda não começou a introdução alimentar",
+    "checkReadiness": "Verificar se está pronto →",
+    "loadingPlan": "Carregando plano..."
+  },
+  "setup": {
+    "title": "🍼 Configurar perfil",
+    "subtitle": "Dados do seu bebê para personalizar o plano",
+    "babyName": "Nome do bebê",
+    "namePlaceholder": "Ex: Lucas",
+    "birthDate": "Data de nascimento",
+    "feedingType": "Tipo de alimentação atual",
+    "breast": "Peito",
+    "formula": "Fórmula",
+    "mixed": "Mista",
+    "selectedApproach": "Abordagem selecionada:",
+    "approachTraditional": "🥣 Papinhas tradicional",
+    "approachBLW": "🤚 BLW",
+    "approachMixed": "🍽️ Misto",
+    "acStarted": "IA iniciada em {date}",
+    "saveAndContinue": "Salvar e continuar",
+    "privacyNote": "Os dados são salvos apenas no seu dispositivo. Não são compartilhados com ninguém."
+  },
+  "readiness": {
+    "title": "📋 Seu bebê está pronto?",
+    "subtitle": "Sinais de prontidão segundo a SBP. Todos devem estar presentes.",
+    "backLink": "← Voltar",
+    "checks": [
+      {
+        "id": "sit",
+        "title": "Consegue sentar com apoio",
+        "description": "O bebê consegue sentar ereto com bom controle de cabeça e tronco, ao menos com apoio mínimo. Isso é essencial para engolir de forma segura.",
+        "emoji": "🪑"
+      },
+      {
+        "id": "tongue",
+        "title": "Perdeu o reflexo de protrusão",
+        "description": "Não empurra mais tudo que entra na boca com a língua. Se você oferece comida e a língua empurra para fora, ainda não está pronto.",
+        "emoji": "👅"
+      },
+      {
+        "id": "grab",
+        "title": "Consegue pegar objetos e levar à boca",
+        "description": "Coordenação mão-boca: pega objetos e leva à boca com certa precisão.",
+        "emoji": "✋"
+      },
+      {
+        "id": "interest",
+        "title": "Mostra interesse ativo pela comida",
+        "description": "Observa com curiosidade quando você come, tenta pegar sua comida, abre a boca quando a comida se aproxima.",
+        "emoji": "👀"
+      }
+    ],
+    "notReadyTitle": "⚠️ Isso NÃO indica que está pronto:",
+    "notReadySigns": [
+      "Acordar muito durante a noite",
+      "Chupar as mãos constantemente",
+      "Mamar com mais frequência (pico de crescimento)",
+      "Ter um \"percentil baixo\""
+    ],
+    "allReadyTitle": "✅ Seu bebê apresenta todos os sinais!",
+    "allReadyDesc": "Parece que está pronto para começar a introdução alimentar. Vamos escolher a abordagem!",
+    "startButton": "Vamos começar a aventura! 🎉",
+    "remainingSigns": "{count} sinal(is) a confirmar. Todos devem estar presentes."
+  },
+  "approach": {
+    "title": "🍽️ Escolha sua abordagem",
+    "yourApproach": "🍽️ Sua abordagem",
+    "canChange": "Você pode mudar quando quiser",
+    "aepSays": "SBP diz:",
+    "retakeTest": "Refazer teste",
+    "changeApproach": "Mudar abordagem",
+    "howQuestion": "Como você quer alimentar seu bebê?",
+    "quizIntro": "Responda algumas perguntas rápidas e ajudaremos a encontrar a abordagem que melhor se adapta à sua família.",
+    "startTest": "Começar o teste",
+    "skipTest": "Já sei qual quero — escolher diretamente",
+    "questionOf": "Pergunta {current} de {total}",
+    "yourResult": "Seu resultado",
+    "chooseMethods": "Papinhas, BLW ou misto",
+    "weRecommend": "Recomendamos: {name}",
+    "advantages": "Vantagens",
+    "considerations": "Pontos a considerar",
+    "aepNote": "Nota da SBP",
+    "choose": "Escolher {name}",
+    "preferOther": "Prefiro escolher outra abordagem",
+    "backToTest": "← Voltar ao teste",
+    "directChoose": "Escolha a abordagem que preferir. Você pode mudar a qualquer momento.",
+    "currentApproach": "Abordagem atual ✓",
+    "aepDisclaimer": "A SBP não recomenda um método sobre outro. O importante é a segurança e a variedade.",
+    "quizQuestions": [
+      {
+        "question": "Como você se sente preparando a comida do bebê?",
+        "options": [
+          "Prefiro ter controle total sobre o que e quanto come",
+          "Gosto da ideia dele explorar a comida por conta própria",
+          "Um pouco de cada: às vezes papinhas, às vezes pedaços"
+        ]
+      },
+      {
+        "question": "O que você acha sobre a sujeira?",
+        "options": [
+          "Prefiro minimizar o caos ao máximo",
+          "Não me importo: sujar é aprender",
+          "Tolero, mas não me entusiasma"
+        ]
+      },
+      {
+        "question": "Quanto tempo você pode dedicar a cada refeição?",
+        "options": [
+          "Pouco — preciso que seja rápido e eficiente",
+          "Posso dedicar 20-30 minutos sem pressa",
+          "Depende do dia, variável"
+        ]
+      },
+      {
+        "question": "O bebê vai para a creche?",
+        "options": [
+          "Sim, e lá dão papinhas",
+          "Não, come sempre comigo/família",
+          "Sim, mas são flexíveis com o formato"
+        ]
+      },
+      {
+        "question": "Quão nervoso(a) você está com o tema do engasgo?",
+        "options": [
+          "Muito — prefiro começar com texturas macias",
+          "Já li sobre isso e confio nos reflexos do bebê",
+          "Normal — quero me informar mas não me paralisa"
+        ]
+      }
+    ],
+    "approaches": {
+      "traditional": {
+        "name": "Tradicional (papinhas)",
+        "emoji": "🥣",
+        "description": "Começa com papinhas e purês finos, aumentando a textura gradualmente. O adulto alimenta o bebê com colher.",
+        "pros": [
+          "Maior controle da quantidade ingerida",
+          "Menos estresse com engasgo no início",
+          "Compatível com creches",
+          "Mais rápido no começo"
+        ],
+        "cons": [
+          "Pode atrasar a aceitação de texturas se não progredir",
+          "Menos exploração sensorial",
+          "Precisa evoluir as texturas ativamente (8-9 meses: grumoso)"
+        ],
+        "tip": "A SBP lembra: é fundamental avançar para texturas grumosas antes dos 8-9 meses. Não ficar em papinhas lisas muito tempo."
+      },
+      "blw": {
+        "name": "BLW (Baby-Led Weaning)",
+        "emoji": "🤲",
+        "description": "O bebê come pedaços adaptados à sua idade desde o início. Ele decide o que pegar, quanto comer e em que ritmo.",
+        "pros": [
+          "Promove autonomia e motricidade fina",
+          "O bebê come a mesma comida que a família (adaptada)",
+          "Maior aceitação de texturas variadas",
+          "Respeita o apetite do bebê naturalmente"
+        ],
+        "cons": [
+          "Mais bagunça e limpeza",
+          "Requer mais tempo em cada refeição",
+          "As gag reflexos iniciais podem assustar",
+          "Precisa aprender os cortes seguros"
+        ],
+        "tip": "A SBP indica que o BLW é seguro quando os sinais de prontidão são atendidos e as recomendações de segurança são seguidas."
+      },
+      "mixed": {
+        "name": "Misto (BLISS)",
+        "emoji": "🍽️",
+        "description": "Combina o melhor dos dois mundos: papinhas quando prático e pedaços quando há tempo. A abordagem BLISS adiciona foco especial em ferro.",
+        "pros": [
+          "Flexibilidade conforme o dia e a situação",
+          "Compatível com creche (papinhas) e casa (pedaços)",
+          "O bebê explora mas também recebe nutrientes de forma eficiente",
+          "Menor pressão sobre os pais"
+        ],
+        "cons": [
+          "Menos definido: pode ser confuso no início",
+          "Precisa estar atento para não ficar só nas papinhas"
+        ],
+        "tip": "Muitas famílias acabam adotando uma abordagem mista naturalmente. A SBP não recomenda um método sobre outro: o importante é a variedade e a segurança."
+      }
+    }
+  },
+  "plan": {
+    "title": "📅 Plano semanal",
+    "subtitle": "Seu guia semana a semana",
+    "weekOf": "Semana {week} de introdução",
+    "overallProgress": "Progresso geral",
+    "notStartedTitle": "Você ainda não começou",
+    "notStartedDesc": "Primeiro verifique se seu bebê está pronto para a introdução alimentar.",
+    "checkReadiness": "Verificar prontidão →",
+    "foodsToIntroduce": "Alimentos para introduzir",
+    "mealsPerDay": "Refeições/dia",
+    "milkLabel": "Leite",
+    "tipsLabel": "Dicas",
+    "preparationLabel": "Preparo {approach}",
+    "phaseLabels": {
+      "1": "Mês 6",
+      "2": "Meses 7-8",
+      "3": "Meses 9-12",
+      "4": "12+ meses"
+    },
+    "disclaimer": "Consulte sempre seu pediatra. Cada bebê tem seu ritmo."
+  },
+  "diary": {
+    "title": "📓 Diário alimentar",
+    "foodsTried": "{count} alimentos diferentes experimentados",
+    "newEntry": "+ Novo registro",
+    "export": "📤 Exportar",
+    "emptyTitle": "Seu diário está vazio",
+    "emptyDesc": "Registre o que seu bebê come para acompanhar.",
+    "exportNote": "Você pode exportar o diário como CSV para mostrar ao pediatra.",
+    "form": {
+      "title": "Novo registro",
+      "food": "Alimento",
+      "searchFood": "Buscar alimento...",
+      "date": "Data",
+      "reaction": "Reação",
+      "reactionNone": "Nenhuma ✅",
+      "reactionMild": "Leve ⚠️",
+      "reactionModerate": "Moderada 🟠",
+      "reactionSevere": "Severa 🚨",
+      "liked": "Gostou?",
+      "likedYes": "Sim 😋",
+      "likedNo": "Não 😕",
+      "notes": "Notas (opcional)",
+      "notesPlaceholder": "Quantidade, textura, como preparou..."
+    },
+    "entry": {
+      "noReaction": "✅ Sem reação",
+      "mild": "⚠️ Leve",
+      "moderate": "🟠 Moderada",
+      "severe": "🚨 Severa"
+    }
+  },
+  "allergens": {
+    "title": "🥜 Alérgenos",
+    "subtitle": "Acompanhamento dos principais alérgenos",
+    "progress": "Progresso",
+    "introduced": "{count}/{total} introduzidos",
+    "aepNote": "Segundo a SBP: Não há benefício em atrasar a introdução de alérgenos além dos 6 meses. A introdução precoce pode reduzir o risco de alergia.",
+    "aepObserve": "Observe 2-3 dias após cada novo alérgeno. Se houver histórico familiar, consulte o pediatra primeiro.",
+    "statusPending": "Pendente",
+    "statusNone": "Introduzido sem reação",
+    "statusMild": "Reação leve",
+    "statusModerate": "Reação moderada",
+    "statusSevere": "Reação severa",
+    "howToIntroduce": "Como introduzir",
+    "commonFoods": "Alimentos comuns",
+    "introducedOn": "Introduzido em {date}",
+    "register": "Registrar introdução",
+    "dateLabel": "Data de introdução",
+    "reactionLabel": "Reação",
+    "notesLabel": "Notas (opcional)",
+    "notesPlaceholder": "Observações sobre a reação, quantidade, etc.",
+    "reset": "Resetar",
+    "disclaimer": "Em caso de reação moderada ou severa, procure atendimento de emergência."
+  },
+  "learn": {
+    "title": "📖 Aprender",
+    "subtitle": "Tudo que você precisa saber sobre introdução alimentar",
+    "totalProgress": "Progresso total",
+    "lessonsProgress": "{completed}/{total} lições",
+    "moduleLabel": "Módulo {index}",
+    "basedOn": "Conteúdo baseado nas diretrizes da SBP, OMS e ESPGHAN.",
+    "informational": "Para uso informativo. Consulte sempre seu pediatra.",
+    "moduleNotFound": "Módulo não encontrado",
+    "backToModules": "Voltar para Aprender",
+    "backToModule": "← Voltar ao módulo",
+    "allModules": "← Todos os módulos",
+    "readTime": "{minutes} min de leitura",
+    "lessonCompleted": "Concluída ✓",
+    "keyTakeaways": "Pontos-chave",
+    "quizTitle": "🧠 Pergunta de revisão",
+    "checkAnswer": "Verificar resposta",
+    "correct": "Correto!",
+    "incorrect": "Não exatamente...",
+    "markComplete": "Marcar como concluída ✓",
+    "pointsAndQuiz": "{minutes} min · {points} pontos-chave",
+    "quiz": "Quiz"
+  },
+  "reference": {
+    "title": "⚠️ Referência rápida",
+    "subtitle": "Guias de segurança, alimentos a evitar e emergências",
+    "emergency": "Emergências: 192 (SAMU)",
+    "emergencyNote": "Em caso de engasgo real ou anafilaxia, ligue imediatamente.",
+    "rememberTitle": "Lembre-se sempre",
+    "rememberItems": [
+      "Supervisione SEMPRE o bebê enquanto come",
+      "Sentado ereto no cadeirão, nunca reclinado",
+      "Sem telas ou distrações durante as refeições",
+      "Nunca forçar nem colocar comida na boca",
+      "Diferença entre gag reflex (normal) e engasgo (silencioso)"
+    ],
+    "disclaimer": "Esta informação não substitui a consulta médica.",
+    "emergencyDisclaimer": "Em caso de emergência, ligue 192 (SAMU)."
+  },
+  "foods": {
+    "arroz": {"name": "Arroz", "prepPuree": "Cozinhe bem o arroz e triture com caldo de legumes ou leite materno. Comece com textura lisa.", "prepBLW": "Ofereça arroz bem cozido em forma de bolinhas que o bebê possa pegar, ou biscoitos de arroz macios.", "nutrition": "Cereal sem glúten, boa fonte de energia. Cereais fortificados com ferro são preferíveis."},
+    "avena": {"name": "Aveia", "prepPuree": "Flocos de aveia finos cozidos com leite materno ou fórmula. Textura cremosa.", "prepBLW": "Prepare mingau espesso que o bebê possa pegar com as mãos, ou faça panquecas de aveia macias.", "nutrition": "Rica em fibra, ferro e zinco. Contém traços de glúten (avenina). Excelente primeiro cereal."},
+    "maiz": {"name": "Milho", "prepPuree": "Polenta ou farinha de milho cozida macia. Também milho doce triturado.", "prepBLW": "Polenta firme cortada em tiras. Espiga de milho cozida para chupar (sob supervisão).", "nutrition": "Cereal sem glúten, fonte de energia e fibra."},
+    "trigo": {"name": "Trigo (pão, macarrão)", "prepPuree": "Pão sem casca embebido em caldo ou leite. Macarrão pequeno bem cozido e triturado.", "prepBLW": "Tiras de pão torrado para chupar, macarrão fusilli cozido que possa pegar.", "nutrition": "Fonte de energia e vitaminas do complexo B. A SBP recomenda introduzir glúten por volta dos 6 meses em pequenas quantidades."},
+    "quinoa": {"name": "Quinoa", "prepPuree": "Cozinhe bem a quinoa e triture. Combina bem com legumes.", "prepBLW": "Misture quinoa cozida com ovo para fazer panquecas, ou bolinhas compactas.", "nutrition": "Pseudocereal sem glúten com proteína completa. Rica em ferro e zinco."}
+  },
+  "categoryLabels": {
+    "cereales": "Cereais",
+    "verduras": "Legumes e verduras",
+    "frutas": "Frutas",
+    "carnes": "Carnes",
+    "pescados": "Peixes",
+    "legumbres": "Leguminosas",
+    "huevos": "Ovos",
+    "lacteos": "Laticínios",
+    "otros": "Outros"
+  },
+  "allergenData": {
+    "huevo": {"name": "Ovo", "description": "Um dos alérgenos mais comuns na infância. A clara é a parte mais alergênica.", "tip": "Comece com ovo bem cozido (cozido duro). Ofereça primeiro a gema, depois a clara. Omelete é ideal. Observe 2-3 dias após a primeira ingestão.", "commonFoods": ["Ovo cozido", "Omelete", "Empanados", "Produtos de confeitaria", "Macarrão ao ovo"]},
+    "lacteos": {"name": "Laticínios (proteína do leite de vaca)", "description": "Proteína do leite de vaca. Iogurte e queijo a partir dos 9-10 meses, leite integral como bebida a partir dos 12 meses.", "tip": "Pequenas quantidades de leite podem ser usadas para cozinhar a partir dos 6 meses. Iogurte natural sem açúcar a partir dos 9-10 meses. Se houver histórico familiar, consulte o pediatra.", "commonFoods": ["Iogurte", "Queijo", "Manteiga", "Leite em receitas", "Molho branco"]},
+    "gluten": {"name": "Glúten / Trigo", "description": "Proteína encontrada no trigo, cevada, centeio e aveia (contaminação cruzada). A SBP recomenda introduzi-lo por volta dos 6 meses.", "tip": "Ofereça pequenas quantidades de pão, macarrão ou cereais com glúten. A SBP recomenda introduzir entre 4-11 meses, idealmente por volta dos 6 meses. Não adie a introdução.", "commonFoods": ["Pão", "Macarrão", "Biscoitos", "Cereais", "Aveia"]},
+    "pescado": {"name": "Peixe", "description": "Alérgeno relativamente comum. Comece com peixes brancos suaves (pescada, linguado).", "tip": "Comece com peixe branco cozido no vapor. Introduza um de cada vez. Evite grandes predadores (atum, cação, peixe-espada) por causa do mercúrio.", "commonFoods": ["Pescada", "Salmão", "Linguado", "Sardinha", "Bacalhau"]},
+    "cacahuete": {"name": "Amendoim", "description": "A introdução precoce pode reduzir o risco de alergia (estudo LEAP). NUNCA oferecer inteiro.", "tip": "Ofereça como pasta de amendoim diluída ou pó misturado no purê. Comece com quantidade muito pequena. NUNCA amendoins inteiros até 3+ anos.", "commonFoods": ["Pasta de amendoim", "Amendoim em pó", "Molhos asiáticos"]},
+    "frutos-secos": {"name": "Oleaginosas (nozes, amêndoas...)", "description": "Inclui nozes, amêndoas, castanhas de caju, avelãs, pistaches, etc. Alérgeno importante.", "tip": "Apenas como pastas ou trituradas. Passar no pão ou misturar no mingau. NUNCA inteiras até 3+ anos pelo risco de engasgo.", "commonFoods": ["Pasta de amêndoas", "Farinha de oleaginosas", "Nozes trituradas"]},
+    "soja": {"name": "Soja", "description": "Presente em muitos alimentos processados. O tofu é uma boa forma de introduzi-la.", "tip": "Ofereça tofu firme em palitos ou edamame amassado. Introduza e observe 2-3 dias.", "commonFoods": ["Tofu", "Edamame", "Molho de soja", "Leite de soja"]},
+    "marisco": {"name": "Frutos do mar", "description": "Inclui crustáceos (camarão, lagostim) e moluscos (mexilhão, vôngole).", "tip": "Sempre bem cozido. Comece com pequenas quantidades. Não há razão para adiar segundo as evidências atuais.", "commonFoods": ["Camarão", "Lagostim", "Mexilhão", "Vôngole"]},
+    "sesamo": {"name": "Gergelim", "description": "Alérgeno em crescimento. O tahine (pasta de gergelim) é a forma mais comum de introduzi-lo.", "tip": "Ofereça tahine diluído em purês ou espalhado fino na torrada. Também como parte do homus.", "commonFoods": ["Tahine", "Homus", "Pão com gergelim", "Óleo de gergelim"]}
+  },
+  "moduleData": {
+    "foundations": {"title": "Fundamentos", "description": "O que é introdução alimentar, por que esperar até os 6 meses e como começar."},
+    "approaches": {"title": "Escolha sua abordagem", "description": "Papinhas tradicionais, BLW, BLISS ou misto. Conheça cada método e escolha o seu."},
+    "nutrition": {"title": "Nutrição essencial", "description": "Ferro, zinco, vitamina D e tudo que seu bebê precisa. Quais alimentos priorizar."},
+    "safety": {"title": "Segurança", "description": "Prevenção de engasgo, cortes seguros, alimentos proibidos e primeiros socorros."},
+    "responsive": {"title": "Alimentação responsiva", "description": "Como respeitar o apetite do bebê, criar um ambiente positivo e não forçar."},
+    "practical": {"title": "Dicas práticas", "description": "Planejamento de cardápios, comer fora de casa, lidar com rejeição e quando se preocupar."}
+  },
+  "weekPlanData": {
+    "1": {"phaseLabel": "Mês 6 — Primeiros sabores", "title": "Semana 1: Vamos começar!", "description": "Os primeiros dias são de exploração. O objetivo NÃO é que coma muito, mas que descubra texturas e sabores. O leite continua sendo o alimento principal.", "tips": ["Escolha um momento do dia em que o bebê esteja contente e não muito com fome nem muito cheio", "Ofereça o leite primeiro e depois a comida como complemento", "Um alimento novo a cada 2-3 dias para detectar possíveis reações", "Não se preocupe se quase não comer — é normal e esperado", "Adicione sempre um fiozinho de azeite de oliva extravirgem"], "mealsPerDay": "1 refeição + leite em livre demanda", "milkNote": "O leite materno ou fórmula continua sendo o alimento principal. A comida é um complemento."},
+    "2": {"phaseLabel": "Mês 6 — Primeiros sabores", "title": "Semana 2: Mais legumes e primeira fruta", "description": "Continuamos ampliando o repertório de sabores. Introduzimos as primeiras frutas. Lembre-se: um alimento novo a cada 2-3 dias.", "tips": ["Se rejeitar um alimento, não force. Ofereça novamente outro dia", "As frutas podem ser oferecidas como lanche ou após o almoço", "Para BLW, corte em palitos do tamanho do dedo de um adulto", "Varie os sabores: doce (batata-doce, banana) e mais neutros (abobrinha)"], "mealsPerDay": "1-2 refeições + leite em livre demanda", "milkNote": "Continue amamentando ou dando mamadeira em livre demanda. Não reduza as mamadas."},
+    "3": {"phaseLabel": "Mês 6 — Primeiros sabores", "title": "Semana 3: Ferro — carne e cereais", "description": "Momento-chave! A SBP recomenda priorizar alimentos ricos em ferro desde o início. Introduzimos carne e cereais.", "tips": ["O ferro é crítico a partir dos 6 meses — as reservas do nascimento se esgotam", "A carne é a melhor fonte de ferro heme (melhor absorção)", "Combine carne/ferro com vitamina C (laranja, tomate) para melhor absorção", "Os cereais podem ter glúten — a SBP diz que está tudo bem introduzi-lo agora em pequenas quantidades", "Para papinha: misture a carne bem triturada com legumes"], "mealsPerDay": "1-2 refeições + leite em livre demanda", "milkNote": "O leite continua sendo fundamental. Ofereça primeiro o peito/mamadeira."},
+    "4": {"phaseLabel": "Mês 6 — Primeiros sabores", "title": "Semana 4: Leguminosas e mais variedade", "description": "Ampliamos com leguminosas (excelente fonte de ferro vegetal) e consolidamos o aprendido.", "tips": ["As lentilhas vermelhas são ideais para começar: se desfazem e são macias", "O homus caseiro (sem sal) é perfeito para BLW com palitos de legumes", "A maçã SEMPRE cozida para BLW (crua é risco de engasgo)", "Já pode começar a combinar alimentos que já experimentou separadamente", "Comece a estabelecer uma rotina: almoço e lanche em horários similares"], "mealsPerDay": "2 refeições + leite em livre demanda", "milkNote": "Mantenha as mamadas. A comida complementa mas não substitui."},
+    "5": {"phaseLabel": "Mês 7 — Expandindo horizontes", "title": "Semana 5: Glúten e primeiros alérgenos", "description": "Bom momento para introduzir alimentos com glúten (pão, macarrão) e começar com os principais alérgenos.", "tips": ["Introduza o ovo bem cozido: comece pela gema, depois a clara", "Omelete cortada em tiras é ideal para BLW", "Pão torrado em palitos para chupar (introduz o glúten do trigo)", "Lembre-se: não há benefício em adiar alérgenos segundo a SBP e evidências atuais", "Observe 2-3 dias após cada novo alérgeno"], "mealsPerDay": "2 refeições + leite em livre demanda", "milkNote": "Continue com amamentação em livre demanda. As 2 refeições são complementares."},
+    "6": {"phaseLabel": "Mês 7 — Expandindo horizontes", "title": "Semana 6: Peixe e mais frutas", "description": "Introduzimos o peixe (começando pelo peixe branco) e continuamos variando frutas.", "tips": ["O peixe branco é mais suave para começar (pescada, linguado)", "Verifique MUITO bem se não há espinhas", "Morangos não precisam ser adiados — é mito que são alergênicos", "Continue variando: quanto mais sabores diferentes experimentar, melhor"], "mealsPerDay": "2 refeições + leite em livre demanda", "milkNote": "O peixe não substitui o leite como fonte de proteína principal ainda."},
+    "7": {"phaseLabel": "Mês 7 — Expandindo horizontes", "title": "Semana 7: Mais alérgenos — amendoim e gergelim", "description": "Continuamos com a introdução de alérgenos importantes. A introdução precoce do amendoim pode ser protetora.", "tips": ["Amendoim: SOMENTE como pasta fina diluída ou pó. NUNCA inteiro", "O tahine (gergelim) é perfeito no homus ou diluído em purês", "O salmão é excelente fonte de ômega-3 para o desenvolvimento cerebral", "O abacate é muito calórico — perfeito para bebês em crescimento", "Se houver histórico de alergia na família, consulte o pediatra antes"], "mealsPerDay": "2 refeições + leite em livre demanda", "milkNote": "Mantenha a amamentação. Pode começar a oferecer água em copo aberto nas refeições."},
+    "8": {"phaseLabel": "Mês 7 — Expandindo horizontes", "title": "Semana 8: Oleaginosas e soja", "description": "Completamos a introdução dos principais alérgenos e continuamos ampliando a variedade.", "tips": ["Oleaginosas: SEMPRE em pasta ou trituradas. Nunca inteiras até 3+ anos", "Tofu firme grelhado é perfeito para BLW — cortado em tiras", "A laranja em gomos melhora a absorção do ferro das leguminosas", "Já pode fazer combinações mais complexas com alimentos experimentados"], "mealsPerDay": "2-3 refeições + leite em livre demanda", "milkNote": "Pode começar a adicionar uma terceira refeição se o bebê mostrar interesse."},
+    "9": {"phaseLabel": "Mês 8 — Mais texturas", "title": "Semana 9: Aumentar texturas", "description": "Momento importante! A SBP recomenda que aos 8-9 meses o bebê experimente texturas grumosas. Se só come papinhas lisas, comece a engrossá-las.", "tips": ["Para papinhas: comece a deixá-las mais grumosas (amasse com garfo em vez de triturar)", "A SBP adverte: atrasar texturas grumosas além dos 9-10 meses dificulta a aceitação", "As sardinhas são riquíssimas em ômega-3 e ferro", "O tomate pelado em gomos é ótimo para BLW"], "mealsPerDay": "2-3 refeições + leite em livre demanda", "milkNote": "O leite continua sendo importante mas a comida vai ganhando peso."},
+    "10": {"phaseLabel": "Mês 8 — Mais texturas", "title": "Semana 10: Combinações e comida da família", "description": "O bebê já conhece muitos alimentos. É momento de combiná-los e começar a adaptar refeições da família.", "tips": ["Faça versões sem sal dos seus pratos habituais para o bebê", "Cozidos da família são perfeitos: retire a porção do bebê antes de salgar", "Lentilha com arroz = proteína completa vegetal (ideal para famílias vegetarianas)", "Deixe explorar as texturas — sujar faz parte do aprendizado"], "mealsPerDay": "3 refeições + leite em livre demanda", "milkNote": "3 refeições estabelecidas + lanches. O leite complementa."},
+    "11": {"phaseLabel": "Mês 8 — Mais texturas", "title": "Semana 11: Consolidação", "description": "Semana para consolidar hábitos e variar combinações. O bebê já deveria estar experimentando pedaços macios.", "tips": ["Avalie: come pelo menos 2-3 refeições por dia? Aceita texturas variadas?", "Ofereça a comida em um prato: comece a usar colher e garfo (mesmo que desajeitado)", "Comer em família sempre que possível — o exemplo é o melhor professor", "Mirtilos sempre levemente amassados"], "mealsPerDay": "3 refeições + 1-2 lanches + leite", "milkNote": "Ritmo mais estabelecido. Leite em livre demanda entre refeições."},
+    "12": {"phaseLabel": "Mês 8 — Mais texturas", "title": "Semana 12: Preparando-se para mais autonomia", "description": "O bebê está ganhando habilidade. Incentive a autoalimentação seja qual for sua abordagem.", "tips": ["Uvas SEMPRE cortadas longitudinalmente — um dos alimentos mais perigosos inteiros", "Deixe usar as mãos e ir explorando talheres", "Ofereça água em copo aberto ou com alças", "É normal que a ingestão varie muito de um dia para outro", "Se rejeitar algo novo, não desista: podem ser necessárias 10-15 exposições"], "mealsPerDay": "3 refeições + 1-2 lanches + leite", "milkNote": "Padrão estável. Continue com peito/mamadeira em livre demanda."},
+    "13": {"phaseLabel": "Meses 9-10 — Laticínios e autonomia", "title": "Semanas 13-14: Iogurte e queijo fresco", "description": "A partir dos 9-10 meses, segundo a SBP, podem ser introduzidos iogurte natural (sem açúcar) e queijo fresco pasteurizado.", "tips": ["Apenas iogurte NATURAL sem açúcar adicionado — nada de iogurtes com sabor", "Queijo fresco pasteurizado, cortado em palitos para BLW", "Pode misturar iogurte com fruta amassada", "Evite queijos curados pelo alto teor de sódio", "O bebê já deveria comer pedaços macios sem problema"], "mealsPerDay": "3 refeições + 1-2 lanches + leite", "milkNote": "O iogurte conta como laticínio mas não substitui o leite materno/fórmula."},
+    "15": {"phaseLabel": "Meses 9-10 — Laticínios e autonomia", "title": "Semanas 15-18: Comida da família adaptada", "description": "O bebê come praticamente de tudo (com exceções). Adapte as refeições da família: retire a porção dele antes de adicionar sal.", "tips": ["O bebê pode comer a maioria das refeições da família sem sal", "Pratique com colher e garfo (embora use as mãos também)", "Ofereça variedade: se hoje rejeitar algo, tente amanhã", "As refeições em família ensinam hábitos para a vida toda", "A SBP recomenda: o adulto decide O QUÊ, QUANDO e ONDE; o bebê decide QUANTO", "Tente incluir pelo menos uma proteína (carne, peixe, ovo ou leguminosa) em cada refeição principal"], "mealsPerDay": "3 refeições + 1-2 lanches + leite", "milkNote": "Continue amamentando se desejar. A OMS recomenda até os 2 anos ou mais."},
+    "19": {"phaseLabel": "Meses 11-12 — Quase tudo", "title": "Semanas 19-24: Rumo ao primeiro aniversário", "description": "O bebê está se aproximando de 1 ano. Quase tudo é permitido agora. Em breve poderá tomar leite de vaca integral e mel.", "tips": ["Pratique o copo aberto — objetivo: parar a mamadeira em breve", "Pode começar a oferecer talheres de forma mais consistente", "Se ainda não introduziu todos os alérgenos, agora é um bom momento", "Lembre-se: continue SEM adicionar sal ou açúcar", "Ao completar 12 meses: pode tomar leite de vaca integral e mel"], "mealsPerDay": "3 refeições + 2 lanches + leite", "milkNote": "Se toma fórmula, aos 12 meses pode mudar para leite de vaca integral."},
+    "25": {"phaseLabel": "Meses 12-24 — Comida da família", "title": "A partir dos 12 meses", "description": "O bebê come praticamente de tudo. Últimos alimentos são adicionados: leite de vaca integral, mel, espinafre/acelga com moderação.", "tips": ["Leite de vaca integral (não desnatado) como bebida, em copo aberto", "Mel: agora é seguro mas ainda é açúcar — com moderação", "Espinafre e acelga: agora pode, mas sem exagerar (nitratos)", "Continue evitando adicionar sal ou açúcar ativamente", "Oleaginosas inteiras: ainda NÃO até 3+ anos (engasgo)", "Minimize sucos, processados e ultraprocessados", "Coma em família sempre que possível — é o melhor aprendizado"], "mealsPerDay": "3 refeições principais + 2 lanches", "milkNote": "Leite de vaca integral (aprox 500 ml/dia). Se ainda amamentando, ótimo — OMS recomenda até 2+ anos."}
+  },
+  "safetyData": {
+    "avoid-by-age": {
+      "title": "Alimentos para EVITAR por idade",
+      "emoji": "🚫",
+      "items": [
+        {"label": "Mel", "detail": "Proibido antes dos 12 meses (risco de botulismo infantil). Inclui mel em qualquer forma, mesmo cozido."},
+        {"label": "Sal", "detail": "Não adicionar antes dos 12 meses. Os rins do bebê não conseguem processá-lo. Após um ano, quantidade mínima."},
+        {"label": "Açúcar adicionado", "detail": "Evitar o máximo possível, pelo menos no primeiro ano. Inclui biscoitos, sucos industrializados e cereais açucarados."},
+        {"label": "Leite de vaca (como bebida)", "detail": "Não antes dos 12 meses. Para cozinhar, pequenas quantidades podem ser usadas a partir dos 6 meses."},
+        {"label": "Espinafre, acelga, beterraba", "detail": "Evitar antes dos 12 meses ou limitar a <20% do prato (nitratos). Risco de metahemoglobinemia."},
+        {"label": "Oleaginosas inteiras", "detail": "NUNCA antes dos 3 anos. Apenas trituradas ou como pasta. Principal causa de engasgo fatal em crianças."},
+        {"label": "Peixes grandes (atum, cação, peixe-espada)", "detail": "Evitar até 10 anos pelo alto teor de mercúrio."},
+        {"label": "Leites vegetais como substituto", "detail": "Não são nutricionalmente adequados como bebida principal para bebês. Nem leite de arroz (arsênico), amêndoa ou aveia."},
+        {"label": "Sucos de fruta", "detail": "A SBP não os recomenda. A fruta inteira é sempre melhor. Sucos fornecem açúcar livre sem fibra."},
+        {"label": "Algas", "detail": "Conteúdo variável de iodo, potencialmente excessivo. Evitar em crianças menores de 3 anos."},
+        {"label": "Embutidos e processados", "detail": "Muito ricos em sódio e nitritos. Evitar pelo menos até os 12 meses, depois com moderação."},
+        {"label": "Biscoitos de arroz", "detail": "Contêm arsênico inorgânico. Limitar o consumo especialmente em crianças menores de 6 anos."},
+        {"label": "Bebidas com cafeína", "detail": "Chá, café, refrigerantes com cafeína: proibidos na primeira infância."},
+        {"label": "Cabeça de camarão", "detail": "Cádmio concentrado. Evitar em crianças até 10 anos."}
+      ]
+    },
+    "choking-hazards": {
+      "title": "Riscos de engasgo",
+      "emoji": "⚠️",
+      "items": [
+        {"label": "Uvas inteiras", "detail": "SEMPRE cortar longitudinalmente em quartos. Um dos alimentos mais perigosos para crianças."},
+        {"label": "Tomates-cereja inteiros", "detail": "Cortar em quartos. Mesmo perigo que as uvas pela forma arredondada."},
+        {"label": "Oleaginosas inteiras ou picadas", "detail": "Apenas trituradas ou como pasta até 3+ anos. Principal causa de engasgo fatal."},
+        {"label": "Pedaços de maçã crua", "detail": "Oferecer cozida (vapor/assada) ou ralada bem fina. Maçã crua é muito dura."},
+        {"label": "Cenoura crua", "detail": "SEMPRE cozida até ficar bem macia. Crua é extremamente perigosa."},
+        {"label": "Salsichas", "detail": "Cortar longitudinalmente depois em pedaços. NUNCA em rodelas (formato perfeito para obstruir via aérea)."},
+        {"label": "Azeitonas inteiras", "detail": "Cortar em pedaços pequenos e remover o caroço."},
+        {"label": "Pipoca", "detail": "Evitar completamente em crianças menores de 3-4 anos."},
+        {"label": "Balas duras", "detail": "Evitar completamente na primeira infância."},
+        {"label": "Chiclete", "detail": "Evitar completamente."},
+        {"label": "Frutas com caroço (cereja, azeitona)", "detail": "Remover o caroço, cortar se arredondado."},
+        {"label": "Pão de forma ou pão grudento", "detail": "Pode formar uma bola grudenta. Torrar o pão ou usar a casca."},
+        {"label": "Queijo em cubos", "detail": "Oferecer ralado ou em fatias finas. Cubos podem obstruir a via aérea."},
+        {"label": "Grãos de milho soltos", "detail": "Amassar ou triturar levemente antes de oferecer."},
+        {"label": "Camarão inteiro", "detail": "Cortar em pedaços pequenos adequados à idade."}
+      ]
+    },
+    "emergency-signs": {
+      "title": "Sinais de emergência: quando ligar 192?",
+      "emoji": "🚨",
+      "items": [
+        {"label": "Engasgo real", "detail": "O bebê NÃO consegue tossir, chorar ou respirar. Silêncio. Lábios azulados. → Manobras de desengasgo + 192. NÃO coloque o dedo na boca."},
+        {"label": "Reação alérgica grave (anafilaxia)", "detail": "Inchaço de rosto/lábios/língua, dificuldade para respirar, urticária generalizada, vômitos repetidos, perda de tônus → Ligue 192 imediatamente."},
+        {"label": "Dificuldade para respirar após comer", "detail": "Tosse persistente, chiado, respiração ruidosa ou estridor → 192 se não melhorar em minutos."},
+        {"label": "Perda de consciência", "detail": "Bebê não responde → 192 + RCP se não respirar. Nunca sacudir o bebê."},
+        {"label": "Sangue no vômito ou fezes", "detail": "Após introduzir alimento novo → Pronto-socorro. Pode indicar alergia gastrointestinal."},
+        {"label": "Não come NEM bebe há 24+ horas", "detail": "Risco de desidratação → Consulta pediátrica urgente."},
+        {"label": "Urticária (placas na pele)", "detail": "Se aparecer após alimento novo e se espalhar ou houver inchaço facial → Pronto-socorro."},
+        {"label": "Vômitos repetidos após alimento novo", "detail": "Mais de 2-3 vezes em poucas horas → Pronto-socorro. Pode ser FPIES (enterocolite alérgica)."},
+        {"label": "Gag reflex vs engasgo", "detail": "GAG REFLEX é normal (barulhento, bebê tosse e fica vermelho). ENGASGO é silencioso (não consegue tossir, nem chorar, fica azulado). Aprenda a diferenciá-los."}
+      ]
+    },
+    "daily-schedule": {
+      "title": "Horário aproximado das refeições",
+      "emoji": "🕐",
+      "items": [
+        {"label": "6 meses (início)", "detail": "1 refeição ao meio-dia + leite em livre demanda (ainda é o alimento principal). Sem pressa."},
+        {"label": "6-7 meses", "detail": "1-2 refeições (almoço + lanche) + leite em livre demanda. Ofereça peito/mamadeira primeiro."},
+        {"label": "8-9 meses", "detail": "2-3 refeições (café + almoço + jantar) + 1-2 lanches + leite. Comece a oferecer água."},
+        {"label": "10-12 meses", "detail": "3 refeições principais + 2 lanches + leite. O bebê tem um ritmo estabelecido."},
+        {"label": "12+ meses", "detail": "3 refeições + 2 lanches. Leite como complemento (aprox 500ml/dia). Copo aberto."},
+        {"label": "Conselho geral", "detail": "Os horários são aproximados. O bebê dita o ritmo. Não acorde para dar comida sólida."},
+        {"label": "Duração da refeição", "detail": "15-30 minutos é suficiente. Não prolongue a refeição indefinidamente. Se perder interesse, retire."},
+        {"label": "Melhor hora do dia", "detail": "No início, escolha um momento em que o bebê esteja descansado e feliz, não com fome nem cansado."}
+      ]
+    },
+    "portion-guide": {
+      "title": "Guia aproximado de porções",
+      "emoji": "📏",
+      "items": [
+        {"label": "6 meses", "detail": "1-2 colheres de sopa por refeição. Só uma provinha está ótimo!"},
+        {"label": "7-8 meses", "detail": "2-4 colheres de sopa por refeição. Aumente gradualmente."},
+        {"label": "9-11 meses", "detail": "Aprox ½ xícara por refeição principal. Varia conforme o dia."},
+        {"label": "12+ meses", "detail": "¾ xícara - 1 xícara por refeição. Come quase como um mini adulto."},
+        {"label": "Proteínas", "detail": "20-30g de carne/peixe ou 1 ovo ou 40-50g de leguminosas cozidas por refeição principal."},
+        {"label": "Frutas", "detail": "Metade de uma fruta pequena ou um punhado. Variadas em cores e tipos."},
+        {"label": "Cereais", "detail": "2-3 colheres de sopa de cereal cozido ou meia fatia de pão (conforme a idade)."},
+        {"label": "Azeite de oliva", "detail": "Um fiozinho (5-10ml) de azeite extravirgem cru em cada refeição principal. Essencial para absorção de vitaminas."},
+        {"label": "Importante", "detail": "Estes são guias. O bebê decide quanto come. NUNCA force. Confie nos sinais de fome e saciedade."}
+      ]
+    },
+    "safe-blw-cuts": {
+      "title": "Cortes seguros para BLW",
+      "emoji": "🔪",
+      "items": [
+        {"label": "Regra geral", "detail": "Tamanho do dedo indicador de um adulto: palitos longos e finos que o bebê possa agarrar com o punho."},
+        {"label": "6-7 meses (preensão palmar)", "detail": "Palitos longos que sobram do punho. O bebê chupa e mordisca a parte que aparece."},
+        {"label": "8-9 meses (pinça rudimentar)", "detail": "Pedaços menores podem ser oferecidos. O bebê começa a usar polegar e indicador."},
+        {"label": "10-12 meses (pinça fina)", "detail": "Pedaços pequenos (1cm), tiras finas, alimentos que se desmancham facilmente."},
+        {"label": "Frutas redondas (uvas, mirtilos, cerejas)", "detail": "SEMPRE cortar longitudinalmente em quartos. Nunca inteiras."},
+        {"label": "Carne", "detail": "Tiras longas cozidas lentamente (desfiada) ou almôndegas achatadas. Nunca cubos duros."},
+        {"label": "Legumes", "detail": "Cozidos até amassar facilmente entre os dedos. Palitos macios longos."},
+        {"label": "Teste de segurança", "detail": "Amassa facilmente entre seus dedos? Então é seguro. Se resistir, cozinhe mais."}
+      ]
+    },
+    "first-aid": {
+      "title": "Primeiros socorros: engasgo",
+      "emoji": "🆘",
+      "items": [
+        {"label": "Passo 1: Avalie", "detail": "Consegue tossir? → Deixe tossir, não intervenha. NÃO consegue tossir ou respirar? → Aja imediatamente."},
+        {"label": "Passo 2: Menor de 1 ano — Tapas nas costas", "detail": "Coloque de bruços no antebraço. 5 tapas firmes entre as escápulas com a base da mão."},
+        {"label": "Passo 3: Menor de 1 ano — Compressões torácicas", "detail": "Se não resolver: vire de barriga para cima, 5 compressões no centro do peito com 2 dedos."},
+        {"label": "Passo 4: Alterne", "detail": "5 tapas nas costas → 5 compressões torácicas → repita até resolver ou o 192 chegar."},
+        {"label": "NUNCA faça", "detail": "NÃO coloque o dedo na boca (empurra o objeto mais fundo). NÃO sacuda o bebê. NÃO faça Heimlich em menores de 1 ano."},
+        {"label": "Maior de 1 ano", "detail": "Manobra de Heimlich adaptada: compressões abdominais suaves. Alterne com tapas nas costas."},
+        {"label": "Se ficar inconsciente", "detail": "Inicie RCP: 30 compressões + 2 ventilações. Ligue 192 imediatamente."},
+        {"label": "Recomendação vital", "detail": "Faça um curso de primeiros socorros pediátricos ANTES de começar a introdução alimentar. Cruz Vermelha, hospitais e postos de saúde oferecem."}
+      ]
+    }
+  },
+  "lessonData": {
+    "found-1": {
+      "title": "O que é introdução alimentar?",
+      "content": "**Introdução alimentar (IA)** é o processo de introduzir alimentos sólidos e líquidos diferentes do leite materno ou fórmula na dieta do bebê. É chamada \"complementar\" porque não substitui o leite, mas o complementa.\n\nA Organização Mundial da Saúde (OMS) e a Sociedade Brasileira de Pediatria (SBP) recomendam iniciar a IA por volta dos **6 meses de idade**, mantendo o aleitamento materno simultaneamente.\n\n**Pontos-chave:**\n- O leite (materno ou fórmula) continua sendo o alimento principal durante o primeiro ano\n- Os alimentos sólidos \"complementam\" o leite, não o substituem\n- É um processo gradual: de provar pequenas quantidades a comer refeições completas\n- Não há ordem rígida para introduzir alimentos\n- O importante é priorizar alimentos ricos em ferro e oferecer variedade\n\n**Por que \"complementar\" e não \"desmame\"?**\nO termo \"desmame\" pode ser confuso, pois não se trata de tirar o leite. Na verdade, a OMS recomenda continuar a amamentação até 2 anos ou mais, junto com alimentos sólidos.\n\n**O objetivo final** é que entre 12-24 meses o bebê coma praticamente o mesmo que a família, adaptado em textura e sem sal/açúcar adicionados.",
+      "keyTakeaways": [
+        "A introdução alimentar começa por volta dos 6 meses",
+        "Não substitui o leite: o complementa",
+        "Não há ordem rígida de alimentos",
+        "Priorize alimentos ricos em ferro"
+      ],
+      "quiz": {
+        "question": "O que significa 'introdução alimentar complementar'?",
+        "options": [
+          "Substituir o leite por alimentos sólidos",
+          "Adicionar alimentos sólidos mantendo o leite",
+          "Dar apenas papinhas ao bebê",
+          "Parar a amamentação"
+        ],
+        "correctIndex": 1,
+        "explanation": "A introdução alimentar 'complementa' o leite, não o substitui. O leite continua sendo o alimento principal durante o primeiro ano."
+      }
+    },
+    "found-2": {
+      "title": "Por que aos 6 meses?",
+      "content": "A OMS e a SBP concordam: o momento ideal para iniciar a introdução alimentar é **por volta dos 6 meses**. Por que essa idade e não antes ou depois?\n\n**Razões para não começar antes dos 4 meses:**\n- O sistema digestivo do bebê não está maduro\n- Maior risco de infecções e alergias\n- O leite materno ou fórmula supre todas as necessidades\n\n**Razões para não atrasar além dos 7 meses:**\n- As reservas de ferro do nascimento se esgotam\n- O bebê precisa de mais nutrientes do que o leite sozinho pode fornecer\n- A janela de aceitação de novos sabores e texturas se estreita\n- O desenvolvimento motor permite alimentação segura\n\n**A janela de 4-6 meses:**\nA ESPGHAN indica que a IA não deve ser introduzida antes das 17 semanas nem adiada além das 26 semanas. Porém, a recomendação geral é esperar até os 6 meses completos.\n\n**Importante:** 6 meses é uma orientação. O que realmente determina o início são os sinais de prontidão do bebê (controle de cabeça, perda do reflexo de protrusão, interesse pela comida, capacidade de sentar).",
+      "keyTakeaways": [
+        "6 meses é a idade recomendada pela OMS e SBP",
+        "As reservas de ferro se esgotam por volta dos 6 meses",
+        "Os sinais de prontidão são mais importantes que a idade exata",
+        "Não começar antes dos 4 meses nem atrasar além dos 7"
+      ],
+      "quiz": {
+        "question": "Por que não se deve atrasar a IA além dos 7 meses?",
+        "options": [
+          "Porque o bebê não vai querer experimentar coisas novas",
+          "Porque as reservas de ferro se esgotam e mais nutrientes são necessários",
+          "Porque o leite para de alimentar",
+          "Porque o pediatra mandou"
+        ],
+        "correctIndex": 1,
+        "explanation": "As reservas de ferro do nascimento se esgotam por volta dos 6 meses, e o bebê precisa de nutrientes adicionais que o leite sozinho não consegue mais fornecer completamente."
+      }
+    },
+    "found-3": {
+      "title": "Sinais de prontidão",
+      "content": "Antes de iniciar a IA, seu bebê deve mostrar **todos** estes sinais de desenvolvimento:\n\n**1. Controle de cabeça e postura**\nO bebê consegue sentar com apoio mínimo e tem bom controle de cabeça. Essencial para engolir de forma segura.\n\n**2. Perda do reflexo de protrusão**\nNão empurra mais automaticamente tudo que entra na boca. Se a língua empurra a comida para fora, não está pronto.\n\n**3. Coordenação mão-boca**\nPega objetos e leva à boca com certa precisão.\n\n**4. Interesse pela comida**\nObserva com curiosidade quando você come, tenta pegar sua comida, abre a boca quando a comida se aproxima.\n\n**O que NÃO são sinais de prontidão:**\n- Acordar mais à noite (geralmente é pico de crescimento)\n- Chupar as mãos constantemente (exploração normal)\n- Mamar com mais frequência\n- Ter um percentil baixo\n\nEstes são sinais comuns confundidos com fome ou necessidade de sólidos, mas fazem parte do desenvolvimento normal.",
+      "keyTakeaways": [
+        "Todos os sinais devem estar presentes, não apenas um",
+        "O controle postural é essencial para a segurança",
+        "Acordar à noite NÃO indica necessidade de sólidos",
+        "Os sinais de prontidão importam mais que a idade exata"
+      ],
+      "quiz": {
+        "question": "Qual NÃO é um sinal de prontidão para a IA?",
+        "options": [
+          "Consegue sentar com apoio",
+          "Perdeu o reflexo de protrusão",
+          "Acorda frequentemente à noite",
+          "Mostra interesse ativo pela comida"
+        ],
+        "correctIndex": 2,
+        "explanation": "Acordar à noite é comum e geralmente se deve a picos de crescimento, não à necessidade de alimentos sólidos. Os verdadeiros sinais são: controle postural, perda do reflexo de protrusão, coordenação mão-boca e interesse pela comida."
+      }
+    },
+    "found-4": {
+      "title": "Primeiros dias: o que esperar",
+      "content": "Os primeiros dias de introdução alimentar são de **pura exploração**. Veja o que esperar:\n\n**É normal o bebê:**\n- Comer muito pouco (uma colherinha ou menos)\n- Fazer caretas experimentando novos sabores\n- Cuspir a comida\n- Brincar com a comida mais do que comer\n- Ter gag reflex (é um reflexo protetor, não é engasgo)\n\n**NÃO é normal se o bebê:**\n- Ficar azulado (pode ser engasgo real)\n- Apresentar urticária, inchaço ou vômitos repetidos (possível alergia)\n\n**Dicas práticas:**\n- Escolha um momento em que o bebê esteja feliz e não muito com fome\n- Ofereça leite primeiro, depois a comida\n- Um alimento novo a cada 2-3 dias\n- Sem pressa: o leite ainda é o alimento principal\n- Sempre adicione um fiozinho de azeite extravirgem\n\n**O objetivo NÃO é alimentar**, mas descobrir sabores, texturas e o ato de comer. A nutrição ainda vem do leite.",
+      "keyTakeaways": [
+        "Os primeiros dias são de exploração, não de nutrição",
+        "É normal comer muito pouco ou cuspir a comida",
+        "Gag reflex é normal e protetor",
+        "Ofereça leite primeiro, comida depois"
+      ]
+    },
+    "appr-1": {
+      "title": "Papinhas tradicionais: como fazer",
+      "content": "O método tradicional é baseado em **papinhas e alimentos triturados**, com progressão gradual de textura.\n\n**Progressão de textura:**\n- **6 meses:** Papinhas lisas e homogêneas\n- **7-8 meses:** Papinhas mais espessas com pequenos pedacinhos\n- **8-9 meses:** Amassado com garfo, texturas grumosas\n- **10+ meses:** Pedaços macios, comida da família adaptada\n\n**Vantagens do método:**\n- Controle da ingestão\n- Menos estresse inicial com engasgo\n- Compatível com creche\n\n**Erros comuns:**\n- Ficar com papinhas lisas muito tempo\n- Misturar tudo junto (melhor sabores individuais no início)\n- Não evoluir as texturas antes dos 9 meses\n\n**A SBP adverte:** É fundamental avançar para texturas grumosas antes dos 8-9 meses. Atrasar texturas dificulta a aceitação posterior.",
+      "keyTakeaways": [
+        "Progressão de textura: liso → grumoso → pedaços",
+        "Não ficar com papinhas lisas além dos 8-9 meses",
+        "Oferecer alimentos individuais antes de misturar",
+        "SBP recomenda texturas grumosas antes dos 9 meses"
+      ],
+      "quiz": {
+        "question": "Até quando a SBP recomenda oferecer texturas grumosas?",
+        "options": [
+          "Antes dos 6 meses",
+          "Antes dos 8-9 meses",
+          "Após os 12 meses",
+          "A idade não importa"
+        ],
+        "correctIndex": 1,
+        "explanation": "A SBP recomenda que os bebês experimentem texturas grumosas antes dos 8-9 meses. Atrasar dificulta a aceitação de texturas posteriormente."
+      }
+    },
+    "appr-2": {
+      "title": "BLW: Baby-Led Weaning",
+      "content": "O BLW permite que o bebê **se alimente sozinho** desde o início com pedaços adequados à idade.\n\n**Princípios do BLW:**\n- O bebê come a mesma comida que a família (adaptada)\n- Ele decide o que pegar, quanto comer e em que ritmo\n- Alimentos oferecidos em formato que possa agarrar\n- Sem dar na boca com colher (o bebê pode usar colher sozinho)\n\n**Cortes por idade:**\n- **6-7 meses:** Palitos longos do tamanho do dedo de um adulto\n- **8-9 meses:** Pedaços menores (pinça rudimentar)\n- **10+ meses:** Pedaços de 1cm (pinça fina)\n\n**Segurança no BLW:**\n- Sempre sentado ereto\n- Supervisão constante\n- Saber a diferença entre gag reflex e engasgo\n- Alimentos macios que se desmancham facilmente\n- NUNCA alimentos redondos e duros (uvas inteiras, oleaginosas)\n\n**Evidência:** A SBP indica que o BLW é seguro quando os sinais de prontidão são atendidos e as recomendações de segurança são seguidas.",
+      "keyTakeaways": [
+        "O bebê se alimenta sozinho com pedaços adaptados",
+        "Os cortes variam conforme a idade e habilidades motoras",
+        "A segurança é fundamental: alimentos macios e supervisão",
+        "SBP endossa o BLW quando as recomendações são seguidas"
+      ],
+      "quiz": {
+        "question": "Qual o formato correto para um bebê de 6-7 meses no BLW?",
+        "options": [
+          "Pedaços de 1cm",
+          "Palitos do tamanho do dedo de um adulto",
+          "Comida triturada",
+          "Qualquer formato"
+        ],
+        "correctIndex": 1,
+        "explanation": "Aos 6-7 meses, os bebês usam preensão palmar, então os alimentos devem ser palitos longos que sobram do punho para chupar e mordiscar."
+      }
+    },
+    "appr-3": {
+      "title": "Método misto e BLISS",
+      "content": "A abordagem mista combina papinhas e BLW conforme a situação. O **BLISS** (Baby-Led Introduction to SolidS) é uma variante do BLW que adiciona foco em ferro.\n\n**Misto na prática:**\n- Papinhas quando há pressa ou fora de casa\n- BLW quando há tempo e calma\n- Creche: papinhas; casa: pedaços\n\n**BLISS - 3 regras:**\n1. Sempre oferecer um alimento rico em ferro em cada refeição\n2. Oferecer um alimento denso em energia (calórico)\n3. Oferecer uma fruta ou legume\n\n**Vantagens do misto:**\n- Máxima flexibilidade\n- Compatível com diferentes cuidadores\n- Bebê exposto a múltiplas texturas\n\n**Cuidado com:**\n- Não ficar apenas nas papinhas por comodidade\n- Garantir oportunidades regulares de BLW\n\n**A SBP não recomenda um método sobre outro.** O que importa é segurança, variedade e respeitar os sinais do bebê.",
+      "keyTakeaways": [
+        "Misto combina papinhas e BLW conforme a situação",
+        "BLISS adiciona foco em alimentos ricos em ferro",
+        "SBP não recomenda um método sobre outro",
+        "Importante não ficar só nas papinhas"
+      ],
+      "quiz": {
+        "question": "O que o método BLISS adiciona ao BLW clássico?",
+        "options": [
+          "Apenas papinhas",
+          "Foco em alimentos ricos em ferro",
+          "Uso obrigatório de colher",
+          "Horários rígidos"
+        ],
+        "correctIndex": 1,
+        "explanation": "O BLISS (Baby-Led Introduction to SolidS) mantém os princípios do BLW mas adiciona a recomendação de sempre incluir um alimento rico em ferro, um alimento energético e uma fruta ou legume em cada refeição."
+      }
+    },
+    "appr-4": {
+      "title": "Qual abordagem escolher?",
+      "content": "Não existe abordagem \"melhor\" ou \"pior\". A escolha depende da sua família, situação e bebê.\n\n**Escolha papinhas se:**\n- Tem tempo limitado nas refeições\n- O bebê vai para a creche com papinhas\n- A preocupação com engasgo causa estresse significativo\n\n**Escolha BLW se:**\n- Pode dedicar 20-30 min sem pressa\n- Gosta da ideia do bebê explorar sozinho\n- Não se importa com sujeira e limpeza\n\n**Escolha misto se:**\n- Sua situação varia de um dia para outro\n- Quer máxima flexibilidade\n- O bebê tem diferentes cuidadores\n\n**O que realmente importa:**\n- Oferecer variedade de alimentos\n- Progredir texturas (não ficar no liso)\n- Respeitar os sinais do bebê\n- Aproveitar o processo\n- Priorizar alimentos ricos em ferro\n\n**Você pode mudar de abordagem a qualquer momento.** Muitas famílias começam com papinhas e naturalmente incorporam pedaços.",
+      "keyTakeaways": [
+        "Nenhuma abordagem é melhor que outra",
+        "A escolha depende da situação da sua família",
+        "O que importa é variedade e progressão de texturas",
+        "Pode mudar de abordagem quando quiser"
+      ]
+    },
+    "nutr-1": {
+      "title": "Ferro: o nutriente-chave",
+      "content": "O ferro é o nutriente MAIS importante na introdução alimentar. As reservas de ferro do nascimento se esgotam por volta dos 6 meses.\n\n**Tipos de ferro:**\n- **Ferro heme** (animal): melhor absorção (15-35%). Carne vermelha, frango, peixe.\n- **Ferro não-heme** (vegetal): menor absorção (2-20%). Leguminosas, cereais, espinafre.\n\n**Alimentos ricos em ferro:**\n- Carne vermelha (boi, cordeiro)\n- Frango e peru\n- Leguminosas (lentilha, grão-de-bico)\n- Cereais fortificados\n- Quinoa\n- Tofu\n\n**Dica para melhorar a absorção:**\nCombine alimentos ricos em ferro com vitamina C. Exemplos:\n- Lentilha + laranja\n- Carne + tomate\n- Grão-de-bico + pimentão\n\n**A SBP recomenda:** Priorize alimentos ricos em ferro desde o primeiro dia da IA.",
+      "keyTakeaways": [
+        "Ferro é o nutriente mais importante ao iniciar a IA",
+        "Ferro heme (animal) absorve melhor que não-heme (vegetal)",
+        "Combinar ferro com vitamina C melhora a absorção",
+        "Priorize alimentos ricos em ferro desde o dia 1"
+      ],
+      "quiz": {
+        "question": "Como melhorar a absorção do ferro vegetal?",
+        "options": [
+          "Cozinhando por muito tempo",
+          "Combinando com vitamina C",
+          "Adicionando sal",
+          "Misturando com leite"
+        ],
+        "correctIndex": 1,
+        "explanation": "A vitamina C melhora significativamente a absorção do ferro não-heme (vegetal). Por exemplo, espremer laranja sobre lentilha dobra ou triplica a absorção de ferro."
+      }
+    },
+    "nutr-2": {
+      "title": "Outros nutrientes essenciais",
+      "content": "Além do ferro, outros nutrientes-chave para o bebê:\n\n**Zinco:**\nImportante para o sistema imunológico e crescimento. Fontes: carne, leguminosas, grãos integrais, ovo.\n\n**Vitamina D:**\nEssencial para os ossos. A SBP recomenda suplementar 400 UI/dia durante o primeiro ano. A exposição solar não é suficiente em bebês.\n\n**Cálcio:**\nPara ossos e dentes. Fontes principais: leite materno/fórmula, iogurte (a partir dos 9-10 meses), queijo.\n\n**Ômega-3 (DHA):**\nCrítico para o desenvolvimento cerebral. Fontes: peixes gordurosos (salmão, sardinha), nozes trituradas.\n\n**Vitamina B12:**\nApenas em alimentos de origem animal. Se a dieta for vegetariana/vegana, suplementação é obrigatória.\n\n**Azeite de oliva extravirgem:**\nGordura saudável essencial. Adicione um fiozinho em cada refeição. Ajuda na absorção de vitaminas lipossolúveis.",
+      "keyTakeaways": [
+        "Zinco, vitamina D, cálcio e ômega-3 são nutrientes-chave",
+        "SBP recomenda suplementação de vitamina D para todos os bebês",
+        "Ômega-3 de peixes gordurosos é crucial para o cérebro",
+        "Em dietas vegetarianas, suplementação de B12 é obrigatória"
+      ],
+      "quiz": {
+        "question": "Qual vitamina a SBP recomenda suplementar em todos os bebês?",
+        "options": [
+          "Vitamina C",
+          "Vitamina A",
+          "Vitamina D",
+          "Vitamina B12"
+        ],
+        "correctIndex": 2,
+        "explanation": "A SBP recomenda suplementar vitamina D (400 UI/dia) durante pelo menos o primeiro ano de vida, pois a exposição solar é insuficiente e não recomendada para bebês."
+      }
+    },
+    "nutr-3": {
+      "title": "Alimentos a evitar e por quê",
+      "content": "Alguns alimentos devem ser evitados por segurança ou saúde:\n\n**Antes dos 12 meses:**\n- **Mel:** Risco de botulismo infantil (bactéria C. botulinum)\n- **Sal:** Os rins do bebê não conseguem processá-lo bem\n- **Açúcar adicionado:** Sem benefício nutricional, cria preferência pelo doce\n- **Leite de vaca como bebida:** Não tem composição adequada\n- **Excesso de espinafre/acelga:** Nitratos (risco de metahemoglobinemia)\n\n**Sempre evitar até 3 anos:**\n- **Oleaginosas inteiras:** Principal causa de engasgo fatal\n- **Algas:** Iodo excessivo\n- **Pipoca:** Risco de engasgo\n\n**Evitar por mercúrio (até 10 anos):**\n- Atum, cação, peixe-espada\n\n**NÃO precisa evitar:**\n- Morango, kiwi, pêssego (mito popular)\n- Ovo antes de um ano\n- Glúten aos 6 meses\n\n**A SBP e a ANVISA** atualizam estas recomendações periodicamente.",
+      "keyTakeaways": [
+        "Mel: proibido até 12 meses (botulismo)",
+        "Sal e açúcar: não adicionar no primeiro ano",
+        "Oleaginosas inteiras: nunca antes dos 3 anos",
+        "Morango, kiwi e ovo NÃO precisam ser adiados"
+      ],
+      "quiz": {
+        "question": "Por que o mel é proibido antes dos 12 meses?",
+        "options": [
+          "Porque tem muito açúcar",
+          "Risco de cáries",
+          "Risco de botulismo infantil",
+          "Pode causar alergia"
+        ],
+        "correctIndex": 2,
+        "explanation": "O mel pode conter esporos de Clostridium botulinum que, no intestino imaturo do bebê, podem produzir toxina botulínica. Após os 12 meses, o intestino já consegue se defender."
+      }
+    },
+    "nutr-4": {
+      "title": "Alimentação vegetariana e vegana",
+      "content": "Uma dieta vegetariana ou vegana pode ser adequada para bebês, mas requer planejamento cuidadoso.\n\n**Vegetariana (com ovo e/ou laticínios):**\n- Geralmente segura com bom planejamento\n- Priorize leguminosas, cereais, ovo\n- Sempre combine ferro vegetal com vitamina C\n\n**Vegana:**\n- Requer suplementação OBRIGATÓRIA de B12\n- Maior risco de deficiência de ferro, zinco, ômega-3\n- Consulte um nutricionista pediátrico\n\n**Fontes de ferro vegetal:**\n- Lentilha e grão-de-bico\n- Quinoa\n- Tofu\n- Cereais fortificados\n\n**Combinações inteligentes:**\n- Leguminosa + cereal = proteína completa (lentilha com arroz)\n- Ferro vegetal + vitamina C = melhor absorção\n\n**A SBP recomenda:** Se a dieta familiar for vegana, consulta obrigatória com profissional para garantir a nutrição completa do bebê.",
+      "keyTakeaways": [
+        "Dieta vegetariana é viável com bom planejamento",
+        "Dieta vegana requer suplementação obrigatória de B12",
+        "Combinar leguminosas com cereais fornece proteína completa",
+        "Consulte um profissional para dietas veganas"
+      ]
+    },
+    "safe-1": {
+      "title": "Prevenção de engasgo",
+      "content": "A prevenção é a chave. A maioria dos engasgos pode ser evitada seguindo estas regras:\n\n**Regras de ouro:**\n1. Sempre sentado ereto (nunca reclinado ou se movendo)\n2. Supervisão constante durante toda a refeição\n3. Sem distrações (TV, tablet)\n4. Nunca forçar ou colocar comida na boca\n5. Alimentos adaptados à idade e habilidade\n\n**Alimentos MAIS perigosos:**\n- Uvas, tomates-cereja inteiros → cortar em quartos longitudinais\n- Oleaginosas inteiras → apenas trituradas ou em pasta\n- Maçã crua → oferecer cozida ou ralada\n- Cenoura crua → sempre cozinhar até ficar bem macia\n- Salsicha em rodelas → cortar longitudinalmente\n\n**Teste de segurança:**\nO alimento amassa facilmente entre seus dedos? Então é seguro para o bebê.\n\n**Gag reflex vs Engasgo:**\n- **Gag reflex:** Barulhento, bebê tosse, fica vermelho → NÃO intervenha\n- **Engasgo:** Silencioso, não consegue tossir, lábios azulados → AJA",
+      "keyTakeaways": [
+        "Sempre sentado ereto e sob supervisão",
+        "Conheça os alimentos mais perigosos e como cortá-los",
+        "Teste de segurança: se amassa entre os dedos, é seguro",
+        "Gag reflex (barulhento/normal) ≠ Engasgo (silencioso/emergência)"
+      ],
+      "quiz": {
+        "question": "Como diferenciar gag reflex de engasgo?",
+        "options": [
+          "Gag reflex é mais perigoso",
+          "São a mesma coisa",
+          "Gag reflex é barulhento e normal; engasgo é silencioso",
+          "Engasgo sempre faz barulho"
+        ],
+        "correctIndex": 2,
+        "explanation": "Gag reflex é um reflexo protetor: o bebê tosse, faz barulho, fica vermelho. O engasgo real é silencioso: o bebê não consegue tossir, chorar ou respirar, pode ficar azulado. Aprender a diferenciá-los é fundamental."
+      }
+    },
+    "safe-2": {
+      "title": "Primeiros socorros: desobstrução de vias aéreas",
+      "content": "TODOS os cuidadores devem saber como agir durante um engasgo. Idealmente, faça um curso presencial.\n\n**Se o bebê CONSEGUE tossir:**\n→ Não intervenha. Deixe tossir. Mantenha a calma.\n\n**Se o bebê NÃO CONSEGUE tossir (menor de 1 ano):**\n\n**Passo 1:** Coloque de bruços no antebraço, apoiando o queixo.\n**Passo 2:** Dê 5 tapas firmes entre as escápulas com a base da mão.\n**Passo 3:** Se não resolver, vire de barriga para cima.\n**Passo 4:** 5 compressões no centro do peito com 2 dedos.\n**Passo 5:** Alterne: 5 tapas nas costas → 5 compressões. Repita.\n**Passo 6:** Se ficar inconsciente → RCP + ligue 192.\n\n**NUNCA faça:**\n- NÃO coloque o dedo na boca (empurra o objeto mais fundo)\n- NÃO sacuda o bebê\n- NÃO faça Heimlich em crianças menores de 1 ano\n\n**Para maiores de 1 ano:**\nHeimlich adaptado (compressões abdominais suaves).\n\n**Recomendação:** Faça um curso de primeiros socorros ANTES de iniciar a IA.",
+      "keyTakeaways": [
+        "Se consegue tossir, não intervenha — deixe tossir",
+        "Menor de 1 ano: tapas nas costas + compressões torácicas",
+        "NUNCA coloque o dedo na boca",
+        "Faça um curso presencial de primeiros socorros"
+      ],
+      "quiz": {
+        "question": "Se um bebê de 8 meses está engasgado e NÃO consegue tossir, o que fazer primeiro?",
+        "options": [
+          "Colocar o dedo para remover o objeto",
+          "Sacudir de cabeça para baixo",
+          "Colocar de bruços e dar 5 tapas nas costas entre as escápulas",
+          "Fazer manobra de Heimlich"
+        ],
+        "correctIndex": 2,
+        "explanation": "Para crianças menores de 1 ano, coloque de bruços no antebraço e dê 5 tapas firmes entre as escápulas. NUNCA coloque o dedo nem sacuda. Heimlich (compressões abdominais) é apenas para maiores de 1 ano."
+      }
+    },
+    "safe-3": {
+      "title": "Alergias alimentares",
+      "content": "Alergias alimentares são uma preocupação comum. Informações essenciais:\n\n**Os 9 principais alérgenos:**\nOvo, laticínios, glúten, peixe, amendoim, oleaginosas, soja, frutos do mar, gergelim.\n\n**Como introduzi-los:**\n- Um novo a cada 2-3 dias\n- Pequena quantidade primeiro\n- Preferencialmente pela manhã (para observação)\n- Continue oferecendo regularmente após a introdução\n\n**Não adie os alérgenos.**\nA SBP e as evidências atuais indicam que a introdução precoce (por volta dos 6 meses) pode ser protetora. O estudo LEAP mostrou que a introdução precoce de amendoim reduz o risco de alergia.\n\n**Sinais de alergia (leve/moderada):**\n- Urticária localizada\n- Vermelhidão ao redor da boca\n- Vômito isolado\n\n**Sinais de anafilaxia (EMERGÊNCIA):**\n- Inchaço de rosto/lábios/língua\n- Dificuldade para respirar\n- Urticária generalizada\n- Perda de tônus\n→ Ligue 192 imediatamente",
+      "keyTakeaways": [
+        "9 principais alérgenos para introduzir um a um",
+        "Não adie alérgenos — introdução precoce pode ser protetora",
+        "Observe 2-3 dias após cada novo alérgeno",
+        "Conheça os sinais de anafilaxia (emergência)"
+      ],
+      "quiz": {
+        "question": "Segundo as evidências atuais, quando é melhor introduzir alérgenos?",
+        "options": [
+          "Após um ano",
+          "Após 3 anos",
+          "Por volta dos 6 meses",
+          "Não importa quando"
+        ],
+        "correctIndex": 2,
+        "explanation": "As evidências atuais (incluindo o estudo LEAP) mostram que a introdução precoce de alérgenos, por volta dos 6 meses, pode ser protetora e reduzir o risco de desenvolver alergias."
+      }
+    },
+    "safe-4": {
+      "title": "Higiene e segurança alimentar",
+      "content": "A higiene no preparo de alimentos para o bebê é fundamental:\n\n**Regras básicas:**\n- Lavar as mãos antes de preparar a comida\n- Lavar bem frutas e legumes\n- Cozinhar carnes e peixes completamente\n- Não oferecer ovo cru ou mal cozido\n\n**Armazenamento:**\n- Papinhas caseiras: 24-48h na geladeira, 3 meses no freezer\n- Descongelar na geladeira, nunca em temperatura ambiente\n- Não recongelar alimentos já descongelados\n\n**Temperatura:**\n- Sempre verificar a temperatura antes de oferecer\n- Queimaduras na boca são comuns e evitáveis\n\n**Utensílios:**\n- Colheres de silicone macio (não metálicas no início)\n- Pratos com ventosa para evitar derramamentos\n- Babadores com coletor\n- Cadeirão com cinto e bandeja",
+      "keyTakeaways": [
+        "Sempre lave as mãos e higienize os alimentos",
+        "Cozinhe carnes, peixes e ovos completamente",
+        "Papinhas caseiras: máximo 48h na geladeira",
+        "Verifique a temperatura antes de oferecer"
+      ]
+    },
+    "resp-1": {
+      "title": "Alimentação responsiva: o que é",
+      "content": "A alimentação responsiva é um modelo que respeita os sinais de fome e saciedade do bebê.\n\n**Princípio fundamental:**\nO adulto decide O QUÊ é oferecido, QUANDO e ONDE.\nO bebê decide SE come e QUANTO.\n\n**Sinais de fome:**\n- Fica animado ao ver comida\n- Abre a boca\n- Inclina-se para frente\n- Aponta para a comida\n\n**Sinais de saciedade:**\n- Vira a cabeça\n- Fecha a boca\n- Empurra a comida\n- Se distrai, perde o interesse\n- Brinca com a comida sem comer\n\n**O que NÃO fazer:**\n- Forçar a terminar o prato\n- Usar distrações para fazê-lo comer mais\n- Usar comida como recompensa ou punição\n- Insistir quando diz não\n\n**A SBP recomenda:** Confie na capacidade do bebê de autorregular a ingestão.",
+      "keyTakeaways": [
+        "Adulto decide o quê, quando e onde; bebê decide quanto",
+        "Aprenda a reconhecer sinais de fome e saciedade",
+        "Nunca force a comer ou use distrações",
+        "Confie na autorregulação do bebê"
+      ],
+      "quiz": {
+        "question": "Quem decide QUANTO o bebê come?",
+        "options": [
+          "O pediatra com base nos percentis",
+          "Os pais com base na quantidade recomendada",
+          "O bebê com base nos seus sinais de saciedade",
+          "Depende da idade"
+        ],
+        "correctIndex": 2,
+        "explanation": "Na alimentação responsiva, o bebê decide se come e quanto, com base nos seus próprios sinais de fome e saciedade. Os adultos decidem o quê, quando e onde, mas não a quantidade."
+      }
+    },
+    "resp-2": {
+      "title": "Criando um ambiente positivo",
+      "content": "O ambiente das refeições é tão importante quanto a comida em si:\n\n**Ambiente ideal:**\n- Comer em família sempre que possível\n- Sem telas ou brinquedos\n- Atmosfera calma, sem pressa\n- Horários regulares mas flexíveis\n\n**Dar o exemplo:**\nO bebê aprende por imitação. Se ele vê você comendo alimentos variados e com prazer, vai querer o mesmo. Comer juntos é a melhor ferramenta.\n\n**Diante da rejeição:**\n- Não force nem insista\n- Mantenha a calma (sem frustração visível)\n- Ofereça novamente outro dia\n- Podem ser necessárias 10-15 exposições para aceitar um alimento\n- Ofereça o alimento de formas diferentes\n\n**Evite:**\n- Comentários negativos sobre a comida\n- Comparações com outras crianças\n- Recompensar com doces por comer legumes\n- Punir por não comer\n\n**Lembre-se:** Alguns dias come muito e outros quase nada. Isso é completamente normal.",
+      "keyTakeaways": [
+        "Comer em família é a melhor ferramenta de aprendizado",
+        "Sem telas ou distrações durante as refeições",
+        "Para rejeição: calma, não force, tente novamente outro dia",
+        "Podem ser necessárias 10-15 exposições para aceitar um alimento"
+      ],
+      "quiz": {
+        "question": "Quantas exposições podem ser necessárias para um bebê aceitar um novo alimento?",
+        "options": [
+          "1-2 vezes",
+          "3-5 vezes",
+          "10-15 vezes",
+          "Apenas 1 é suficiente"
+        ],
+        "correctIndex": 2,
+        "explanation": "As evidências mostram que podem ser necessárias 10-15 exposições a um novo alimento antes que o bebê o aceite. Persistência sem forçar é a chave."
+      }
+    },
+    "resp-3": {
+      "title": "Porções e expectativas realistas",
+      "content": "Uma das maiores fontes de estresse é achar que o bebê come pouco. Vamos calibrar expectativas:\n\n**Porções aproximadas:**\n- **6 meses:** 1-2 colheres de sopa. Só uma provinha está ótimo!\n- **7-8 meses:** 2-4 colheres de sopa\n- **9-11 meses:** Cerca de meia xícara\n- **12+ meses:** Um pratinho pequeno\n\n**É NORMAL que:**\n- A ingestão varie enormemente de dia para dia\n- O bebê coma muito um dia e quase nada no outro\n- O bebê rejeite alimentos que antes aceitava\n- O bebê passe por fases de comer apenas 2-3 alimentos\n\n**NÃO é normal (consulte o pediatra):**\n- Perda de peso sustentada\n- Rejeição total de sólidos após 8 meses\n- Gag reflex constante com todas as texturas\n- Irritabilidade extrema durante as refeições\n\n**Lembre-se:** O leite continua sendo a principal fonte de nutrientes até os 12 meses. Os sólidos são um complemento, não o prato principal.",
+      "keyTakeaways": [
+        "As porções iniciais são MUITO pequenas — e está tudo bem",
+        "A variação diária na ingestão é completamente normal",
+        "O leite continua sendo a principal fonte de nutrientes até 12 meses",
+        "Consulte o pediatra em caso de perda de peso ou rejeição total de sólidos"
+      ]
+    },
+    "prac-1": {
+      "title": "Planejamento do cardápio semanal",
+      "content": "Planejar facilita muito a introdução alimentar:\n\n**Estrutura básica da refeição:**\n- **Almoço:** Proteína + legume + cereal ou tubérculo + azeite\n- **Lanche:** Fruta + cereal ou laticínio (se já estiver tomando)\n- **Jantar:** Similar ao almoço, variando ingredientes\n\n**Dicas práticas:**\n- Batch cooking: cozinhe para vários dias no fim de semana\n- Congele papinhas em forminhas de gelo\n- Tenha sempre frutas maduras em casa\n- Adapte a comida da família retirando o sal\n\n**Rodízio de proteínas na semana:**\n- Carne (frango, boi, peru, cordeiro): 3-4 vezes\n- Peixe: 2-3 vezes\n- Ovo: 3-4 vezes\n- Leguminosas: 2-3 vezes\n\n**Azeite de oliva:** Sempre um fiozinho de azeite extravirgem cru. A gordura mais saudável que ajuda na absorção de vitaminas.",
+      "keyTakeaways": [
+        "Estrutura: proteína + legume + cereal + azeite",
+        "Batch cooking economiza tempo",
+        "Faça rodízio de proteínas ao longo da semana",
+        "Azeite em toda refeição principal"
+      ]
+    },
+    "prac-2": {
+      "title": "Comer fora de casa",
+      "content": "Comer fora com um bebê em IA é possível e recomendável:\n\n**Kit básico:**\n- Babador de silicone dobrável\n- Talheres do bebê\n- Pote hermético com comida preparada\n- Sacola para roupas sujas\n\n**Opções em restaurantes:**\n- Legumes no vapor sem sal (peça ao cozinheiro)\n- Pão (se já come glúten)\n- Fruta de sobremesa\n- Peixe grelhado, desfiado\n\n**Em casa de família/amigos:**\n- Leve comida preparada por via das dúvidas\n- Explique brevemente sua abordagem\n- Não se sinta pressionado por comentários\n\n**Viagens:**\n- Papinhas industrializadas de emergência (verifique ingredientes)\n- Frutas práticas para viagem: banana, pera madura\n- Potinhos orgânicos como plano B (não como norma)\n\n**O mais importante:** O bebê participa da vida social e familiar.",
+      "keyTakeaways": [
+        "Um kit básico facilita comer fora",
+        "Opções simples e seguras disponíveis em restaurantes",
+        "Leve comida preparada como backup",
+        "Importante incluir o bebê na vida social"
+      ]
+    },
+    "prac-3": {
+      "title": "Lidando com a rejeição",
+      "content": "A rejeição alimentar é uma das situações mais frustrantes. Mas é completamente normal:\n\n**Por que rejeitam:**\n- Neofobia alimentar: medo natural do novo (pico aos 18-24 meses)\n- Explorando preferências\n- Sem fome no momento\n- Textura, cheiro ou apresentação não convence\n\n**Estratégias que funcionam:**\n1. **Exposição repetida:** Ofereça o alimento até 10-15 vezes, de formas diferentes\n2. **Sem pressão:** Ofereça e se disser não, retire sem drama\n3. **Apresentação variada:** Se rejeitar brócolis em papinha, tente brócolis no vapor\n4. **Refeições em família:** Ver outros comendo o alimento ajuda\n5. **Envolva o bebê:** Deixe tocar, cheirar, brincar com a comida\n\n**O que NÃO funciona:**\n- Forçar ou insistir\n- Distrair com telas\n- Subornar (\"come isso e ganha sobremesa\")\n- Fazer refeições alternativas sob demanda\n\n**Lembre-se:** Um bebê saudável NÃO vai passar fome. Confie no processo.",
+      "keyTakeaways": [
+        "Rejeição é normal, especialmente entre 18-24 meses",
+        "Exposição repetida sem pressão é a melhor estratégia",
+        "Ofereça o mesmo alimento em formatos diferentes",
+        "Nunca force, distraia ou suborne"
+      ]
+    },
+    "prac-4": {
+      "title": "Quando se preocupar",
+      "content": "A maioria das situações na IA são normais. Mas existem sinais que precisam de atenção:\n\n**Consulte o pediatra se:**\n- Não aceita nenhum sólido após 8 meses\n- Perde peso ou não ganha há 2+ meses\n- Gag reflex muito intenso com TODAS as texturas\n- Vomita frequentemente ao comer\n- Aceita apenas 2-3 alimentos persistentemente\n- Tem reação alérgica (urticária, inchaço)\n\n**Vá ao pronto-socorro se:**\n- Engasgo real (silencioso, lábios azulados)\n- Reação alérgica grave (inchaço facial, dificuldade para respirar)\n- Sangue no vômito ou fezes\n- Perda de consciência\n\n**É normal e NÃO preocupante:**\n- Comer muito um dia e nada no outro\n- Rejeitar alimentos antes aceitos\n- Gag reflex ocasional com novas texturas\n- Preferir certos alimentos a outros\n\n**Profissionais que podem ajudar:**\n- Pediatra (primeira consulta)\n- Nutricionista pediátrico\n- Fonoaudiólogo (problemas de deglutição)\n- Terapeuta ocupacional (aversão sensorial)",
+      "keyTakeaways": [
+        "Não aceitar sólidos após 8 meses justifica consulta",
+        "Perda de peso sustentada requer atenção médica",
+        "Emergência: engasgo real, anafilaxia, sangue nas fezes",
+        "Variação diária na ingestão é normal e não preocupante"
+      ]
+    }
+  },
+  "seo": {
+    "title": "IntroAlimentar — Guia de Introdução Alimentar para Bebês",
+    "description": "Guia completo para introdução de alimentos sólidos para bebês, baseado nas recomendações da SBP e OMS. Plano semanal, diário, alérgenos e mais.",
+    "ogTitle": "IntroAlimentar — Seu Guia de Introdução Alimentar",
+    "twitterTitle": "IntroAlimentar — Introdução Alimentar"
+  }
+}

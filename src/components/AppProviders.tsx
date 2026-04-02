@@ -3,6 +3,7 @@
 import { useEffect, useState, type ReactNode } from 'react';
 import { I18nProvider, type Dictionary } from '@/i18n/context';
 import { defaultLocale, isValidLocale, type Locale } from '@/i18n/config';
+import DataMigration from '@/components/DataMigration';
 
 function getLocaleFromCookie(): Locale {
   if (typeof document === 'undefined') return defaultLocale;
@@ -29,6 +30,7 @@ export default function AppProviders({ children }: { children: ReactNode }) {
 
   return (
     <I18nProvider locale={state.locale} dictionary={state.dict}>
+      <DataMigration />
       {children}
     </I18nProvider>
   );

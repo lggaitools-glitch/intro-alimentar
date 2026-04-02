@@ -3,6 +3,8 @@
 import { useState, useEffect, useCallback } from 'react';
 import { getItem, setItem } from '@/lib/storage';
 import { generateId } from '@/lib/utils';
+import { useAuth } from '@/hooks/useAuth';
+import { getSupabaseBrowserClient } from '@/lib/supabase/client';
 
 export interface FoodEntry {
   id: string;
@@ -19,40 +21,117 @@ const STORAGE_KEY = 'intro-alimentar-diary';
 export function useFoodDiary() {
   const [entries, setEntries] = useState<FoodEntry[]>([]);
   const [loaded, setLoaded] = useState(false);
+  const { user, supabaseAvailable } = useAuth();
 
   useEffect(() => {
+    if (supabaseAvailable && user) {
+      const supabase = getSupabaseBrowserClient();
+      if (supabase) {
+        supabase
+          .from('food_diary')
+          .select('*')
+          .eq('user_id', user.id)
+          .order('created_at', { ascending: false })
+          .then(({ data }) => {
+            if (data) {
+              setEntries(
+                data.map(d => ({
+                  id: d.id,
+                  foodId: d.food_id,
+                  foodName: d.food_name,
+                  date: d.date,
+                  reaction: d.reaction,
+                  notes: d.notes ?? '',
+                  accepted: d.accepted,
+                }))
+              );
+            }
+            setLoaded(true);
+          });
+        return;
+      }
+    }
     setEntries(getItem(STORAGE_KEY, []));
     setLoaded(true);
-  }, []);
+  }, [user, supabaseAvailable]);
 
-  const addEntry = useCallback((entry: Omit<FoodEntry, 'id'>) => {
-    setEntries(prev => {
-      const next = [{ ...entry, id: generateId() }, ...prev];
-      setItem(STORAGE_KEY, next);
-      return next;
-    });
-  }, []);
+  const addEntry = useCallback(
+    (entry: Omit<FoodEntry, 'id'>) => {
+      const id = generateId();
+      const newEntry = { ...entry, id };
 
-  const removeEntry = useCallback((id: string) => {
-    setEntries(prev => {
-      const next = prev.filter(e => e.id !== id);
-      setItem(STORAGE_KEY, next);
-      return next;
-    });
-  }, []);
+      setEntries(prev => {
+        const next = [newEntry, ...prev];
+
+        if (supabaseAvailable && user) {
+          const supabase = getSupabaseBrowserClient();
+          if (supabase) {
+            supabase
+              .from('babies')
+              .select('id')
+              .eq('user_id', user.id)
+              .limit(1)
+              .then(({ data }) => {
+                const babyId = data?.[0]?.id;
+                if (babyId) {
+                  supabase.from('food_diary').insert({
+                    id,
+                    user_id: user.id,
+                    baby_id: babyId,
+                    food_id: entry.foodId,
+                    food_name: entry.foodName,
+                    date: entry.date,
+                    reaction: entry.reaction,
+                    accepted: entry.accepted,
+                    notes: entry.notes,
+                  }).then(() => {});
+                }
+              });
+          }
+        } else {
+          setItem(STORAGE_KEY, next);
+        }
+
+        return next;
+      });
+    },
+    [user, supabaseAvailable]
+  );
+
+  const removeEntry = useCallback(
+    (id: string) => {
+      setEntries(prev => {
+        const next = prev.filter(e => e.id !== id);
+
+        if (supabaseAvailable && user) {
+          const supabase = getSupabaseBrowserClient();
+          if (supabase) {
+            supabase.from('food_diary').delete().eq('id', id).then(() => {});
+          }
+        } else {
+          setItem(STORAGE_KEY, next);
+        }
+
+        return next;
+      });
+    },
+    [user, supabaseAvailable]
+  );
 
   const getFoodsTried = useCallback(() => {
     const unique = new Set(entries.map(e => e.foodId));
     return unique.size;
   }, [entries]);
 
-  const hasTriedFood = useCallback((foodId: string) => {
-    return entries.some(e => e.foodId === foodId);
-  }, [entries]);
+  const hasTriedFood = useCallback(
+    (foodId: string) => entries.some(e => e.foodId === foodId),
+    [entries]
+  );
 
-  const getEntriesByDate = useCallback((date: string) => {
-    return entries.filter(e => e.date === date);
-  }, [entries]);
+  const getEntriesByDate = useCallback(
+    (date: string) => entries.filter(e => e.date === date),
+    [entries]
+  );
 
   const exportDiary = useCallback(() => {
     const lines = ['Fecha,Alimento,Reacción,Aceptado,Notas'];

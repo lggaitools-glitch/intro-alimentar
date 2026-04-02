@@ -2,6 +2,8 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import { getItem, setItem } from '@/lib/storage';
+import { useAuth } from '@/hooks/useAuth';
+import { getSupabaseBrowserClient } from '@/lib/supabase/client';
 
 export interface BabyProfile {
   name: string;
@@ -26,19 +28,76 @@ const STORAGE_KEY = 'intro-alimentar-profile';
 export function useProfile() {
   const [profile, setProfile] = useState<BabyProfile>(DEFAULT_PROFILE);
   const [loaded, setLoaded] = useState(false);
+  const { user, supabaseAvailable } = useAuth();
 
   useEffect(() => {
+    if (supabaseAvailable && user) {
+      const supabase = getSupabaseBrowserClient();
+      if (supabase) {
+        supabase
+          .from('babies')
+          .select('*')
+          .eq('user_id', user.id)
+          .order('created_at', { ascending: true })
+          .limit(1)
+          .then(({ data }) => {
+            if (data && data.length > 0) {
+              const b = data[0];
+              setProfile({
+                name: b.name ?? '',
+                dateOfBirth: b.date_of_birth ?? '',
+                feedingType: b.feeding_type ?? 'breast',
+                approach: b.approach ?? null,
+                startDate: b.start_date ?? null,
+                readinessChecked: true,
+              });
+            }
+            setLoaded(true);
+          });
+        return;
+      }
+    }
     setProfile(getItem(STORAGE_KEY, DEFAULT_PROFILE));
     setLoaded(true);
-  }, []);
+  }, [user, supabaseAvailable]);
 
-  const updateProfile = useCallback((updates: Partial<BabyProfile>) => {
-    setProfile(prev => {
-      const next = { ...prev, ...updates };
-      setItem(STORAGE_KEY, next);
-      return next;
-    });
-  }, []);
+  const updateProfile = useCallback(
+    (updates: Partial<BabyProfile>) => {
+      setProfile(prev => {
+        const next = { ...prev, ...updates };
+
+        if (supabaseAvailable && user) {
+          const supabase = getSupabaseBrowserClient();
+          if (supabase) {
+            const payload = {
+              name: next.name,
+              date_of_birth: next.dateOfBirth || null,
+              feeding_type: next.feedingType,
+              approach: next.approach,
+              start_date: next.startDate,
+            };
+            supabase
+              .from('babies')
+              .select('id')
+              .eq('user_id', user.id)
+              .limit(1)
+              .then(({ data }) => {
+                if (data && data.length > 0) {
+                  supabase.from('babies').update(payload).eq('id', data[0].id).then(() => {});
+                } else {
+                  supabase.from('babies').insert({ user_id: user.id, ...payload }).then(() => {});
+                }
+              });
+          }
+        } else {
+          setItem(STORAGE_KEY, next);
+        }
+
+        return next;
+      });
+    },
+    [user, supabaseAvailable]
+  );
 
   const isSetUp = loaded && profile.name !== '' && profile.dateOfBirth !== '';
 

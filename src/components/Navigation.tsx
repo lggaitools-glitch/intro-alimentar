@@ -4,6 +4,8 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 import { useTranslation } from '@/i18n/context';
+import { useAuth } from '@/hooks/useAuth';
+import { useProfile } from '@/hooks/useProfile';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 const navKeys = [
@@ -19,11 +21,34 @@ export default function Navigation() {
   const pathname = usePathname();
   const dict = useTranslation();
   const nav = dict.nav || {};
+  const { user, signOut, supabaseAvailable } = useAuth();
+  const { profile } = useProfile();
 
   return (
     <>
-      {/* Language switcher floating top-right */}
-      <div className="fixed top-3 right-3 z-50">
+      {/* Top bar: language switcher + auth */}
+      <div className="fixed top-3 right-3 z-50 flex items-center gap-2">
+        {supabaseAvailable && (
+          <div className="bg-white/90 backdrop-blur-sm rounded-xl px-3 py-1.5 shadow-sm border border-cream-dark flex items-center gap-2 text-xs">
+            {user ? (
+              <>
+                <span className="text-text-secondary truncate max-w-[120px]">
+                  {profile.name || user.email}
+                </span>
+                <button
+                  onClick={() => signOut()}
+                  className="text-red-app hover:underline font-medium"
+                >
+                  Salir
+                </button>
+              </>
+            ) : (
+              <Link href="/auth" className="text-green-dark font-medium hover:underline">
+                Iniciar sesión
+              </Link>
+            )}
+          </div>
+        )}
         <div className="bg-green-dark/80 backdrop-blur-sm rounded-xl p-1">
           <LanguageSwitcher />
         </div>

@@ -18,9 +18,10 @@ const STORAGE_KEY = 'intro-alimentar-allergens';
 export function useAllergens() {
   const [statuses, setStatuses] = useState<AllergenStatus[]>([]);
   const [loaded, setLoaded] = useState(false);
-  const { user, supabaseAvailable } = useAuth();
+  const { user, loading: authLoading, supabaseAvailable } = useAuth();
 
   useEffect(() => {
+    if (authLoading) return;
     if (supabaseAvailable && user) {
       const supabase = getSupabaseBrowserClient();
       if (supabase) {
@@ -47,7 +48,7 @@ export function useAllergens() {
     }
     setStatuses(getItem(STORAGE_KEY, []));
     setLoaded(true);
-  }, [user, supabaseAvailable]);
+  }, [user, authLoading, supabaseAvailable]);
 
   const updateAllergen = useCallback(
     (status: AllergenStatus) => {

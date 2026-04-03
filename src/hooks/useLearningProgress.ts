@@ -20,9 +20,10 @@ const STORAGE_KEY = 'intro-alimentar-learning';
 export function useLearningProgress() {
   const [progress, setProgress] = useState<LearningProgress>(DEFAULT);
   const [loaded, setLoaded] = useState(false);
-  const { user, supabaseAvailable } = useAuth();
+  const { user, loading: authLoading, supabaseAvailable } = useAuth();
 
   useEffect(() => {
+    if (authLoading) return;
     if (supabaseAvailable && user) {
       const supabase = getSupabaseBrowserClient();
       if (supabase) {
@@ -42,7 +43,7 @@ export function useLearningProgress() {
     }
     setProgress(getItem(STORAGE_KEY, DEFAULT));
     setLoaded(true);
-  }, [user, supabaseAvailable]);
+  }, [user, authLoading, supabaseAvailable]);
 
   const completeLesson = useCallback(
     (lessonId: string) => {

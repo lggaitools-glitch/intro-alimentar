@@ -28,9 +28,12 @@ const STORAGE_KEY = 'intro-alimentar-profile';
 export function useProfile() {
   const [profile, setProfile] = useState<BabyProfile>(DEFAULT_PROFILE);
   const [loaded, setLoaded] = useState(false);
-  const { user, supabaseAvailable } = useAuth();
+  const { user, loading: authLoading, supabaseAvailable } = useAuth();
 
   useEffect(() => {
+    // Wait for auth to finish loading before deciding data source
+    if (authLoading) return;
+
     if (supabaseAvailable && user) {
       const supabase = getSupabaseBrowserClient();
       if (supabase) {
@@ -59,7 +62,7 @@ export function useProfile() {
     }
     setProfile(getItem(STORAGE_KEY, DEFAULT_PROFILE));
     setLoaded(true);
-  }, [user, supabaseAvailable]);
+  }, [user, authLoading, supabaseAvailable]);
 
   const updateProfile = useCallback(
     (updates: Partial<BabyProfile>) => {

@@ -29,7 +29,7 @@ export default function AuthPage() {
         router.push('/');
       } else if (mode === 'signup') {
         await signUp(email, password);
-        setMessage('¡Cuenta creada! Revisa tu correo para confirmar tu cuenta.');
+        setMessage('¡Cuenta creada! Ya puedes iniciar sesión.');
       } else {
         await resetPassword(email);
         setMessage('Te hemos enviado un enlace para restablecer tu contraseña.');

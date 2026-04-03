@@ -21,9 +21,10 @@ const STORAGE_KEY = 'intro-alimentar-diary';
 export function useFoodDiary() {
   const [entries, setEntries] = useState<FoodEntry[]>([]);
   const [loaded, setLoaded] = useState(false);
-  const { user, supabaseAvailable } = useAuth();
+  const { user, loading: authLoading, supabaseAvailable } = useAuth();
 
   useEffect(() => {
+    if (authLoading) return;
     if (supabaseAvailable && user) {
       const supabase = getSupabaseBrowserClient();
       if (supabase) {
@@ -53,7 +54,7 @@ export function useFoodDiary() {
     }
     setEntries(getItem(STORAGE_KEY, []));
     setLoaded(true);
-  }, [user, supabaseAvailable]);
+  }, [user, authLoading, supabaseAvailable]);
 
   const addEntry = useCallback(
     (entry: Omit<FoodEntry, 'id'>) => {

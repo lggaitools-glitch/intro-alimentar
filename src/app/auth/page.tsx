@@ -35,8 +35,14 @@ export default function AuthPage() {
         setMessage('Te hemos enviado un enlace para restablecer tu contraseña.');
       }
     } catch (err: unknown) {
-      const msg = err instanceof Error ? err.message : 'Ha ocurrido un error';
-      setError(msg);
+      const raw = err instanceof Error ? err.message : 'Ha ocurrido un error';
+      const translations: Record<string, string> = {
+        'Email not confirmed': 'Debes confirmar tu correo antes de iniciar sesión. Revisa tu bandeja de entrada.',
+        'Invalid login credentials': 'Correo o contraseña incorrectos.',
+        'User already registered': 'Ya existe una cuenta con este correo.',
+        'Password should be at least 6 characters': 'La contraseña debe tener al menos 6 caracteres.',
+      };
+      setError(translations[raw] || raw);
     } finally {
       setSubmitting(false);
     }

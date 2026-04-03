@@ -132,12 +132,20 @@ export default function AuthPage() {
               </>
             )}
             {mode === 'signup' && (
-              <p className="text-text-muted">
-                ¿Ya tienes cuenta?{' '}
-                <button onClick={() => { setMode('signin'); setError(''); setMessage(''); }} className="text-green-dark font-medium hover:underline">
-                  Inicia sesión
-                </button>
-              </p>
+              <>
+                <p className="text-text-muted">
+                  Al crear tu cuenta, aceptas nuestra{' '}
+                  <Link href="/privacy" className="text-green-dark hover:underline">
+                    política de privacidad
+                  </Link>
+                </p>
+                <p className="text-text-muted">
+                  ¿Ya tienes cuenta?{' '}
+                  <button onClick={() => { setMode('signin'); setError(''); setMessage(''); }} className="text-green-dark font-medium hover:underline">
+                    Inicia sesión
+                  </button>
+                </p>
+              </>
             )}
             {mode === 'forgot' && (
               <button onClick={() => { setMode('signin'); setError(''); setMessage(''); }} className="text-green-dark hover:underline">

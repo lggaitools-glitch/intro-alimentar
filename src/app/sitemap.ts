@@ -19,6 +19,8 @@ const routes = [
   '/blog/alimentos-prohibidos-bebes',
   '/blog/introduccion-alergenos-bebes',
   '/infographics',
+  '/privacy',
+  '/account',
 ]
 
 const locales = ['es', 'en', 'pt-br']

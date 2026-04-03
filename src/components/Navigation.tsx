@@ -32,9 +32,9 @@ export default function Navigation() {
           <div className="bg-white/90 backdrop-blur-sm rounded-xl px-3 py-1.5 shadow-sm border border-cream-dark flex items-center gap-2 text-xs">
             {user ? (
               <>
-                <span className="text-text-secondary truncate max-w-[120px]">
+                <Link href="/account" className="text-text-secondary truncate max-w-[120px] hover:text-green-dark transition">
                   {profile.name || user.email}
-                </span>
+                </Link>
                 <button
                   onClick={() => signOut()}
                   className="text-red-app hover:underline font-medium"

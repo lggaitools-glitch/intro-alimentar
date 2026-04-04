@@ -5,403 +5,530 @@
  <url>
   <loc>https://introalimentar.com</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1</priority>
   <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com?lang=es"/>
   <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com?lang=en"/>
   <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com"/>
  </url>
  <url>
   <loc>https://introalimentar.com/blog</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.9</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/blog?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/blog?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/blog?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/blog"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.9</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods"/>
  </url>
  <url>
   <loc>https://introalimentar.com/learn</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/learn?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/learn?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/learn?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/learn"/>
  </url>
  <url>
   <loc>https://introalimentar.com/reference</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/reference?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/reference?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/reference?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/reference"/>
  </url>
  <url>
   <loc>https://introalimentar.com/infographics</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.7</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/infographics?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/infographics?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/infographics?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/infographics"/>
  </url>
 
  <!-- Blog -->
  <url>
   <loc>https://introalimentar.com/blog/guia-alimentacion-complementaria</loc>
-  <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.9</priority>
+  <lastmod>2026-04-02</lastmod>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/blog/guia-alimentacion-complementaria?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/blog/guia-alimentacion-complementaria?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/blog/guia-alimentacion-complementaria?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/blog/guia-alimentacion-complementaria"/>
  </url>
  <url>
   <loc>https://introalimentar.com/blog/blw-que-es-como-empezar</loc>
-  <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.9</priority>
+  <lastmod>2026-04-02</lastmod>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/blog/blw-que-es-como-empezar?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/blog/blw-que-es-como-empezar?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/blog/blw-que-es-como-empezar?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/blog/blw-que-es-como-empezar"/>
  </url>
  <url>
   <loc>https://introalimentar.com/blog/tabla-introduccion-alimentos-bebe</loc>
-  <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.9</priority>
+  <lastmod>2026-04-02</lastmod>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/blog/tabla-introduccion-alimentos-bebe?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/blog/tabla-introduccion-alimentos-bebe?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/blog/tabla-introduccion-alimentos-bebe?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/blog/tabla-introduccion-alimentos-bebe"/>
  </url>
  <url>
   <loc>https://introalimentar.com/blog/alimentos-prohibidos-bebes</loc>
-  <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.9</priority>
+  <lastmod>2026-04-02</lastmod>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/blog/alimentos-prohibidos-bebes?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/blog/alimentos-prohibidos-bebes?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/blog/alimentos-prohibidos-bebes?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/blog/alimentos-prohibidos-bebes"/>
  </url>
  <url>
   <loc>https://introalimentar.com/blog/introduccion-alergenos-bebes</loc>
-  <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.9</priority>
+  <lastmod>2026-04-02</lastmod>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/blog/introduccion-alergenos-bebes?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/blog/introduccion-alergenos-bebes?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/blog/introduccion-alergenos-bebes?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/blog/introduccion-alergenos-bebes"/>
  </url>
 
  <!-- Guías -->
  <url>
   <loc>https://introalimentar.com/guia/atragantamiento</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.9</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/guia/atragantamiento?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/guia/atragantamiento?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/guia/atragantamiento?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/guia/atragantamiento"/>
  </url>
  <url>
   <loc>https://introalimentar.com/guia/horarios-alimentacion</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.9</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/guia/horarios-alimentacion?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/guia/horarios-alimentacion?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/guia/horarios-alimentacion?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/guia/horarios-alimentacion"/>
  </url>
  <url>
   <loc>https://introalimentar.com/guia/primeros-auxilios-bebe</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.9</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/guia/primeros-auxilios-bebe?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/guia/primeros-auxilios-bebe?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/guia/primeros-auxilios-bebe?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/guia/primeros-auxilios-bebe"/>
  </url>
 
  <!-- Alimentos -->
  <url>
   <loc>https://introalimentar.com/foods/zanahoria</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/zanahoria?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/zanahoria?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/zanahoria?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/zanahoria"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/platano</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/platano?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/platano?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/platano?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/platano"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/manzana</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/manzana?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/manzana?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/manzana?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/manzana"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/pera</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/pera?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/pera?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/pera?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/pera"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/calabacin</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/calabacin?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/calabacin?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/calabacin?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/calabacin"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/patata</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/patata?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/patata?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/patata?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/patata"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/boniato</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/boniato?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/boniato?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/boniato?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/boniato"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/brocoli</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/brocoli?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/brocoli?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/brocoli?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/brocoli"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/aguacate</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/aguacate?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/aguacate?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/aguacate?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/aguacate"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/calabaza</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/calabaza?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/calabaza?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/calabaza?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/calabaza"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/judias-verdes</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/judias-verdes?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/judias-verdes?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/judias-verdes?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/judias-verdes"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/guisantes</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/guisantes?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/guisantes?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/guisantes?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/guisantes"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/pollo</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/pollo?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/pollo?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/pollo?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/pollo"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/ternera</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/ternera?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/ternera?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/ternera?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/ternera"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/salmon</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/salmon?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/salmon?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/salmon?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/salmon"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/merluza</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/merluza?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/merluza?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/merluza?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/merluza"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/huevo</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/huevo?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/huevo?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/huevo?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/huevo"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/leche</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/leche?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/leche?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/leche?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/leche"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/yogur</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/yogur?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/yogur?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/yogur?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/yogur"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/queso</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/queso?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/queso?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/queso?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/queso"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/arroz</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/arroz?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/arroz?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/arroz?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/arroz"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/avena</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/avena?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/avena?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/avena?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/avena"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/pan</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/pan?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/pan?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/pan?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/pan"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/pasta</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/pasta?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/pasta?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/pasta?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/pasta"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/lentejas</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/lentejas?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/lentejas?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/lentejas?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/lentejas"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/garbanzos</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/garbanzos?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/garbanzos?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/garbanzos?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/garbanzos"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/tomate</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/tomate?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/tomate?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/tomate?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/tomate"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/espinacas</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/espinacas?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/espinacas?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/espinacas?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/espinacas"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/pimiento</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/pimiento?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/pimiento?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/pimiento?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/pimiento"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/coliflor</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/coliflor?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/coliflor?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/coliflor?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/coliflor"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/melocoton</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/melocoton?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/melocoton?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/melocoton?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/melocoton"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/sandia</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/sandia?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/sandia?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/sandia?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/sandia"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/melon</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/melon?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/melon?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/melon?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/melon"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/uvas</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/uvas?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/uvas?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/uvas?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/uvas"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/fresa</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/fresa?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/fresa?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/fresa?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/fresa"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/naranja</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/naranja?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/naranja?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/naranja?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/naranja"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/mandarina</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/mandarina?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/mandarina?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/mandarina?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/mandarina"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/ciruela</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/ciruela?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/ciruela?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/ciruela?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/ciruela"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/kiwi</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/kiwi?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/kiwi?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/kiwi?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/kiwi"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/mango</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/mango?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/mango?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/mango?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/mango"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/cerdo</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/cerdo?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/cerdo?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/cerdo?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/cerdo"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/pavo</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/pavo?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/pavo?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/pavo?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/pavo"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/sardinas</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/sardinas?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/sardinas?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/sardinas?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/sardinas"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/atun</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/atun?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/atun?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/atun?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/atun"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/cereales-sin-gluten</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/cereales-sin-gluten?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/cereales-sin-gluten?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/cereales-sin-gluten?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/cereales-sin-gluten"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/maiz</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/maiz?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/maiz?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/maiz?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/maiz"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/quinoa</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/quinoa?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/quinoa?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/quinoa?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/quinoa"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/sesamo</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/sesamo?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/sesamo?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/sesamo?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/sesamo"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/cacahuete</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/cacahuete?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/cacahuete?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/cacahuete?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/cacahuete"/>
  </url>
  <url>
   <loc>https://introalimentar.com/foods/soja</loc>
   <lastmod>2026-04-04</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/foods/soja?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/foods/soja?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/foods/soja?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/foods/soja"/>
  </url>
 
  <!-- Legal -->
  <url>
   <loc>https://introalimentar.com/privacy</loc>
-  <lastmod>2026-04-04</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.3</priority>
+  <lastmod>2026-04-01</lastmod>
+  <xhtml:link rel="alternate" hreflang="es" href="https://introalimentar.com/privacy?lang=es"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://introalimentar.com/privacy?lang=en"/>
+  <xhtml:link rel="alternate" hreflang="pt-br" href="https://introalimentar.com/privacy?lang=pt-br"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://introalimentar.com/privacy"/>
  </url>
 
 </urlset>

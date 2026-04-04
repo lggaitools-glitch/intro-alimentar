@@ -33,6 +33,11 @@ const pages = [
   { path: '/blog/tabla-introduccion-alimentos-bebe', lastmod: '2026-04-02' },
   { path: '/blog/alimentos-prohibidos-bebes', lastmod: '2026-04-02' },
   { path: '/blog/introduccion-alergenos-bebes', lastmod: '2026-04-02' },
+  { path: '/blog/senales-bebe-listo-comer', lastmod: '2026-04-05' },
+  { path: '/blog/blw-vs-pures-que-metodo-elegir', lastmod: '2026-04-05' },
+  { path: '/blog/recetas-faciles-bebes-6-meses', lastmod: '2026-04-05' },
+  { path: '/blog/alimentacion-complementaria-aep-recomendaciones', lastmod: '2026-04-05' },
+  { path: '/blog/plan-semanal-alimentacion-complementaria', lastmod: '2026-04-05' },
 
   // Guides
   { path: '/guia/atragantamiento', lastmod: '2026-04-04' },

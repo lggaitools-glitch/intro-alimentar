@@ -25,7 +25,7 @@ export const articles: Article[] = [
     targetKeyword: 'alimentación complementaria',
     tags: ['alimentación complementaria', 'bebé', 'inicio', 'señales', '6 meses'],
     summary: 'La alimentación complementaria es uno de los hitos más importantes en el desarrollo de tu bebé. En esta guía te explicamos cuándo y cómo empezar, qué señales observar y qué recomiendan los organismos internacionales como la OMS y la AEP.',
-    relatedSlugs: ['blw-que-es-como-empezar', 'tabla-introduccion-alimentos-bebe'],
+    relatedSlugs: ['blw-que-es-como-empezar', 'tabla-introduccion-alimentos-bebe', 'alimentacion-complementaria-aep-recomendaciones'],
     content: `## ¿Qué es la alimentación complementaria?
 
 La alimentación complementaria (AC) es el proceso mediante el cual se introducen alimentos distintos a la leche materna o de fórmula en la dieta del bebé. Este término, definido por la Organización Mundial de la Salud (OMS), no implica que la leche deje de ser importante, sino que se **complementa** con otros alimentos para satisfacer las crecientes necesidades nutricionales del lactante.
@@ -195,7 +195,7 @@ Recuerda siempre que tu pediatra es tu mejor aliado en este camino. Ante cualqui
     targetKeyword: 'BLW qué es',
     tags: ['BLW', 'baby led weaning', 'alimentación autorregulada', 'finger food'],
     summary: 'El BLW o Baby Led Weaning es un método de alimentación complementaria donde el bebé se alimenta por sí mismo con alimentos sólidos desde el inicio, sin pasar por la fase de purés. Descubre cómo practicarlo de forma segura y qué alimentos son ideales para empezar.',
-    relatedSlugs: ['guia-alimentacion-complementaria', 'tabla-introduccion-alimentos-bebe'],
+    relatedSlugs: ['guia-alimentacion-complementaria', 'tabla-introduccion-alimentos-bebe', 'blw-vs-pures-que-metodo-elegir'],
     content: `## ¿Qué es el BLW o Baby Led Weaning?
 
 El BLW, siglas de **Baby Led Weaning** (destete dirigido por el bebé), es un método de alimentación complementaria en el que el bebé se alimenta por sí mismo desde el inicio, utilizando alimentos enteros en lugar de purés y papillas administrados con cuchara por el adulto. En esencia, el bebé es quien decide qué, cuánto y a qué ritmo come, mientras los padres se encargan de ofrecer alimentos seguros y nutritivos.
@@ -395,7 +395,7 @@ No olvides que el mejor método de alimentación complementaria es el que funcio
     targetKeyword: 'tabla introducción alimentos bebé',
     tags: ['tabla alimentos', 'introducción', 'mes a mes', 'calendario', 'AEP'],
     summary: 'Calendario completo de introducción de alimentos para tu bebé desde los 6 hasta los 24 meses, basado en las recomendaciones actualizadas de la AEP 2018. Descubre qué alimentos ofrecer en cada etapa y cómo organizar la diversificación alimentaria.',
-    relatedSlugs: ['alimentos-prohibidos-bebes', 'guia-alimentacion-complementaria'],
+    relatedSlugs: ['alimentos-prohibidos-bebes', 'guia-alimentacion-complementaria', 'plan-semanal-alimentacion-complementaria'],
     content: `## ¿Existe un orden obligatorio para introducir alimentos?
 
 Antes de presentarte la tabla de introducción de alimentos, es fundamental aclarar un punto que la AEP (Asociación Española de Pediatría) destaca en sus recomendaciones de 2018: **no existe un orden estricto obligatorio** para la introducción de alimentos complementarios.
@@ -636,7 +636,7 @@ La introducción de alimentos es un proceso progresivo que debe adaptarse a las 
     targetKeyword: 'alimentos prohibidos bebé',
     tags: ['alimentos prohibidos', 'seguridad', 'bebé', 'peligro', 'evitar'],
     summary: 'Conoce todos los alimentos que debes evitar dar a tu bebé según su edad. Desde los riesgos de botulismo por la miel hasta los peligros del mercurio en ciertos pescados, esta guía te ayuda a proteger la salud de tu hijo.',
-    relatedSlugs: ['tabla-introduccion-alimentos-bebe', 'introduccion-alergenos-bebes'],
+    relatedSlugs: ['tabla-introduccion-alimentos-bebe', 'introduccion-alergenos-bebes', 'recetas-faciles-bebes-6-meses'],
     content: `## ¿Por qué hay alimentos prohibidos para los bebés?
 
 Cuando empezamos la alimentación complementaria de nuestro bebé, es natural querer ofrecerle de todo para que pruebe nuevos sabores. Sin embargo, el organismo de un bebé no es simplemente una versión más pequeña del de un adulto: su sistema digestivo, su sistema inmunológico y su capacidad de masticación y deglución están en pleno desarrollo, lo que hace que ciertos alimentos representen riesgos reales para su salud.
@@ -846,7 +846,7 @@ Conocer los alimentos prohibidos y de riesgo no debe generarte ansiedad, sino tr
     targetKeyword: 'introducción alérgenos bebés',
     tags: ['alérgenos', 'alergia alimentaria', 'introducción temprana', 'evidencia'],
     summary: 'La evidencia científica más reciente ha cambiado radicalmente la forma de introducir alérgenos en bebés. Los estudios LEAP y EAT demuestran que la introducción temprana, desde los 6 meses, reduce significativamente el riesgo de desarrollar alergias alimentarias.',
-    relatedSlugs: ['alimentos-prohibidos-bebes', 'guia-alimentacion-complementaria'],
+    relatedSlugs: ['alimentos-prohibidos-bebes', 'guia-alimentacion-complementaria', 'alimentacion-complementaria-aep-recomendaciones'],
     content: `## El cambio de paradigma en la introducción de alérgenos
 
 Durante décadas, la recomendación médica predominante era retrasar la introducción de los alimentos más alergénicos en la dieta de los bebés. Se aconsejaba no dar huevo hasta los 12 meses, pescado hasta los 9 meses, frutos secos hasta los 3 años e incluso leche de vaca hasta el año. La lógica parecía sencilla: si el sistema inmunológico del bebé es inmaduro, mejor no exponerlo a alérgenos potenciales.
@@ -1080,6 +1080,1316 @@ Consulta siempre con tu pediatra antes de iniciar la alimentación complementari
 - **Estudio EAT** (Enquiring About Tolerance) — New England Journal of Medicine, 2016
 - **OMS** — Alimentación complementaria: https://www.who.int/health-topics/complementary-feeding
 - **ESPGHAN** — Position paper on complementary feeding: https://espghan.org/knowledge-center/publications`
+  },
+  {
+    slug: 'senales-bebe-listo-comer',
+    title: 'Señales de que Tu Bebé Está Listo para Comer: ¿Cómo Saberlo?',
+    metaTitle: 'Señales de que Tu Bebé Está Listo para Comer',
+    metaDescription: 'Descubre las señales de madurez que indican que tu bebé está listo para empezar a comer. Guía basada en recomendaciones de la AEP y la OMS.',
+    date: '2026-04-05',
+    author: 'Equipo IntroAlimentar',
+    readingTime: 10,
+    targetKeyword: 'señales bebé listo comer',
+    tags: ['señales de madurez', 'bebé listo', 'alimentación complementaria', '6 meses', 'desarrollo'],
+    summary: 'Saber cuándo tu bebé está preparado para empezar a comer sólidos es fundamental para una alimentación complementaria exitosa. Te explicamos las señales de madurez reales según la AEP y la OMS, y qué comportamientos NO indican que tu bebé esté listo.',
+    relatedSlugs: ['guia-alimentacion-complementaria', 'blw-vs-pures-que-metodo-elegir', 'recetas-faciles-bebes-6-meses'],
+    content: `## ¿Cuándo está mi bebé listo para comer?
+
+Una de las preguntas más frecuentes entre padres y madres primerizos es: **¿cómo sé que mi bebé está preparado para empezar a comer?** La respuesta no se encuentra en el calendario, sino en el propio bebé. Aunque la Organización Mundial de la Salud (OMS) recomienda la lactancia materna exclusiva durante los primeros seis meses de vida, la edad es solo una referencia orientativa. Lo verdaderamente importante son las **señales de madurez** que tu bebé muestra cuando su organismo está preparado para recibir alimentos distintos a la leche.
+
+La Asociación Española de Pediatría (AEP) señala en sus recomendaciones de 2018 que la decisión de iniciar la alimentación complementaria debe basarse en una combinación de la edad del bebé y la presencia de signos de desarrollo que indican madurez neurológica, motora y digestiva. No se trata de una fecha fija sino de un rango que, en la mayoría de los bebés, se sitúa entre los 5,5 y los 7 meses de edad.
+
+En este artículo te explicamos con detalle cuáles son esas señales, cómo evaluarlas correctamente, qué errores evitar y cuándo consultar con el pediatra.
+
+## Las cuatro señales de madurez fundamentales
+
+Los expertos en nutrición pediátrica coinciden en que hay **cuatro señales clave** que deben estar presentes simultáneamente antes de ofrecer los primeros alimentos al bebé. No basta con que se cumpla una sola; deben observarse todas juntas para garantizar la seguridad y el éxito del proceso.
+
+### 1. Control cefálico y del tronco
+
+Tu bebé debe ser capaz de **mantener la cabeza erguida y estable** sin tambalearse. Además, debe poder sentarse con apoyo mínimo (en una trona, por ejemplo) manteniendo una postura relativamente vertical. Esta capacidad es esencial por dos razones:
+
+- **Seguridad en la deglución:** Un bebé que no controla la cabeza tiene mayor riesgo de atragantamiento, ya que no puede orientar la vía aérea correctamente durante la masticación y el trago.
+- **Posición adecuada para comer:** Comer sentado en posición vertical permite que la gravedad ayude al descenso del alimento por el esófago y reduce el riesgo de aspiración.
+
+La AEP recomienda que el bebé pueda mantenerse sentado en una trona con un apoyo mínimo en la espalda. No es necesario que se siente completamente solo en el suelo, pero sí que mantenga la verticalidad sin desplomarse hacia los lados.
+
+**Cómo evaluarlo en casa:** Sienta a tu bebé en tu regazo o en la trona con el arnés abrochado. Si su cabeza permanece estable, no se balancea hacia adelante o atrás, y puede girar la cabeza para mirar a los lados, esta señal está presente.
+
+### 2. Desaparición del reflejo de extrusión
+
+El **reflejo de extrusión** es un mecanismo de protección con el que nacen todos los bebés. Consiste en empujar con la lengua hacia fuera cualquier objeto sólido o semisólido que entre en la boca. Este reflejo es un indicador de que el sistema nervioso del bebé aún no está preparado para manejar alimentos.
+
+Entre los **4 y los 6 meses**, este reflejo va desapareciendo gradualmente. Cuando desaparece, el bebé es capaz de:
+
+- Mover el alimento desde la parte anterior de la boca hacia la posterior para tragarlo
+- Aceptar una cucharita sin empujarla inmediatamente con la lengua
+- Gestionar pequeñas cantidades de alimento semisólido en la boca
+
+**Cómo evaluarlo en casa:** Ofrece una pequeña cantidad de puré muy diluido o un poco de leche materna extraída con una cucharita suave. Si el bebé empuja sistemáticamente el contenido hacia fuera con la lengua, el reflejo de extrusión sigue presente y es mejor esperar unos días o semanas antes de volver a intentarlo.
+
+### 3. Coordinación ojo-mano-boca
+
+Esta habilidad motora indica que el bebé tiene la capacidad de **ver un alimento, cogerlo con la mano y llevárselo a la boca** de forma intencionada. Es una señal de madurez neuromotora que va más allá del simple acto reflejo de llevarse todo a la boca.
+
+La coordinación ojo-mano-boca es especialmente relevante si planeas practicar el **BLW (Baby Led Weaning)**, ya que en este método el bebé se autoalimenta desde el inicio. Pero incluso en la alimentación con cuchara, esta coordinación indica que el sistema nervioso del bebé ha alcanzado un nivel de desarrollo suficiente para gestionar alimentos.
+
+**Cómo evaluarlo en casa:** Coloca un objeto seguro (un mordedor, una cuchara de silicona) al alcance de tu bebé. ¿Lo mira, lo agarra y lo dirige hacia su boca de forma deliberada? Si la respuesta es sí, esta señal está presente.
+
+### 4. Interés genuino por la comida
+
+Los bebés preparados para la alimentación complementaria suelen mostrar un **interés activo por la comida de los adultos**. Esto se manifiesta de varias formas:
+
+- Sigue con la mirada los alimentos desde el plato hasta la boca de quien come
+- Abre la boca o hace movimientos de masticación cuando ve comer a otros
+- Intenta coger la comida del plato de los adultos
+- Se inclina hacia adelante cuando percibe alimentos cerca
+- Muestra excitación o impaciencia cuando ve preparar comida
+
+Es importante subrayar que el interés por la comida, **por sí solo, no es suficiente**. Muchos bebés de 3-4 meses muestran curiosidad por todo lo que hacen los adultos, incluido comer. Solo es una señal relevante cuando se combina con las otras tres señales de madurez.
+
+## Señales que NO indican que tu bebé está listo
+
+Uno de los errores más comunes es interpretar ciertos comportamientos normales del desarrollo como señales de hambre o de preparación para los sólidos. Estas son las falsas señales más frecuentes:
+
+### Despertarse más por la noche
+
+Muchos padres asumen que si un bebé que dormía bien empieza a despertarse más veces por la noche, es porque **tiene hambre y necesita más comida**. Sin embargo, la evidencia científica muestra que los despertares nocturnos en bebés de 4-6 meses se deben habitualmente a:
+
+- **Regresiones del sueño**, especialmente la muy conocida regresión de los 4 meses
+- Cambios en los ciclos de sueño relacionados con la maduración cerebral
+- Necesidad de contacto y seguridad, no de alimentación
+- Desarrollo de nuevas habilidades (darse la vuelta, balbucear) que los activan mentalmente
+
+Estudios publicados en el Journal of Pediatrics han demostrado que introducir sólidos antes de los 6 meses **no mejora el sueño nocturno** de los bebés.
+
+### Llevarse todo a la boca
+
+A partir de los 3-4 meses, los bebés entran en una **fase oral de exploración** en la que se llevan absolutamente todo a la boca: manos, pies, juguetes, ropa, el pelo de mamá o papá... Este comportamiento es una forma de conocer el mundo a través del sentido del tacto oral y no tiene relación con el hambre.
+
+### Un bebé grande o que pesa mucho
+
+El tamaño del bebé no determina su madurez para la alimentación complementaria. Un bebé del percentil 95 que tiene 4 meses no necesita sólidos antes que uno del percentil 15 de la misma edad. La leche materna o de fórmula sigue siendo suficiente para satisfacer las necesidades calóricas de los bebés sanos hasta los 6 meses, independientemente de su tamaño.
+
+### Que otros bebés de su edad ya coman
+
+Cada bebé tiene su propio ritmo de desarrollo. Que el hijo de una amiga empezara con los sólidos a los 5 meses no significa que tu bebé deba hacer lo mismo. La comparación con otros bebés genera ansiedad innecesaria y puede llevar a decisiones precipitadas.
+
+### Que el bebé se quede con hambre después del pecho
+
+A veces los bebés maman con más frecuencia en ciertas etapas (picos de crecimiento, necesidad de consuelo) y los padres interpretan esto como hambre insatisfecha. En realidad, el aumento de las tomas suele ser temporal y forma parte del mecanismo de regulación de la producción de leche materna.
+
+## La ventana de oportunidad: ni antes ni después
+
+### ¿Por qué no antes de los 4 meses?
+
+La AEP y la OMS son claras: **no se debe iniciar la alimentación complementaria antes de los 4 meses** (17 semanas) de edad. Las razones son médicas y bien documentadas:
+
+- El **sistema digestivo** no está preparado para procesar alimentos distintos a la leche. Las enzimas digestivas necesarias para metabolizar almidones y proteínas complejas aún no se producen en cantidad suficiente.
+- El **sistema renal** inmaduro no puede manejar la carga de solutos que aportan los alimentos sólidos.
+- El **reflejo de extrusión** sigue activo, lo que dificulta la ingesta segura.
+- Existe **mayor riesgo de obesidad infantil** a largo plazo, según múltiples estudios epidemiológicos.
+- Puede **interferir con la lactancia materna** al reducir la frecuencia de las tomas y, por tanto, la producción de leche.
+
+### ¿Por qué no retrasar más allá de los 7 meses?
+
+Del mismo modo, esperar demasiado también presenta inconvenientes:
+
+- Las **reservas de hierro** del bebé, acumuladas durante el último trimestre de embarazo, se agotan en torno a los 6 meses. Sin una fuente externa de hierro, aumenta el riesgo de anemia ferropénica.
+- Se pierde la **ventana de oportunidad para la aceptación de sabores y texturas**. Entre los 6 y los 9 meses, los bebés son especialmente receptivos a nuevos alimentos; después, tienden a rechazar más las novedades (neofobia alimentaria).
+- La **introducción tardía de alérgenos** puede aumentar el riesgo de alergias alimentarias, según los estudios LEAP y EAT.
+- El aporte calórico de la leche sola puede resultar insuficiente para un bebé en pleno crecimiento.
+
+## Casos especiales: ¿cambian las señales?
+
+### Bebés prematuros
+
+En bebés nacidos antes de término, las señales de madurez deben evaluarse según la **edad corregida** (la que tendría el bebé si hubiera nacido en la fecha prevista de parto), no la edad cronológica. Un bebé nacido con 34 semanas de gestación necesitará, en general, más tiempo para mostrar las señales de madurez.
+
+La AEP recomienda que en prematuros la introducción de la alimentación complementaria se valore siempre de forma individual con el pediatra, considerando el grado de prematuridad y la evolución del desarrollo motor.
+
+### Bebés con retraso del desarrollo motor
+
+Algunos bebés pueden tardar más en alcanzar hitos motores como el control cefálico o la sedestación. En estos casos, es importante no forzar la alimentación complementaria y consultar con el pediatra o un especialista en desarrollo infantil para establecer el momento más adecuado y seguro.
+
+### Bebés con riesgo alérgico alto
+
+Los bebés con antecedentes familiares de alergias alimentarias, eczema atópico o asma deben iniciar la alimentación complementaria con supervisión pediátrica estrecha. Paradójicamente, los estudios recientes sugieren que en estos bebés es especialmente importante **no retrasar** la introducción de alérgenos, ya que hacerlo podría aumentar el riesgo de sensibilización.
+
+## Cómo prepararte para el inicio
+
+Una vez que has identificado todas las señales de madurez en tu bebé, es momento de prepararte para dar el gran paso. Aquí tienes una lista práctica:
+
+### Equipamiento básico
+
+- **Trona estable** con arnés de seguridad y reposapiés
+- **Baberos con recogedor** (te ahorrarán mucha ropa)
+- **Cucharas de silicona** suave si vas a usar el método tradicional
+- **Platos con ventosa** para que no acaben en el suelo
+- **Vaso de aprendizaje** abierto o con boquilla suave
+
+### Preparación emocional
+
+- Acepta que la mayoría de la comida acabará en el suelo, en el pelo y en la ropa durante las primeras semanas
+- Entiende que las primeras tomas son **exploración**, no alimentación real
+- No esperes que tu bebé coma cantidades significativas al principio
+- Prepárate para respetar el ritmo de tu bebé sin forzar
+
+### Seguridad
+
+- Aprende a **diferenciar arcada de atragantamiento** antes de empezar (la arcada es un reflejo protector normal y frecuente; el atragantamiento requiere intervención)
+- Haz un curso básico de **primeros auxilios pediátricos** (muchos centros de salud los ofrecen gratuitamente)
+- Ten siempre el teléfono de emergencias a mano: **112**
+- Nunca dejes al bebé solo mientras come
+
+## Test de madurez: ¿está tu bebé preparado?
+
+Responde a estas preguntas para evaluar si tu bebé muestra las señales de madurez necesarias:
+
+- **¿Tiene al menos 5,5 meses de edad** (o edad corregida en prematuros)?
+- **¿Mantiene la cabeza erguida y estable** cuando está sentado en la trona?
+- **¿Se sienta con apoyo mínimo** sin desplomarse hacia los lados?
+- **¿Ha desaparecido el reflejo de extrusión?** (No empuja sistemáticamente con la lengua lo que entra en su boca)
+- **¿Coge objetos y se los lleva a la boca** de forma intencionada?
+- **¿Muestra interés activo** cuando ve comer a los demás?
+
+Si has respondido **sí a todas las preguntas**, tu bebé probablemente está listo para empezar la alimentación complementaria. Si alguna respuesta es negativa, no hay prisa: espera unos días o semanas y vuelve a evaluar.
+
+La app IntroAlimentar incluye un **verificador de señales de madurez** interactivo que te guía paso a paso en esta evaluación y te ayuda a determinar con confianza si tu bebé está preparado.
+
+## Cuándo consultar al pediatra
+
+Aunque la mayoría de los bebés muestran las señales de madurez entre los 5,5 y los 7 meses, hay situaciones que requieren valoración médica:
+
+- Tu bebé tiene **más de 7 meses** y no muestra las señales de madurez
+- Tu bebé fue **prematuro** y no sabes cuándo empezar
+- Hay **antecedentes familiares de alergias alimentarias** graves
+- Tu bebé tiene alguna **condición médica** que pueda afectar a la alimentación (reflujo grave, problemas neurológicos, cardiopatía)
+- Tienes **dudas** sobre si las señales que observas son realmente indicadoras de madurez
+
+## Conclusión
+
+Reconocer las señales de madurez de tu bebé es el primer paso para una alimentación complementaria exitosa y segura. No te dejes presionar por el calendario, por las comparaciones con otros bebés ni por consejos bienintencionados pero desactualizados de familiares. **Observa a tu bebé**, confía en su ritmo de desarrollo y apóyate en las recomendaciones de la AEP y la OMS.
+
+Recuerda: las cuatro señales clave (control cefálico, desaparición del reflejo de extrusión, coordinación ojo-mano-boca e interés por la comida) deben estar presentes simultáneamente. Cuando lo estén, tu bebé te estará diciendo con su cuerpo que está preparado para esta nueva y emocionante etapa.
+
+## Fuentes
+
+- **AEP** — Recomendaciones sobre alimentación complementaria del Comité de Nutrición y Lactancia Materna (2018): https://www.aeped.es/comite-nutricion-y-lactancia-materna/nutricion-infantil/documentos/recomendaciones-sobre-alimentacion-complementaria
+- **OMS** — Directrices sobre alimentación complementaria (2023): https://www.who.int/health-topics/complementary-feeding
+- **ESPGHAN** — Position paper on complementary feeding (2017): https://espghan.org/knowledge-center/publications
+- **Journal of Pediatrics** — Introducción temprana de sólidos y sueño infantil: https://www.jpeds.com`
+  },
+  {
+    slug: 'blw-vs-pures-que-metodo-elegir',
+    title: 'BLW vs Purés: ¿Qué Método de Alimentación Complementaria Elegir?',
+    metaTitle: 'BLW vs Purés: Qué Método Elegir para Tu Bebé',
+    metaDescription: 'Comparamos BLW y purés tradicionales: ventajas, inconvenientes, seguridad y cómo combinar ambos métodos. Guía basada en evidencia científica.',
+    date: '2026-04-05',
+    author: 'Equipo IntroAlimentar',
+    readingTime: 11,
+    targetKeyword: 'BLW vs purés',
+    tags: ['BLW', 'purés', 'alimentación complementaria', 'métodos', 'comparativa'],
+    summary: '¿BLW o purés? Comparamos ambos métodos de alimentación complementaria con evidencia científica. Descubre las ventajas e inconvenientes de cada uno y por qué el enfoque mixto puede ser la mejor opción para muchas familias.',
+    relatedSlugs: ['blw-que-es-como-empezar', 'senales-bebe-listo-comer', 'recetas-faciles-bebes-6-meses'],
+    content: `## BLW vs purés: el gran debate de la alimentación complementaria
+
+Cuando llega el momento de iniciar la alimentación complementaria, una de las primeras decisiones a las que se enfrentan las familias es **qué método utilizar**. ¿Le damos purés con cuchara como se ha hecho toda la vida? ¿O probamos el BLW (Baby Led Weaning), ese método que está tan de moda en redes sociales? ¿Podemos combinar ambos?
+
+La buena noticia es que **la ciencia no da un ganador absoluto**. Tanto los purés como el BLW son métodos válidos para introducir alimentos al bebé, siempre que se hagan correctamente y se respeten las señales de madurez del bebé. Lo importante no es tanto el formato del alimento sino la calidad nutricional, la seguridad y el respeto por las señales de hambre y saciedad del bebé.
+
+En este artículo analizamos con detalle ambos métodos, sus ventajas e inconvenientes basados en la evidencia científica actual, y te ayudamos a tomar una decisión informada.
+
+## ¿Qué es el método tradicional con purés?
+
+El método tradicional de alimentación complementaria se basa en la **introducción progresiva de alimentos triturados o en puré**, ofrecidos con cuchara por el adulto. Ha sido el enfoque predominante durante décadas y sigue siendo el más practicado en España y Latinoamérica.
+
+### Cómo funciona
+
+1. Se comienza con purés suaves y homogéneos (textura muy fina)
+2. Gradualmente se aumenta la textura: de puré fino → puré con grumos → alimentos aplastados con tenedor → trocitos blandos
+3. El adulto controla la cantidad y el ritmo de la alimentación con la cuchara
+4. Hacia los 8-10 meses se van incorporando alimentos en trozos más grandes
+
+### Ventajas de los purés
+
+- **Mayor control de la ingesta:** Los padres pueden cuantificar mejor cuánto come el bebé, lo que puede reducir la ansiedad familiar.
+- **Menor sensación de riesgo:** Al ser alimentos triturados, muchos padres se sienten más seguros respecto al atragantamiento.
+- **Facilidad para incorporar hierro:** Es más sencillo mezclar carnes, legumbres y verduras ricas en hierro en un puré homogéneo.
+- **Adaptable a cuidadores externos:** Guarderías y abuelos suelen estar más familiarizados con este método.
+- **Menor desperdicio aparente de comida:** Aunque esto depende mucho de cada bebé.
+
+### Inconvenientes de los purés
+
+- **Retraso en la exposición a texturas:** Si se mantiene demasiado tiempo con purés finos, el bebé puede tener dificultades para aceptar texturas más adelante. La AEP recomienda no prolongar las texturas homogéneas más allá de los 8-9 meses.
+- **Menor autonomía del bebé:** El adulto decide cuándo entra cada cucharada, lo que puede dificultar la autorregulación del apetito.
+- **Posible sobrealimentación:** Al ser el adulto quien controla el ritmo, existe riesgo de insistir cuando el bebé ya está saciado.
+- **Menos exploración sensorial:** El bebé no manipula, huele ni experimenta con los alimentos de la misma manera.
+
+## ¿Qué es el BLW (Baby Led Weaning)?
+
+El BLW, o **alimentación autodirigida por el bebé**, fue popularizado por la enfermera británica Gill Rapley en 2008. Su principio fundamental es que el bebé se alimenta solo, desde el inicio, con alimentos sólidos presentados en formatos que pueda agarrar y llevarse a la boca por sí mismo.
+
+### Cómo funciona
+
+1. Se ofrecen alimentos blandos cortados en forma de bastón, tira o formato que el bebé pueda sujetar con la mano
+2. El bebé decide qué alimento coger, cuánto comer y a qué ritmo
+3. No se utilizan purés ni cuchara (al menos en el BLW puro)
+4. El bebé come lo mismo que la familia, adaptado en formato y sin sal ni azúcar
+
+### Ventajas del BLW
+
+- **Favorece la autorregulación del apetito:** El bebé come según su hambre y saciedad real, lo que según estudios podría reducir el riesgo de sobrepeso infantil a largo plazo.
+- **Desarrollo de la motricidad fina:** Agarrar, manipular y llevar alimentos a la boca estimula la coordinación ojo-mano-boca.
+- **Exposición temprana a texturas variadas:** El bebé experimenta desde el inicio con distintas consistencias, lo que facilita la aceptación de alimentos sólidos más adelante.
+- **Participación en las comidas familiares:** El bebé come a la vez que el resto de la familia, fomentando la socialización alimentaria.
+- **Mayor exploración sensorial:** El bebé toca, huele, aplasta y experimenta con los alimentos, lo que favorece el desarrollo sensorial y una relación más positiva con la comida.
+
+### Inconvenientes del BLW
+
+- **Mayor ansiedad familiar por atragantamiento:** Aunque los estudios muestran que el BLW bien practicado no aumenta el riesgo real de atragantamiento, las arcadas frecuentes durante las primeras semanas pueden generar mucha angustia en los padres.
+- **Mayor desperdicio de comida:** Especialmente al principio, gran parte del alimento acaba en el suelo, en la trona o en el pelo del bebé.
+- **Dificultad para cuantificar la ingesta:** No siempre es fácil saber cuánto ha comido realmente el bebé.
+- **Posible menor ingesta de hierro al inicio:** Algunos estudios sugieren que los bebés en BLW puro pueden ingerir menos hierro en las primeras semanas, ya que las fuentes principales de hierro (carnes, legumbres) requieren cierta habilidad masticatoria.
+- **Más lío:** La limpieza post-comida puede ser más laboriosa. Un mantel en el suelo y un babero con recogedor son imprescindibles.
+
+## ¿Qué dice la ciencia?
+
+### Estudios clave sobre BLW vs purés
+
+La investigación científica sobre BLW ha crecido significativamente en los últimos años. Estos son los hallazgos más relevantes:
+
+**Estudio BLISS (2016, Nueva Zelanda):** Este ensayo controlado aleatorizado, publicado en BMC Pediatrics, comparó una versión modificada del BLW (llamada BLISS: Baby-Led Introduction to Solids) con el método tradicional. Los resultados mostraron que:
+
+- No hubo diferencias significativas en el riesgo de atragantamiento entre ambos grupos
+- Los bebés BLISS mostraron mejor autorregulación del apetito
+- No hubo diferencias en el crecimiento ni en la ingesta de hierro cuando se incluían alimentos ricos en hierro desde el inicio
+
+**Revisión sistemática de la OMS (2023):** Las directrices actualizadas de la OMS señalan que no hay evidencia suficiente para recomendar un método sobre otro. Lo relevante es que la alimentación sea **nutritiva, segura y perceptiva** (respondiendo a las señales del bebé).
+
+**Estudio de Fangupo et al. (2016):** Este estudio encontró que los bebés en BLW tenían más episodios de arcada pero **no más episodios de atragantamiento real** que los alimentados con cuchara, siempre que se siguieran las pautas de seguridad.
+
+### La conclusión de la evidencia
+
+La literatura científica actual sugiere que:
+
+- Ambos métodos son **seguros** cuando se practican correctamente
+- El BLW puede favorecer la **autorregulación del apetito** y la aceptación de texturas
+- Los purés ofrecen **mayor control sobre la ingesta de nutrientes**, especialmente hierro
+- **No hay evidencia de que un método sea claramente superior al otro** en términos de desarrollo, crecimiento o salud a largo plazo
+
+## El enfoque mixto: lo mejor de ambos mundos
+
+Cada vez más profesionales de la salud y la propia AEP reconocen que **no es necesario elegir un método exclusivo**. El enfoque mixto, también llamado BLISS (Baby Led Introduction to Solids) o alimentación complementaria combinada, integra lo mejor de ambos métodos:
+
+### Cómo practicar el enfoque mixto
+
+- **Ofrece alimentos en trozos** que el bebé pueda coger y explorar por sí mismo (verduras blandas, frutas maduras, tiras de carne desmenuzada)
+- **Complementa con cuchara** cuando sea necesario: purés ricos en hierro, yogur, cremas de legumbres
+- **Deja que el bebé participe activamente:** Incluso cuando uses cuchara, puedes dejar que sea el bebé quien la lleve a su boca o que coma con las manos en paralelo
+- **Respeta siempre las señales de hambre y saciedad:** Independientemente del formato, nunca fuerces
+
+### Ventajas del enfoque mixto
+
+- Combina la **exposición a texturas** del BLW con el **aporte nutricional garantizado** de los purés
+- Reduce la ansiedad parental al ofrecer una vía más flexible
+- Se adapta mejor a diferentes contextos (casa, guardería, restaurante, casa de los abuelos)
+- Permite al bebé desarrollar habilidades motoras mientras asegura una ingesta adecuada de nutrientes
+
+## Seguridad alimentaria: reglas comunes a ambos métodos
+
+Independientemente del método que elijas, estas normas de seguridad son **imprescindibles**:
+
+### Alimentos prohibidos antes del año
+
+- **Miel:** riesgo de botulismo infantil
+- **Frutos secos enteros o troceados:** riesgo de atragantamiento (se pueden ofrecer molidos o en crema)
+- **Alimentos redondos y duros:** uvas enteras, cherry, aceitunas, palomitas, caramelos. Las uvas y los cherry deben cortarse en cuartos longitudinales
+- **Sal y azúcar añadidos:** los riñones del bebé no pueden procesar el exceso de sodio; el azúcar crea preferencia por sabores dulces
+- **Pescados con alto contenido en mercurio:** pez espada, atún rojo, tiburón, lucio
+
+### Cortes seguros para BLW y finger food
+
+- **6-7 meses:** Tiras largas del tamaño de un dedo adulto, para que sobresalga del puño del bebé
+- **8-9 meses:** Trozos más pequeños conforme desarrolla la pinza (pulgar-índice)
+- **Siempre blandos:** El alimento debe poder aplastarse fácilmente entre el pulgar y el índice del adulto
+- **Nunca redondo y duro:** Cortar uvas, tomates cherry y similares en cuartos longitudinales
+
+### Arcada vs atragantamiento
+
+Es crucial distinguir entre:
+
+- **Arcada (gag reflex):** Es un reflejo protector normal. El bebé tose, hace ruido, puede ponerse rojo y los ojos se le humedecen, pero sigue respirando. Es más frecuente en BLW y suele asustar mucho a los padres, pero es un mecanismo de defensa que muestra que el sistema de protección de la vía aérea funciona correctamente. **No se debe intervenir.**
+- **Atragantamiento real:** El bebé no emite sonido, no puede toser, puede ponerse pálido o azulado. **Requiere intervención inmediata** con maniobras de desobstrucción pediátrica.
+
+## ¿Cómo elegir el mejor método para tu familia?
+
+La decisión no debería basarse en tendencias o modas, sino en las circunstancias de tu familia. Considera estos factores:
+
+### Elige purés si...
+
+- Sientes mucha ansiedad por el atragantamiento y no te sientes preparado/a para el BLW
+- Tu bebé va a la guardería donde solo ofrecen purés
+- Los cuidadores habituales (abuelos, canguro) no están familiarizados con el BLW
+- Prefieres poder cuantificar la ingesta de tu bebé
+
+### Elige BLW si...
+
+- Te has formado en seguridad alimentaria y primeros auxilios pediátricos
+- Puedes gestionar la ansiedad de las arcadas iniciales
+- Tu bebé muestra todas las señales de madurez, especialmente buena coordinación ojo-mano-boca
+- Valoras la autonomía alimentaria y la exploración sensorial
+
+### Elige enfoque mixto si...
+
+- Quieres lo mejor de ambos mundos sin restricciones rígidas
+- Tu bebé come en diferentes entornos con diferentes cuidadores
+- Quieres asegurar el aporte de hierro sin renunciar a la autonomía del bebé
+- No quieres complicarte con reglas estrictas de un solo método
+
+## Errores comunes al elegir método
+
+- **Creer que el BLW es solo darle comida al bebé y ya:** El BLW requiere preparación: cortes seguros, formación en primeros auxilios, selección de alimentos apropiados y supervisión constante.
+- **Mantener los purés finos demasiado tiempo:** Si usas purés, empieza a aumentar las texturas a partir de los 7-8 meses. La AEP alerta de que retrasar las texturas puede dificultar la aceptación de sólidos más adelante.
+- **Mezclar métodos con culpa:** Usar cuchara un día y BLW al siguiente no es contradictorio ni confunde al bebé. La flexibilidad es una virtud.
+- **Forzar un método porque otra familia lo hace:** Lo que funciona para una familia puede no funcionar para otra. No hay medallas por ser purista de ningún método.
+
+## Conclusión
+
+Ni BLW ni purés son intrínsecamente mejores o peores. **El mejor método es el que funciona para tu familia**, el que te permite alimentar a tu bebé con seguridad, con alimentos nutritivos y variados, y sin que las comidas se conviertan en una fuente de estrés. La ciencia respalda ambos enfoques y cada vez más apoya el **enfoque mixto** como una opción práctica y equilibrada.
+
+Lo verdaderamente importante es que tu bebé reciba una alimentación complementaria nutritiva, segura y respetuosa con sus señales de hambre y saciedad. El formato es secundario.
+
+La app IntroAlimentar te ayuda a planificar las comidas de tu bebé independientemente del método que elijas, con un **plan semanal personalizado** que incluye opciones en puré y en formato BLW, para que adaptes cada comida a tu situación.
+
+## Fuentes
+
+- **AEP** — Recomendaciones sobre alimentación complementaria (2018): https://www.aeped.es/comite-nutricion-y-lactancia-materna/nutricion-infantil/documentos/recomendaciones-sobre-alimentacion-complementaria
+- **OMS** — Directrices sobre alimentación complementaria (2023): https://www.who.int/health-topics/complementary-feeding
+- **Estudio BLISS** — BMC Pediatrics, 2016: Baby-Led Introduction to Solids
+- **Rapley, G.** — Baby-Led Weaning: The Essential Guide to Introducing Solid Foods, 2008
+- **Fangupo et al.** — A baby-led approach to eating solids and risk of choking, Pediatrics, 2016
+- **ESPGHAN** — Position paper on complementary feeding: https://espghan.org/knowledge-center/publications`
+  },
+  {
+    slug: 'recetas-faciles-bebes-6-meses',
+    title: 'Recetas Fáciles para Bebés de 6 Meses: Primeros Alimentos',
+    metaTitle: 'Recetas Fáciles para Bebés de 6 Meses',
+    metaDescription: 'Recetas fáciles y nutritivas para bebés de 6 meses. Primeros purés, finger foods para BLW y combinaciones ricas en hierro aprobadas por pediatras.',
+    date: '2026-04-05',
+    author: 'Equipo IntroAlimentar',
+    readingTime: 12,
+    targetKeyword: 'recetas bebés 6 meses',
+    tags: ['recetas', 'bebés 6 meses', 'primeros alimentos', 'purés', 'BLW', 'hierro'],
+    summary: 'Recopilación de recetas fáciles y nutritivas para los primeros alimentos de tu bebé a los 6 meses. Incluye opciones en puré y en formato BLW, priorizando alimentos ricos en hierro según las recomendaciones de la AEP y la OMS.',
+    relatedSlugs: ['blw-vs-pures-que-metodo-elegir', 'tabla-introduccion-alimentos-bebe', 'plan-semanal-alimentacion-complementaria'],
+    content: `## Primeros alimentos para tu bebé: por dónde empezar
+
+Si tu bebé ya muestra las señales de madurez y has decidido que es momento de iniciar la alimentación complementaria, seguramente te estés preguntando: **¿qué le preparo?** La respuesta es más sencilla de lo que imaginas. Los primeros alimentos no necesitan ser elaborados ni complicados; lo importante es que sean **nutritivos, seguros y adaptados** a la edad del bebé.
+
+La Asociación Española de Pediatría (AEP) dejó atrás la antigua recomendación de un orden estricto de introducción de alimentos. Hoy sabemos que **se puede empezar por prácticamente cualquier grupo alimentario**, siempre priorizando alimentos ricos en hierro, ya que las reservas del bebé se agotan en torno a los 6 meses.
+
+En este artículo te ofrecemos recetas sencillas, rápidas y nutritivas tanto en formato puré como en formato BLW (finger food), para que elijas la opción que mejor se adapte a tu familia.
+
+## Principios básicos antes de cocinar
+
+### Lo que SÍ puedes usar
+
+- **Aceite de oliva virgen extra:** Es la grasa de elección. Puedes añadir un chorrito al puré o untar ligeramente los alimentos para BLW.
+- **Especias suaves:** A partir de los 6 meses puedes usar pequeñas cantidades de comino, cúrcuma, orégano, albahaca o canela. Aportan sabor sin riesgo.
+- **Caldo casero sin sal:** Para cocinar cereales, diluir purés o cocinar legumbres.
+- **Limón o naranja:** Unas gotas de cítrico mejoran la absorción del hierro no hemo de las legumbres y verduras.
+
+### Lo que NO debes añadir
+
+- **Sal:** Los riñones del bebé no pueden procesar el exceso de sodio. Nada de sal antes del año.
+- **Azúcar o miel:** La miel está prohibida antes del año por riesgo de botulismo. El azúcar genera preferencia por sabores dulces.
+- **Leche de vaca como bebida principal:** No debe sustituir la leche materna o de fórmula antes del año, aunque puede usarse en pequeñas cantidades para cocinar.
+- **Frutos secos enteros:** Riesgo de atragantamiento. Sí se pueden usar molidos o en crema.
+
+### Texturas según la edad
+
+- **6-7 meses:** Purés suaves y homogéneos o tiras/bastones blandos del tamaño de un dedo adulto (para BLW)
+- **7-8 meses:** Purés con algunos grumos, alimentos aplastados con tenedor
+- **8-10 meses:** Trocitos blandos, alimentos desmenuzados, pinza digital
+- **10-12 meses:** Comida familiar adaptada (sin sal, sin azúcar, trozos seguros)
+
+## Recetas de purés (método tradicional)
+
+### 1. Puré de boniato y pollo
+
+**Por qué es ideal como primer alimento:** Combina una fuente de hierro hemo (pollo) con un carbohidrato suave y dulce (boniato) que los bebés suelen aceptar muy bien.
+
+**Ingredientes:**
+- 1 pechuga de pollo pequeña (unos 80 g)
+- 1 boniato mediano
+- 1 cucharadita de aceite de oliva virgen extra
+- Agua o caldo casero sin sal
+
+**Preparación:**
+- Pela el boniato y córtalo en dados
+- Cuece el pollo y el boniato en agua o caldo sin sal durante 20 minutos hasta que estén muy tiernos
+- Tritura con batidora añadiendo caldo de cocción hasta obtener la textura deseada
+- Añade el aceite de oliva virgen extra
+- Deja templar antes de servir
+
+**Información nutricional orientativa:** Rico en hierro hemo, vitamina A (boniato), proteínas de alto valor biológico y grasas saludables.
+
+### 2. Crema de lentejas rojas con zanahoria
+
+**Por qué es ideal:** Las lentejas rojas son una de las mejores fuentes de hierro no hemo para bebés. Se cocinan rápido y quedan muy cremosas.
+
+**Ingredientes:**
+- 60 g de lentejas rojas
+- 1 zanahoria mediana
+- 1 trozo pequeño de calabacín
+- 1 cucharadita de aceite de oliva virgen extra
+- Unas gotas de zumo de naranja (potencia la absorción del hierro)
+
+**Preparación:**
+- Lava las lentejas bajo el grifo
+- Pela y corta la zanahoria y el calabacín en trozos pequeños
+- Cuece todo junto en agua sin sal durante 15-20 minutos hasta que las lentejas estén deshechas
+- Tritura hasta obtener una crema suave
+- Añade el aceite de oliva y unas gotas de naranja
+- Sirve templado
+
+### 3. Puré de calabacín, patata y merluza
+
+**Por qué es ideal:** Introduce el pescado blanco, rico en proteínas y bajo en mercurio. El calabacín y la patata suavizan el sabor.
+
+**Ingredientes:**
+- 1 trozo de merluza sin espinas (unos 60 g)
+- 1 patata pequeña
+- 1 calabacín pequeño
+- 1 cucharadita de aceite de oliva virgen extra
+
+**Preparación:**
+- Pela la patata y córtala en dados. Lava y corta el calabacín
+- Cuece la patata y el calabacín en agua sin sal durante 15 minutos
+- Añade la merluza los últimos 5 minutos de cocción
+- Comprueba que no quedan espinas
+- Tritura todo junto con un poco de caldo de cocción
+- Añade el aceite de oliva virgen extra
+
+### 4. Puré de guisantes con pavo
+
+**Por qué es ideal:** Los guisantes aportan hierro, fibra y un sabor dulce natural que gusta a los bebés. El pavo es una carne magra y suave.
+
+**Ingredientes:**
+- 100 g de guisantes (frescos o congelados)
+- 60 g de pechuga de pavo
+- 1 patata pequeña (opcional, para dar cuerpo)
+- 1 cucharadita de aceite de oliva virgen extra
+
+**Preparación:**
+- Cuece el pavo, los guisantes y la patata en agua sin sal durante 20 minutos
+- Tritura todo junto hasta obtener la textura deseada
+- Añade el aceite de oliva
+
+### 5. Papilla de avena con plátano
+
+**Por qué es ideal:** Desayuno o merienda nutritiva. La avena aporta hierro y fibra, y el plátano da dulzor natural y cremosidad.
+
+**Ingredientes:**
+- 2 cucharadas de copos de avena suaves (sin azúcar)
+- 1/2 plátano maduro
+- Leche materna o de fórmula
+
+**Preparación:**
+- Cocina la avena con un poco de agua durante 3-5 minutos
+- Aplasta el plátano con un tenedor
+- Mezcla la avena cocida con el plátano aplastado
+- Añade leche materna o de fórmula hasta conseguir la textura deseada
+
+## Recetas para BLW (finger food)
+
+### 6. Bastones de boniato asado
+
+**Por qué es ideal para BLW:** El boniato asado queda suave por dentro y ligeramente firme por fuera, perfecto para que el bebé lo agarre.
+
+**Ingredientes:**
+- 1 boniato mediano
+- Aceite de oliva virgen extra
+
+**Preparación:**
+- Precalienta el horno a 200°C
+- Pela el boniato y córtalo en bastones del tamaño de un dedo adulto (unos 7-8 cm de largo y 2 cm de ancho)
+- Unta ligeramente con aceite de oliva
+- Hornea 25-30 minutos hasta que estén tiernos (deben aplastarse fácilmente con los dedos)
+- Deja templar antes de servir
+
+**Consejo de seguridad:** Comprueba siempre que el bastón se aplasta fácilmente entre tus dedos antes de dárselo al bebé.
+
+### 7. Tiras de pollo al vapor
+
+**Por qué es ideal para BLW:** El pollo al vapor queda jugoso y tierno. Al cortarlo en tiras, el bebé puede sujetarlo con el puño y mordisquear la parte que sobresale.
+
+**Ingredientes:**
+- 1 pechuga de pollo
+- Unas ramitas de romero o tomillo (opcional)
+
+**Preparación:**
+- Corta la pechuga en tiras de 1-2 cm de ancho y unos 7-8 cm de largo
+- Cocina al vapor durante 15-20 minutos hasta que el pollo esté completamente cocido
+- Desmenuza ligeramente las fibras del pollo con un tenedor para facilitar la masticación del bebé (sin deshacer la tira)
+- Deja templar
+
+### 8. Tortitas de brócoli y avena
+
+**Por qué son ideales para BLW:** Formato fácil de agarrar, nutritivo y versátil. El brócoli aporta vitaminas y la avena, hierro.
+
+**Ingredientes:**
+- 4-5 ramilletes de brócoli
+- 3 cucharadas de copos de avena
+- 1 huevo (si ya se ha introducido)
+- 1 cucharadita de aceite de oliva
+
+**Preparación:**
+- Cuece el brócoli al vapor hasta que esté muy tierno (8-10 minutos)
+- Tritura el brócoli con un tenedor (no hace falta que quede fino, pueden quedar trocitos)
+- Mezcla con la avena y el huevo batido
+- Forma tortitas pequeñas con las manos
+- Cocina en una sartén antiadherente con un poco de aceite, 3 minutos por cada lado
+- Deja enfriar antes de servir
+
+### 9. Palitos de pera madura
+
+**Por qué son ideales para BLW:** La pera madura es blanda, dulce y resbaladiza. Un primer alimento perfecto para practicar la prensión.
+
+**Ingredientes:**
+- 1 pera madura (conferencia o blanquilla)
+
+**Preparación:**
+- Pela la pera y córtala en bastones del tamaño de un dedo adulto
+- Si la pera no está lo suficientemente madura, puedes cocerla al vapor 3-5 minutos para ablandarla
+- Ofrece directamente al bebé
+
+**Truco:** Si los bastones resbalan demasiado, puedes rebozarlos ligeramente en copos de avena molidos para mejorar el agarre.
+
+### 10. Hamburguesas mini de ternera y calabacín
+
+**Por qué son ideales para BLW:** Formato perfecto para agarrar, excelente fuente de hierro hemo. El calabacín aporta humedad y suaviza la textura.
+
+**Ingredientes:**
+- 100 g de carne picada de ternera
+- 1/2 calabacín rallado
+- 1 cucharadita de aceite de oliva
+
+**Preparación:**
+- Ralla el calabacín y escurre el exceso de agua apretando con las manos
+- Mezcla la carne picada con el calabacín rallado
+- Forma mini hamburguesas planas del tamaño de la palma de la mano del bebé
+- Cocina en sartén antiadherente con un poco de aceite, 4-5 minutos por cada lado asegurándote de que queden bien hechas por dentro
+- Deja templar y ofrece al bebé
+
+## Combinaciones estrella para maximizar el hierro
+
+La AEP destaca que los primeros alimentos deben priorizar el aporte de hierro. Estas combinaciones optimizan su absorción:
+
+- **Carne + vitamina C:** Pollo con pimiento rojo, ternera con tomate, pavo con brócoli
+- **Legumbres + vitamina C:** Lentejas con un chorrito de naranja, garbanzos con tomate
+- **Cereales enriquecidos + fruta:** Avena con fresa, arroz con mandarina
+- **Evitar combinaciones que inhiben la absorción:** No mezclar alimentos ricos en hierro con lácteos en la misma toma (el calcio compite con la absorción de hierro)
+
+## Planificación semanal: ejemplo de primera semana
+
+Para ayudarte a organizar las primeras comidas, aquí tienes un ejemplo de primera semana con un alimento nuevo cada 2-3 días:
+
+### Días 1-2: Boniato
+- **Puré:** Boniato cocido y triturado con un poco de aceite de oliva
+- **BLW:** Bastones de boniato asado
+
+### Días 3-4: Pollo
+- **Puré:** Puré de boniato y pollo (receta 1)
+- **BLW:** Tiras de pollo al vapor (receta 7)
+
+### Días 5-6: Calabacín
+- **Puré:** Calabacín cocido y triturado
+- **BLW:** Bastones de calabacín al vapor
+
+### Día 7: Plátano
+- **Puré:** Plátano aplastado con tenedor
+- **BLW:** Media banana con parte de la cáscara (para mejor agarre)
+
+## Consejos para el éxito
+
+- **Ofrece un alimento nuevo cada 2-3 días** para poder identificar posibles reacciones alérgicas
+- **No te desanimes si tu bebé rechaza un alimento:** Los estudios muestran que pueden necesitarse entre 10 y 15 exposiciones antes de que un bebé acepte un sabor nuevo
+- **Cocina sin sal ni azúcar:** El paladar de tu bebé es virgen y no necesita potenciadores de sabor
+- **Congela porciones:** Prepara cantidades más grandes y congela en cubiteras. Un puré bien congelado dura hasta 3 meses
+- **Ofrece agua:** A partir de los 6 meses, ofrece pequeños sorbos de agua en un vaso abierto durante las comidas
+- **No mezcles muchos sabores al principio:** Ofrece alimentos individuales o combinaciones simples de 2-3 ingredientes para que el bebé conozca cada sabor
+
+La app IntroAlimentar incluye un **plan semanal personalizado** que genera recetas adaptadas a la edad de tu bebé y a los alimentos que ya ha probado, ayudándote a diversificar sin perder de vista la seguridad y la nutrición.
+
+## Almacenamiento y seguridad alimentaria
+
+- **Refrigeración:** Los purés caseros se conservan en la nevera durante un máximo de 48-72 horas en recipientes herméticos
+- **Congelación:** Congela en porciones individuales (cubiteras de silicona son ideales). Etiqueta con fecha y contenido. Consumir antes de 3 meses
+- **Descongelación:** Siempre en la nevera (nunca a temperatura ambiente) o directamente al calentar
+- **Recalentamiento:** Calienta hasta que esté bien caliente y deja templar antes de servir. Nunca recalientes más de una vez
+- **Huevo y carne:** Siempre bien cocidos, nunca crudos o poco hechos
+
+## Conclusión
+
+Los primeros alimentos de tu bebé no necesitan ser complicados ni gourmet. Lo importante es que sean **nutritivos, seguros y variados**. Ya sea en formato puré o en formato BLW, prioriza los alimentos ricos en hierro, introduce nuevos sabores de forma progresiva y, sobre todo, disfruta de esta etapa. Las comidas son una oportunidad para el aprendizaje, la exploración y el vínculo familiar.
+
+Recuerda que cada bebé lleva su propio ritmo: algunos devorarán todo desde el primer día y otros necesitarán semanas para aceptar algo más que un par de cucharaditas. Ambas situaciones son completamente normales.
+
+## Fuentes
+
+- **AEP** — Recomendaciones sobre alimentación complementaria del Comité de Nutrición y Lactancia Materna (2018): https://www.aeped.es/comite-nutricion-y-lactancia-materna/nutricion-infantil/documentos/recomendaciones-sobre-alimentacion-complementaria
+- **OMS** — Directrices sobre alimentación complementaria (2023): https://www.who.int/health-topics/complementary-feeding
+- **AESAN** — Agencia Española de Seguridad Alimentaria y Nutrición: https://www.aesan.gob.es/
+- **ESPGHAN** — Position paper on complementary feeding: https://espghan.org/knowledge-center/publications`
+  },
+  {
+    slug: 'alimentacion-complementaria-aep-recomendaciones',
+    title: 'Alimentación Complementaria según la AEP: Resumen de Recomendaciones Oficiales',
+    metaTitle: 'Alimentación Complementaria AEP: Recomendaciones',
+    metaDescription: 'Resumen completo de las recomendaciones oficiales de la AEP sobre alimentación complementaria. Cuándo empezar, orden de alimentos, alérgenos y más.',
+    date: '2026-04-05',
+    author: 'Equipo IntroAlimentar',
+    readingTime: 11,
+    targetKeyword: 'alimentación complementaria AEP',
+    tags: ['AEP', 'recomendaciones oficiales', 'alimentación complementaria', 'pediatría', 'evidencia'],
+    summary: 'Resumen exhaustivo de las recomendaciones oficiales de la AEP (Asociación Española de Pediatría) sobre alimentación complementaria. Qué ha cambiado respecto a las guías anteriores, qué dicen sobre alérgenos, gluten, BLW y orden de introducción de alimentos.',
+    relatedSlugs: ['guia-alimentacion-complementaria', 'introduccion-alergenos-bebes', 'senales-bebe-listo-comer'],
+    content: `## ¿Qué dice la AEP sobre alimentación complementaria?
+
+La **Asociación Española de Pediatría (AEP)**, a través de su Comité de Nutrición y Lactancia Materna, publicó en 2018 un documento de consenso que actualizó significativamente las recomendaciones sobre alimentación complementaria en España. Este documento, junto con las directrices de la OMS actualizadas en 2023, constituye la referencia principal para pediatras y familias en el mundo hispanohablante.
+
+Lo más llamativo de estas recomendaciones es **cuántas cosas han cambiado** respecto a lo que se aconsejaba hace una o dos décadas. Muchas de las pautas que recibieron nuestras madres y abuelas han quedado obsoletas a la luz de la evidencia científica actual. En este artículo desgranamos punto por punto las recomendaciones vigentes de la AEP para que tengas una referencia clara y actualizada.
+
+## Cuándo iniciar la alimentación complementaria
+
+### La recomendación principal
+
+La AEP recomienda **iniciar la alimentación complementaria en torno a los 6 meses de edad**, coincidiendo con la recomendación de la OMS de lactancia materna exclusiva durante los primeros seis meses de vida.
+
+Sin embargo, la AEP matiza que el rango seguro para el inicio se sitúa entre las **17 semanas (4 meses) y las 26 semanas (6 meses)**, siempre que el bebé muestre las señales de madurez necesarias. Esta ventana se establece porque:
+
+- **Antes de las 17 semanas:** El organismo del bebé no está preparado para procesar alimentos distintos a la leche. El sistema digestivo, renal e inmunológico son inmaduros.
+- **Después de las 26 semanas:** Existe riesgo de déficit nutricional, especialmente de hierro, y se pierde la ventana óptima para la aceptación de nuevos sabores y texturas.
+
+### Señales de madurez según la AEP
+
+La AEP establece que antes de iniciar la AC, el bebé debe presentar:
+
+- **Control cefálico estable** y capacidad de mantenerse sentado con apoyo mínimo
+- **Desaparición del reflejo de extrusión** (no empuja sistemáticamente con la lengua lo que entra en la boca)
+- **Coordinación ojo-mano-boca** suficiente para llevar alimentos a la boca
+- **Interés por la comida** de los adultos
+
+### Lo que ya NO recomienda la AEP
+
+Es importante destacar qué recomendaciones **han sido abandonadas**:
+
+- ❌ Ya NO se recomienda esperar a los 6 meses de forma rígida si el bebé muestra todas las señales de madurez antes
+- ❌ Ya NO se establece un orden obligatorio de introducción de alimentos
+- ❌ Ya NO se recomienda retrasar la introducción de alimentos potencialmente alergénicos
+
+## No existe un orden obligatorio de alimentos
+
+### Lo que se decía antes
+
+Durante décadas, la pauta estándar en España era muy rígida:
+1. Primero cereales sin gluten (en biberón o papilla)
+2. Luego frutas (manzana, pera, plátano)
+3. Después verduras
+4. La carne a los 7-8 meses
+5. El pescado blanco a los 9 meses
+6. El huevo (solo yema) a los 10 meses
+7. Las legumbres al año
+8. El pescado azul al año
+
+### Lo que dice la AEP ahora
+
+La AEP establece claramente que **no hay un orden preferente** para la introducción de grupos de alimentos. La evidencia científica no respalda que empezar por cereales sea mejor que empezar por carne, ni que las frutas deban ir antes que las verduras.
+
+Lo que SÍ recomienda la AEP como criterio de priorización es:
+
+- **Priorizar alimentos ricos en hierro** desde el inicio, dado que las reservas se agotan en torno a los 6 meses
+- **Introducir alimentos de todos los grupos** de forma progresiva durante las primeras semanas
+- **Ofrecer variedad** para favorecer la aceptación de diferentes sabores
+
+Esto significa que un bebé puede perfectamente empezar con pollo o lentejas como primer alimento, en lugar de la tradicional papilla de cereales.
+
+## El gluten: cambio radical de postura
+
+### Lo que se decía antes
+
+Se recomendaba retrasar la introducción del gluten hasta los 7-8 meses e introducirlo en pequeñas cantidades mientras se mantenía la lactancia materna, bajo la creencia de que esto prevenía la enfermedad celíaca.
+
+### Lo que dice la AEP ahora
+
+La AEP, basándose en estudios como el estudio **PreventCD** y el **CELIPREV**, concluye que:
+
+- El **momento de introducción del gluten no influye** en el riesgo de desarrollar enfermedad celíaca
+- La **lactancia materna no protege** frente a la enfermedad celíaca (aunque tiene muchos otros beneficios)
+- El gluten puede introducirse a partir de los **6 meses** sin necesidad de una pauta especial
+- No es necesario introducirlo en cantidades pequeñas ni de forma más gradual que cualquier otro alimento
+
+Esto simplifica enormemente la alimentación del bebé: un trozo de pan, pasta cocida o una galleta sin azúcar son opciones perfectamente válidas desde los 6 meses.
+
+## El huevo: ya no se separa yema y clara
+
+### Lo que se decía antes
+
+La recomendación clásica era introducir primero la yema cocida (a los 9-10 meses) y después la clara (al año), por ser la clara la fracción que contiene las proteínas alergénicas (ovoalbúmina y ovomucoide).
+
+### Lo que dice la AEP ahora
+
+La AEP recomienda que el **huevo se introduzca entero** (yema + clara) a partir de los **6 meses**, siempre bien cocinado. Las razones:
+
+- No hay evidencia de que separar yema y clara reduzca el riesgo de alergia al huevo
+- La introducción temprana del huevo completo puede ser **protectora** frente a la alergia, según estudios como el EAT (Enquiring About Tolerance)
+- Simplifica la alimentación familiar
+
+**Formas de ofrecer el huevo a los 6 meses:**
+- Huevo cocido: aplastado en puré o cortado en tiras para BLW
+- Tortilla francesa bien hecha (sin sal): cortada en tiras
+- Revuelto bien cocinado
+
+## Introducción temprana de alérgenos
+
+### La revolución del enfoque preventivo
+
+Quizás el cambio más significativo en las recomendaciones de la AEP es su postura sobre los **alérgenos alimentarios**. Donde antes se recomendaba retrasar, ahora se recomienda introducir tempranamente.
+
+### Lo que dice la AEP
+
+- Los alérgenos alimentarios (huevo, pescado, frutos secos, marisco, leche de vaca, trigo, soja, cacahuete) deben introducirse a partir de los **6 meses**
+- **No hay beneficio en retrasar** su introducción; de hecho, puede ser contraproducente
+- La introducción debe hacerse de forma **individual** (un alérgeno nuevo cada 2-3 días) para poder identificar reacciones
+- Una vez introducido sin reacción, el alérgeno debe **ofrecerse regularmente** (al menos 1-2 veces por semana) para mantener la tolerancia
+
+### Evidencia científica clave
+
+La AEP se apoya en estudios de referencia:
+
+- **Estudio LEAP (2015):** Demostró que la introducción temprana del cacahuete en bebés de alto riesgo alérgico reducía la alergia al cacahuete en un 80%.
+- **Estudio EAT (2016):** Sugirió que la introducción temprana de múltiples alérgenos (desde los 3 meses en el estudio, pero aplicable a partir de los 6 meses en la práctica) puede reducir la incidencia de alergias alimentarias.
+
+### Bebés de alto riesgo
+
+Para bebés con **eczema atópico moderado-grave** o con antecedentes familiares de alergia, la AEP recomienda:
+
+- No retrasar la introducción de alérgenos
+- Considerar la **valoración por un alergólogo pediátrico** antes de introducir alérgenos de alto riesgo
+- Introducir con especial precaución pero sin evitar
+
+## Leche de vaca y otros lácteos
+
+### Leche de vaca como bebida principal
+
+La AEP mantiene que la **leche de vaca entera no debe ser la bebida principal antes del año de vida**. Antes de los 12 meses, la leche materna o de fórmula debe ser la fuente láctea principal.
+
+### Lácteos en preparaciones
+
+Sin embargo, la AEP permite el uso de **pequeñas cantidades de leche de vaca para cocinar** a partir de los 6 meses (por ejemplo, para preparar un puré o una bechamel suave).
+
+### Yogur y queso
+
+- El **yogur natural sin azúcar** puede ofrecerse a partir de los **9 meses** según la AEP (aunque muchos pediatras lo permiten desde los 6 meses si es yogur natural sin azúcar añadido)
+- El **queso fresco** o tierno también puede introducirse a partir de los 9 meses
+- Evitar quesos curados o con moho hasta los 12 meses
+
+## Alimentos a evitar según la AEP
+
+La AEP establece una lista clara de alimentos que **no deben ofrecerse al bebé**:
+
+### Antes del año
+
+- **Miel:** Riesgo de botulismo infantil por esporas de Clostridium botulinum
+- **Sal:** Los riñones inmaduros no pueden excretar el exceso de sodio
+- **Azúcar añadido:** Genera preferencia por sabores dulces y contribuye a la obesidad
+- **Leche de vaca como bebida principal:** Baja en hierro y alta en proteínas para un lactante
+- **Bebidas vegetales** (arroz, avena, almendra) como sustituto de la leche materna o de fórmula
+- **Alimentos con riesgo de atragantamiento** por su forma: uvas enteras, frutos secos enteros, palomitas, salchichas cortadas en rodajas
+
+### Antes de los 3 años
+
+- **Pescados con alto contenido en mercurio:** Pez espada, atún rojo, tiburón y lucio (recomendación de AESAN)
+- **Cabezas de gambas y langostinos:** Alto contenido en cadmio
+- **Espinacas y acelgas en grandes cantidades** antes de los 12 meses (riesgo de metahemoglobinemia por nitratos, según AESAN)
+
+### Nunca en bebés
+
+- **Bebidas azucaradas, zumos** (ni siquiera naturales como bebida habitual): La AEP recomienda evitar el zumo antes del año y limitar su consumo después
+- **Alimentos ultraprocesados:** Galletas, cereales azucarados, potitos industriales con azúcar añadido
+
+## Sobre el BLW y los métodos de alimentación
+
+### La postura de la AEP
+
+La AEP reconoce que el **BLW (Baby Led Weaning)** es un método válido de alimentación complementaria, siempre que:
+
+- Se cumplan las **señales de madurez** del bebé
+- Los alimentos se ofrezcan en **formatos seguros** (texturas blandas, cortes apropiados)
+- Se mantenga la **supervisión** durante las comidas
+- Se prioricen alimentos **ricos en hierro**
+
+La AEP no se pronuncia a favor de un método sobre otro (purés vs BLW) y considera que el **enfoque mixto** es perfectamente válido.
+
+### Alimentación perceptiva
+
+Tanto la AEP como la OMS enfatizan el concepto de **alimentación perceptiva** o responsive feeding:
+
+- Alimentar directamente a los lactantes y ayudar a los niños más mayores cuando comen solos
+- Alimentar despacio y con paciencia, animando pero sin forzar
+- Si el niño rechaza muchos alimentos, experimentar con diferentes combinaciones, texturas y métodos
+- Minimizar las distracciones durante las comidas
+- Hablar con el niño manteniendo contacto visual durante la comida
+
+## Suplementos recomendados por la AEP
+
+### Vitamina D
+
+La AEP recomienda la **suplementación con vitamina D** (400 UI/día) desde el nacimiento hasta al menos los 12 meses de vida, tanto en bebés alimentados con leche materna como con fórmula. Este suplemento es independiente de la alimentación complementaria.
+
+### Hierro
+
+En bebés de riesgo (prematuros, bajo peso al nacer, lactancia materna exclusiva prolongada sin alimentos ricos en hierro), la AEP puede recomendar **suplementación con hierro**. Sin embargo, en la mayoría de los casos, una alimentación complementaria que incluya fuentes de hierro desde el inicio es suficiente.
+
+### Yodo
+
+La AEP recomienda que las madres lactantes reciban **suplementación con yodo** (200 μg/día), lo que beneficia indirectamente al bebé a través de la leche materna.
+
+## Comparación: antes vs ahora
+
+Para visualizar claramente la evolución de las recomendaciones:
+
+### Inicio de la AC
+- **Antes:** A los 4 meses con cereales
+- **AEP 2018:** En torno a los 6 meses, según señales de madurez
+
+### Orden de alimentos
+- **Antes:** Cereales → frutas → verduras → carne → pescado → huevo
+- **AEP 2018:** No hay orden obligatorio. Priorizar hierro
+
+### Gluten
+- **Antes:** Retrasar hasta los 7-8 meses, introducir con lactancia
+- **AEP 2018:** Desde los 6 meses, sin pauta especial
+
+### Huevo
+- **Antes:** Yema a los 9-10 meses, clara al año
+- **AEP 2018:** Huevo completo desde los 6 meses
+
+### Alérgenos
+- **Antes:** Retrasar pescado, frutos secos, marisco...
+- **AEP 2018:** Introducción temprana sin retrasos
+
+### Pescado azul
+- **Antes:** A partir de los 12-18 meses
+- **AEP 2018:** Desde los 6 meses (especies bajas en mercurio)
+
+### BLW
+- **Antes:** No reconocido
+- **AEP 2018:** Método válido con las precauciones adecuadas
+
+## Consejos prácticos basados en la AEP
+
+Para resumir las recomendaciones de la AEP en pautas prácticas para el día a día:
+
+- **Empieza en torno a los 6 meses** cuando veas las señales de madurez
+- **Prioriza alimentos ricos en hierro** desde el primer día: carnes, legumbres, cereales enriquecidos
+- **No sigas un orden rígido:** Introduce los alimentos que tengas disponibles y que sean nutritivos
+- **Introduce alérgenos pronto** y uno a uno cada 2-3 días
+- **No añadas sal, azúcar ni miel**
+- **La leche sigue siendo el alimento principal** hasta los 12 meses
+- **Usa el método que prefieras** (purés, BLW o mixto)
+- **Respeta las señales de hambre y saciedad** de tu bebé
+- **Ofrece variedad** de sabores y texturas desde el inicio
+- **Complementa con vitamina D** según indicación pediátrica
+
+La app IntroAlimentar está diseñada siguiendo las recomendaciones actualizadas de la AEP, con un **plan semanal** que prioriza el hierro, introduce alérgenos de forma metódica y permite personalizar la alimentación de tu bebé según el método que prefieras.
+
+## Conclusión
+
+Las recomendaciones de la AEP sobre alimentación complementaria han evolucionado significativamente en los últimos años, simplificando en muchos aspectos el proceso para las familias. El mensaje central es claro: **no hay un esquema rígido** que seguir. Lo importante es ofrecer alimentos nutritivos, variados y seguros a partir de los 6 meses, priorizando el hierro, sin temer a los alérgenos y respetando siempre el ritmo de cada bebé.
+
+Si recibes consejos contradictorios de familiares, amigos o incluso profesionales de la salud, recuerda que las recomendaciones basadas en evidencia son las de la AEP y la OMS. Ante cualquier duda, consulta con tu pediatra actualizado en las últimas guías.
+
+## Fuentes
+
+- **AEP** — Recomendaciones sobre alimentación complementaria del Comité de Nutrición y Lactancia Materna (2018): https://www.aeped.es/comite-nutricion-y-lactancia-materna/nutricion-infantil/documentos/recomendaciones-sobre-alimentacion-complementaria
+- **OMS** — Directrices sobre alimentación complementaria (2023): https://www.who.int/health-topics/complementary-feeding
+- **Estudio LEAP** — New England Journal of Medicine, 2015
+- **Estudio EAT** — New England Journal of Medicine, 2016
+- **Estudio PreventCD** — Gastroenterology, 2014
+- **AESAN** — Recomendaciones sobre consumo de pescado por presencia de mercurio: https://www.aesan.gob.es/
+- **ESPGHAN** — Position paper on complementary feeding (2017): https://espghan.org/knowledge-center/publications`
+  },
+  {
+    slug: 'plan-semanal-alimentacion-complementaria',
+    title: 'Plan Semanal de Alimentación Complementaria: Semana a Semana',
+    metaTitle: 'Plan Semanal Alimentación Complementaria Bebé',
+    metaDescription: 'Plan semanal detallado para la alimentación complementaria de tu bebé. Menús semana a semana desde los 6 meses con alimentos ricos en hierro.',
+    date: '2026-04-05',
+    author: 'Equipo IntroAlimentar',
+    readingTime: 13,
+    targetKeyword: 'plan semanal alimentación complementaria',
+    tags: ['plan semanal', 'alimentación complementaria', 'menú bebé', 'planificación', '6 meses'],
+    summary: 'Plan semanal detallado para las primeras semanas de alimentación complementaria. Te guiamos semana a semana desde los 6 meses con menús prácticos, alimentos ricos en hierro y la introducción progresiva de nuevos alimentos según la AEP y la OMS.',
+    relatedSlugs: ['recetas-faciles-bebes-6-meses', 'guia-alimentacion-complementaria', 'alimentacion-complementaria-aep-recomendaciones'],
+    content: `## ¿Por qué planificar la alimentación complementaria semana a semana?
+
+Iniciar la alimentación complementaria es un momento emocionante pero también **lleno de dudas**. ¿Qué le doy hoy? ¿Ya puedo probar con este alimento? ¿Cuántas comidas debería hacer? ¿Estoy introduciendo suficiente hierro? Un plan semanal organizado te ayuda a responder todas estas preguntas y a afrontar el proceso con confianza en lugar de improvisación.
+
+La Asociación Española de Pediatría (AEP) no establece un orden obligatorio de introducción de alimentos, pero sí recomienda **priorizar los alimentos ricos en hierro**, introducir **un alimento nuevo cada 2-3 días** para detectar posibles reacciones, y avanzar hacia una **dieta variada** en las primeras semanas. Este plan semanal sigue esas directrices y te ofrece una guía práctica y flexible.
+
+**Importante:** Este plan es orientativo. Cada bebé lleva su propio ritmo y las cantidades que acepte variarán enormemente. Lo fundamental en las primeras semanas es la **exposición y el aprendizaje**, no la cantidad ingerida. La leche materna o de fórmula sigue siendo el alimento principal hasta los 12 meses.
+
+## Antes de empezar: checklist de preparación
+
+Antes de poner en marcha tu plan semanal, asegúrate de tener todo listo:
+
+- **Señales de madurez presentes:** Control cefálico, pérdida del reflejo de extrusión, coordinación ojo-mano-boca e interés por la comida
+- **Equipamiento básico:** Trona estable con arnés, baberos con recogedor, cucharas de silicona (si usas purés), vaso de aprendizaje
+- **Conocimientos de seguridad:** Diferencia entre arcada y atragantamiento, maniobra de desobstrucción pediátrica
+- **Alimentos de calidad:** Frescos, de temporada, sin sal ni azúcar
+- **Paciencia y expectativas realistas:** Las primeras semanas son exploración, no alimentación real
+
+## Semana 1: los primeros contactos (un alimento nuevo cada 2-3 días)
+
+### Objetivo de la semana
+Introducir **3 alimentos individuales** ricos en nutrientes. El bebé hará **1 comida de sólidos al día** (la que mejor encaje en la rutina familiar), manteniendo la lactancia a demanda.
+
+### Días 1-2: Boniato
+
+El boniato es un excelente primer alimento por su sabor dulce natural, textura suave y alto contenido en vitamina A.
+
+**Opción puré:**
+- Boniato cocido y triturado con un chorrito de aceite de oliva virgen extra
+- Ofrece 2-4 cucharaditas. Si rechaza, no insistas
+
+**Opción BLW:**
+- Bastones de boniato asado (200°C, 25 min): del tamaño de un dedo adulto
+- Deja que el bebé lo explore, lo chupe, lo aplaste
+
+**Qué esperar:** Es probable que la mayor parte acabe fuera de la boca. Normal. Es un primer contacto.
+
+### Días 3-4: Pollo
+
+Primera fuente de **hierro hemo**, la prioridad nutricional número uno según la AEP.
+
+**Opción puré:**
+- Pechuga de pollo cocida, triturada con un poco de caldo y aceite de oliva
+- Puedes mezclar con el boniato ya conocido para suavizar el sabor
+
+**Opción BLW:**
+- Tiras de pollo cocido/al vapor, ligeramente desmenuzadas con tenedor para abrir las fibras
+- Del tamaño de un dedo adulto para que sobresalga del puño
+
+### Días 5-7: Calabacín
+
+Introduce una verdura de sabor suave y fácil digestión.
+
+**Opción puré:**
+- Calabacín cocido y triturado con aceite de oliva
+- Puedes mezclar con patata para dar más cuerpo
+
+**Opción BLW:**
+- Bastones de calabacín al vapor (tiernos pero que no se deshagan)
+
+### Resumen Semana 1
+
+- **Alimentos introducidos:** Boniato, pollo, calabacín
+- **Comidas al día:** 1
+- **Leche:** A demanda, sigue siendo el alimento principal
+- **Objetivo:** Exploración y primeros contactos
+
+## Semana 2: ampliando el repertorio
+
+### Objetivo de la semana
+Introducir **3 nuevos alimentos** mientras se mantienen los de la semana anterior. Seguimos con **1 comida de sólidos al día**.
+
+### Días 8-9: Plátano
+
+Fruta muy aceptada por su dulzor natural. Rica en potasio y fácil de preparar.
+
+**Opción puré:**
+- Plátano maduro aplastado con tenedor. No necesita cocción
+
+**Opción BLW:**
+- Media banana con parte de la cáscara para mejor agarre, o tiras de banana
+
+### Días 10-11: Pavo
+
+Segunda fuente de hierro hemo. Carne magra y suave.
+
+**Opción puré:**
+- Pavo cocido triturado con calabacín o boniato
+- Añade aceite de oliva
+
+**Opción BLW:**
+- Tiras de pavo al vapor, desmenuzadas ligeramente
+
+### Días 12-14: Zanahoria
+
+Verdura dulce, rica en betacaroteno. Muy bien aceptada generalmente.
+
+**Opción puré:**
+- Zanahoria cocida y triturada
+- Combina bien con pollo o pavo para un puré completo
+
+**Opción BLW:**
+- Bastones de zanahoria **muy cocida** (debe aplastarse fácilmente). Nunca cruda (riesgo de atragantamiento)
+
+### Resumen Semana 2
+
+- **Alimentos nuevos:** Plátano, pavo, zanahoria
+- **Alimentos conocidos que seguimos ofreciendo:** Boniato, pollo, calabacín
+- **Comidas al día:** 1
+- **Leche:** A demanda
+
+## Semana 3: introducción de legumbres y cereales
+
+### Objetivo de la semana
+Introducir las **legumbres** (fuente clave de hierro no hemo) y los **cereales**. Podemos empezar a probar con **2 comidas al día** si el bebé muestra interés.
+
+### Días 15-16: Lentejas rojas
+
+Las lentejas rojas son ideales por su cocción rápida y textura cremosa. Excelente fuente de hierro no hemo.
+
+**Opción puré:**
+- Crema de lentejas rojas con zanahoria y unas gotas de naranja (la vitamina C potencia la absorción del hierro)
+- Añade aceite de oliva
+
+**Opción BLW:**
+- Tortitas de lentejas: mezcla lentejas cocidas aplastadas con avena y un huevo (si ya se ha introducido), forma tortitas y cocina en sartén
+- Puré espeso que el bebé pueda coger con las manos o con cuchara precargada
+
+### Días 17-18: Avena
+
+Cereal nutritivo, rico en hierro y fibra. Contiene gluten (la AEP permite su introducción desde los 6 meses).
+
+**Opción puré/papilla:**
+- Papilla de avena cocida con leche materna o fórmula
+- Puedes añadir plátano aplastado para dar sabor
+
+**Opción BLW:**
+- Tortitas de avena: mezcla avena con plátano aplastado y un huevo (si ya se ha introducido), cocina en sartén
+
+### Días 19-21: Pera
+
+Fruta suave y jugosa. Introduce variedad en el repertorio de frutas.
+
+**Opción puré:**
+- Pera cocida y aplastada (o cruda si está muy madura)
+
+**Opción BLW:**
+- Bastones de pera madura pelada
+- Si no es suficientemente blanda, cuece al vapor 3-5 minutos
+
+### Resumen Semana 3
+
+- **Alimentos nuevos:** Lentejas rojas, avena (primer cereal con gluten), pera
+- **Total de alimentos introducidos:** 9
+- **Comidas al día:** 1-2
+- **Leche:** A demanda, sigue siendo principal
+
+## Semana 4: primer alérgeno mayor y más variedad
+
+### Objetivo de la semana
+Introducir el **huevo** (alérgeno mayor) y seguir diversificando. Si todo va bien, consolidamos las **2 comidas al día**.
+
+### Días 22-23: Huevo cocido
+
+La AEP recomienda introducir el huevo completo (yema + clara) desde los 6 meses, siempre bien cocido.
+
+**Opción puré:**
+- Huevo duro aplastado con tenedor, mezclado con calabacín u otra verdura conocida
+
+**Opción BLW:**
+- Huevo duro cortado en cuartos longitudinales
+- Tortilla francesa bien hecha, cortada en tiras
+
+**Precaución:** Introduce el huevo en casa, durante la mañana o mediodía, para poder observar al bebé las horas siguientes ante cualquier posible reacción alérgica (urticaria, hinchazón, vómitos). Si no hay reacción en 24-48 horas, puedes seguir ofreciéndolo.
+
+### Días 24-25: Manzana
+
+Fruta versátil y nutritiva.
+
+**Opción puré:**
+- Manzana cocida al vapor y aplastada
+
+**Opción BLW:**
+- Gajos de manzana **cocida al vapor** (nunca cruda, demasiado dura para un bebé de 6 meses)
+
+### Días 26-28: Ternera
+
+Tercera fuente de hierro hemo. La ternera aporta un sabor más intenso.
+
+**Opción puré:**
+- Ternera cocida triturada con patata y zanahoria
+
+**Opción BLW:**
+- Mini hamburguesas de ternera con calabacín rallado
+- Tiras de ternera guisada muy tierna
+
+### Resumen Semana 4
+
+- **Alimentos nuevos:** Huevo (alérgeno), manzana, ternera
+- **Total de alimentos introducidos:** 12
+- **Comidas al día:** 2
+- **Primer alérgeno introducido:** Huevo
+
+## Semanas 5-6: consolidación y más alérgenos
+
+### Objetivo
+Seguir **diversificando**, introducir más **alérgenos** (pescado, trigo) y consolidar el ritmo de **2 comidas al día**. A partir de aquí puedes ser más ágil con la introducción de nuevos alimentos.
+
+### Alimentos para introducir en estas semanas
+
+**Semana 5:**
+- **Merluza** (pescado blanco, bajo en mercurio): en puré con patata o en tiras al vapor
+- **Patata:** cocida como base para purés o en bastones
+- **Brócoli:** al vapor en ramilletes (formato BLW ideal) o en puré
+
+**Semana 6:**
+- **Pan** (contiene trigo/gluten): tiras de pan tostado para chupar
+- **Garbanzos:** en crema con verduras o aplastados
+- **Melocotón o nectarina** (de temporada): en gajos blandos o triturado
+
+### Consejos para estas semanas
+
+- Una vez que un alérgeno ha sido introducido sin reacción, **ofrécelo regularmente** (1-2 veces por semana) para mantener la tolerancia
+- Empieza a combinar alimentos conocidos en **platos más completos**: puré de ternera con lentejas, pollo con brócoli, merluza con patata y zanahoria
+- Si el bebé muestra interés, puedes ofrecer una **pequeña merienda** además de las 2 comidas
+
+## Semanas 7-8: rumbo a la diversidad completa
+
+### Objetivo
+Ampliar la variedad hasta cubrir **todos los grupos alimentarios**. El bebé puede hacer **2-3 comidas al día** más alguna merienda ligera.
+
+### Alimentos para ir introduciendo
+
+- **Yogur natural sin azúcar** (a partir de los 9 meses según AEP, o antes según criterio pediátrico)
+- **Arroz:** cocido blando, ideal como base de platos
+- **Calabaza:** en puré o asada en bastones
+- **Espinacas** (en pequeñas cantidades antes del año)
+- **Judías verdes:** al vapor, en tiras para BLW
+- **Conejo:** carne magra, buena fuente de hierro
+- **Salmón** (bajo en mercurio): al horno en tiras o desmenuzado
+
+### Ejemplo de día completo a los 8 meses
+
+**Desayuno/Media mañana:**
+- Papilla de avena con plátano y leche materna/fórmula
+
+**Comida:**
+- Puré de lentejas con zanahoria y aceite de oliva + tiras de pollo al vapor
+- Pera de postre
+
+**Merienda:**
+- Bastones de boniato asado + gajos de manzana cocida
+
+**Leche:** A demanda durante todo el día (sigue siendo el alimento principal)
+
+## Tabla resumen: alimentos por semana
+
+### Semana 1 (6 meses)
+- Boniato, pollo, calabacín
+- 1 comida/día
+
+### Semana 2
+- Plátano, pavo, zanahoria
+- 1 comida/día
+
+### Semana 3
+- Lentejas, avena (gluten), pera
+- 1-2 comidas/día
+
+### Semana 4
+- Huevo (alérgeno), manzana, ternera
+- 2 comidas/día
+
+### Semana 5
+- Merluza (pescado), patata, brócoli
+- 2 comidas/día
+
+### Semana 6
+- Pan (trigo), garbanzos, melocotón
+- 2 comidas/día
+
+### Semanas 7-8
+- Arroz, calabaza, yogur, judías verdes, salmón, conejo
+- 2-3 comidas/día + merienda
+
+## Errores frecuentes en la planificación
+
+### Introducir demasiados alimentos a la vez
+
+Si introduces 3 alimentos nuevos en un solo día y el bebé tiene una reacción alérgica, no podrás identificar cuál la causó. Respeta la regla de **un alimento nuevo cada 2-3 días** durante las primeras semanas.
+
+### Obsesionarse con las cantidades
+
+En las primeras semanas, la cantidad que come el bebé es **irrelevante**. Lo importante es la exposición. Un bebé que solo chupa un bastón de boniato durante 15 minutos está aprendiendo tanto como uno que se come medio plato de puré.
+
+### No ofrecer hierro desde el inicio
+
+Muchas familias empiezan con frutas o cereales por tradición, relegando las carnes y legumbres a semanas posteriores. La AEP recomienda **priorizar el hierro** desde el primer día. El pollo o las lentejas pueden ser perfectamente el primer alimento.
+
+### Eliminar alimentos rechazados
+
+Que un bebé rechace un alimento la primera vez no significa que no le guste. Los estudios muestran que pueden necesitarse **entre 10 y 15 exposiciones** antes de que acepte un sabor nuevo. Sigue ofreciéndolo sin forzar.
+
+### No avanzar en texturas
+
+Si usas purés, no mantengas la textura fina más allá de los 8-9 meses. La AEP alerta de que retrasar las texturas puede dificultar la aceptación de sólidos más adelante. Aumenta progresivamente: puré fino → puré con grumos → aplastado con tenedor → trocitos.
+
+## Cantidades orientativas por edad
+
+Estas cantidades son **orientativas**. Cada bebé es diferente y la mejor guía es su apetito y sus señales de saciedad.
+
+### 6-7 meses
+- **Cantidad por comida:** 2-4 cucharadas de puré o equivalente en trozos BLW
+- **Comidas al día:** 1
+- **Leche:** 500-700 ml aproximadamente (el 80% de la energía viene de la leche)
+
+### 7-8 meses
+- **Cantidad por comida:** 4-8 cucharadas o equivalente
+- **Comidas al día:** 2
+- **Leche:** 500-600 ml aproximadamente
+
+### 9-11 meses
+- **Cantidad por comida:** 8-12 cucharadas o equivalente
+- **Comidas al día:** 2-3 + merienda
+- **Leche:** 400-500 ml aproximadamente
+
+### 12 meses
+- **Cantidad por comida:** Similar a un plato infantil pequeño
+- **Comidas al día:** 3 + 1-2 meriendas
+- **Leche:** 300-500 ml aproximadamente (ya no es el alimento principal)
+
+## Adaptando el plan a tu realidad
+
+Este plan es una **guía flexible**, no un protocolo rígido. Adáptalo según:
+
+- **Disponibilidad de alimentos:** Usa lo que tengas en la nevera y lo que sea de temporada
+- **Cultura alimentaria familiar:** Si en tu familia se comen muchas legumbres, introduce variedad de legumbres antes
+- **Horarios:** La comida de sólidos debe encajar en tu rutina. No hay una hora mejor que otra; elige la que funcione para tu familia
+- **Método de alimentación:** Las recetas funcionan tanto para purés como para BLW. Adapta la textura y el formato
+- **Ritmo de tu bebé:** Si tu bebé necesita más tiempo con un alimento antes de pasar al siguiente, respétalo
+
+La app IntroAlimentar genera un **plan semanal personalizado** basado en la edad de tu bebé, los alimentos ya introducidos y tus preferencias de método (puré, BLW o mixto). El plan se adapta automáticamente según avanzas y registras nuevos alimentos, asegurando que priorizas el hierro y diversificas adecuadamente.
+
+## Conclusión
+
+La alimentación complementaria no tiene por qué ser un proceso caótico ni estresante. Con un plan semanal organizado, puedes afrontar las primeras semanas con tranquilidad, sabiendo que estás cubriendo las necesidades nutricionales de tu bebé y ofreciéndole una exposición variada a diferentes sabores y texturas.
+
+Recuerda los tres pilares: **priorizar el hierro, respetar el ritmo del bebé y avanzar hacia la diversidad**. El resto son detalles que puedes adaptar a tu familia. Y ante cualquier duda, tu pediatra es siempre tu mejor recurso.
+
+## Fuentes
+
+- **AEP** — Recomendaciones sobre alimentación complementaria del Comité de Nutrición y Lactancia Materna (2018): https://www.aeped.es/comite-nutricion-y-lactancia-materna/nutricion-infantil/documentos/recomendaciones-sobre-alimentacion-complementaria
+- **OMS** — Directrices sobre alimentación complementaria (2023): https://www.who.int/health-topics/complementary-feeding
+- **OMS** — Principios de orientación para la alimentación complementaria del niño amamantado: https://www.who.int/publications
+- **ESPGHAN** — Position paper on complementary feeding (2017): https://espghan.org/knowledge-center/publications
+- **AESAN** — Agencia Española de Seguridad Alimentaria y Nutrición: https://www.aesan.gob.es/`
   }
 ];
 

@@ -26,7 +26,7 @@ export default function AuthPage() {
     try {
       if (mode === 'signin') {
         await signIn(email, password);
-        router.push('/');
+        router.push('/dashboard');
       } else if (mode === 'signup') {
         await signUp(email, password);
         setMessage('¡Cuenta creada! Ya puedes iniciar sesión.');

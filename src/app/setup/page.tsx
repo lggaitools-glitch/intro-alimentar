@@ -25,7 +25,7 @@ export default function SetupPage() {
 
   const handleSave = () => {
     updateProfile({ name: name.trim(), dateOfBirth: dob, feedingType });
-    router.push('/');
+    router.push('/dashboard');
   };
 
   return (

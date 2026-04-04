@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 import { createServerClient } from '@supabase/ssr';
 
-const PROTECTED_PATHS = ['/plan', '/diary', '/allergens', '/learn', '/setup', '/approach', '/readiness'];
+const PROTECTED_PATHS = ['/dashboard', '/plan', '/diary', '/allergens', '/learn', '/setup', '/approach', '/readiness'];
 
 export async function proxy(request: NextRequest) {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;

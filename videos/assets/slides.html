@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #111; }
+  .slide {
+    width: 1080px;
+    height: 1920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    text-align: center;
+    position: relative;
+    margin: 20px auto;
+  }
+  .emoji-big { font-size: 140px; margin-bottom: 50px; }
+  .title { font-size: 72px; font-weight: 800; line-height: 1.2; margin-bottom: 30px; }
+  .subtitle { font-size: 44px; font-weight: 500; line-height: 1.5; opacity: 0.85; max-width: 900px; }
+  .check-box {
+    background: white;
+    border-radius: 28px;
+    padding: 36px 44px;
+    margin: 16px 0;
+    width: 100%;
+    text-align: left;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .check-box .icon { font-size: 52px; flex-shrink: 0; }
+  .check-box .text { font-size: 40px; font-weight: 600; color: #1a1a1a; line-height: 1.3; }
+  .check-box .desc { font-size: 32px; font-weight: 400; color: #666; margin-top: 6px; }
+  .brand {
+    position: absolute;
+    bottom: 60px;
+    font-size: 34px;
+    font-weight: 600;
+    opacity: 0.6;
+  }
+  .scene-number {
+    position: absolute;
+    top: 60px;
+    right: 80px;
+    font-size: 180px;
+    font-weight: 900;
+    opacity: 0.1;
+  }
+  .tag {
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 12px 28px;
+    border-radius: 50px;
+    background: rgba(255,255,255,0.2);
+  }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1: Hook -->
+<div class="slide" id="slide1" style="background: linear-gradient(155deg, #22c55e, #15803d); color: white;">
+  <div class="tag">🥑 IntroAlimentar</div>
+  <div class="emoji-big">👶🍽️</div>
+  <div class="title">¿Cuándo puede tu bebé empezar a comer?</div>
+  <div class="subtitle">Las 4 señales clave que debes conocer</div>
+  <div class="brand">introalimentar.com</div>
+</div>
+
+<!-- SLIDE 2: La regla de los 6 meses -->
+<div class="slide" id="slide2" style="background: linear-gradient(155deg, #fef9c3, #fde68a); color: #1a1a1a;">
+  <div class="tag" style="background: rgba(0,0,0,0.08); color: #92400e;">OMS + AEP</div>
+  <div class="emoji-big">📅</div>
+  <div class="title" style="font-size: 64px;">Lactancia exclusiva hasta los 6 meses</div>
+  <div class="subtitle">Pero la edad es solo una guía.<br>Lo importante son las <strong>señales de madurez</strong>.</div>
+  <div class="brand" style="color: #92400e;">introalimentar.com</div>
+</div>
+
+<!-- SLIDE 3: Señal 1 -->
+<div class="slide" id="slide3" style="background: linear-gradient(155deg, #f0fdf4, #bbf7d0); color: #1a1a1a;">
+  <div class="scene-number" style="color: #22c55e;">1</div>
+  <div class="tag" style="background: #22c55e; color: white;">Señal 1 de 4</div>
+  <div class="emoji-big">🪑</div>
+  <div class="title" style="font-size: 60px;">Sostiene la cabeza erguida</div>
+  <div class="subtitle">Se mantiene sentado con algo de apoyo. Es fundamental para tragar de forma segura.</div>
+  <div class="brand" style="color: #166534;">introalimentar.com</div>
+</div>
+
+<!-- SLIDE 4: Señal 2 -->
+<div class="slide" id="slide4" style="background: linear-gradient(155deg, #fef3c7, #fde68a); color: #1a1a1a;">
+  <div class="scene-number" style="color: #f59e0b;">2</div>
+  <div class="tag" style="background: #f59e0b; color: white;">Señal 2 de 4</div>
+  <div class="emoji-big">👀🍎</div>
+  <div class="title" style="font-size: 60px;">Muestra interés por la comida</div>
+  <div class="subtitle">Te mira comer, abre la boca, intenta agarrar lo que hay en tu plato.</div>
+  <div class="brand" style="color: #92400e;">introalimentar.com</div>
+</div>
+
+<!-- SLIDE 5: Señal 3 -->
+<div class="slide" id="slide5" style="background: linear-gradient(155deg, #ede9fe, #c4b5fd); color: #1a1a1a;">
+  <div class="scene-number" style="color: #7c3aed;">3</div>
+  <div class="tag" style="background: #7c3aed; color: white;">Señal 3 de 4</div>
+  <div class="emoji-big">👅❌</div>
+  <div class="title" style="font-size: 56px;">Ya no empuja la comida con la lengua</div>
+  <div class="subtitle">El reflejo de extrusión ha desaparecido. Acepta la cuchara sin empujar.</div>
+  <div class="brand" style="color: #5b21b6;">introalimentar.com</div>
+</div>
+
+<!-- SLIDE 6: Señal 4 -->
+<div class="slide" id="slide6" style="background: linear-gradient(155deg, #fce7f3, #f9a8d4); color: #1a1a1a;">
+  <div class="scene-number" style="color: #ec4899;">4</div>
+  <div class="tag" style="background: #ec4899; color: white;">Señal 4 de 4</div>
+  <div class="emoji-big">🤚👄</div>
+  <div class="title" style="font-size: 60px;">Se lleva cosas a la boca</div>
+  <div class="subtitle">Coordina la mano con la boca. Clave para BLW y para la autonomía.</div>
+  <div class="brand" style="color: #9d174d;">introalimentar.com</div>
+</div>
+
+<!-- SLIDE 7: CTA -->
+<div class="slide" id="slide7" style="background: linear-gradient(155deg, #22c55e, #15803d); color: white;">
+  <div class="tag">🥑 IntroAlimentar</div>
+  <div class="emoji-big">🎉</div>
+  <div class="title" style="font-size: 60px;">¿Tu bebé cumple las 4 señales? ¡Está listo!</div>
+  <div class="subtitle" style="margin-top: 30px; font-size: 48px; opacity: 1;">
+    Plan semanal gratuito<br>paso a paso en<br>
+    <strong style="font-size: 56px; text-decoration: underline;">introalimentar.com</strong>
+  </div>
+  <div class="brand">🔗 Enlace en la bio</div>
+</div>
+
+</body>
+</html>

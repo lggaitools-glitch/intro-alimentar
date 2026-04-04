@@ -149,7 +149,7 @@ export default function ApproachPage() {
 
   const handleConfirm = (approach: 'traditional' | 'blw' | 'mixed') => {
     updateProfile({ approach });
-    router.push('/');
+    router.push('/dashboard');
   };
 
   const handleReset = () => {

@@ -9,7 +9,7 @@ import { useProfile } from '@/hooks/useProfile';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 const navKeys = [
-  { href: '/', key: 'home', emoji: '🏠' },
+  { href: '/dashboard', key: 'home', emoji: '🏠' },
   { href: '/plan', key: 'plan', emoji: '📅' },
   { href: '/diary', key: 'diary', emoji: '📓' },
   { href: '/blog', key: 'blog', emoji: '📝' },

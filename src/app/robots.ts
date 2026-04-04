@@ -8,6 +8,8 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
         disallow: [
           '/api/',        // API routes
+          '/dashboard',   // User dashboard (private)
+          '/dashboard/',
           '/auth',        // Login/signup page
           '/auth/',
           '/account',     // Private account settings

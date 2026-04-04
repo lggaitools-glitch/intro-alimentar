@@ -66,6 +66,7 @@ export async function GET() {
   const parts: string[] = []
 
   parts.push(`<?xml version="1.0" encoding="UTF-8"?>`)
+  parts.push(`<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>`)
   parts.push(`<urlset`)
   parts.push(` xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"`)
   parts.push(` xmlns:xhtml="http://www.w3.org/1999/xhtml">`)

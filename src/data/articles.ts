@@ -175,7 +175,14 @@ Las directrices actualizadas de la OMS refuerzan:
 
 La alimentación complementaria es mucho más que dar de comer a tu bebé. Es un proceso de aprendizaje, exploración y vínculo afectivo que sentará las bases de una relación saludable con la comida para toda la vida. No existe una fórmula mágica ni un plan perfecto: lo importante es respetar las señales de madurez de tu bebé, ofrecer alimentos nutritivos y variados, y disfrutar de esta nueva etapa con paciencia y cariño.
 
-Recuerda siempre que tu pediatra es tu mejor aliado en este camino. Ante cualquier duda sobre el desarrollo de tu bebé o su preparación para la alimentación complementaria, consulta con un profesional de la salud.`
+Recuerda siempre que tu pediatra es tu mejor aliado en este camino. Ante cualquier duda sobre el desarrollo de tu bebé o su preparación para la alimentación complementaria, consulta con un profesional de la salud.
+
+## Fuentes
+
+- **AEP** — Recomendaciones sobre alimentación complementaria del Comité de Nutrición y Lactancia Materna (2018): https://www.aeped.es/comite-nutricion-y-lactancia-materna/nutricion-infantil/documentos/recomendaciones-sobre-alimentacion-complementaria
+- **OMS** — Directrices sobre alimentación complementaria (2023): https://www.who.int/health-topics/complementary-feeding
+- **ESPGHAN** — Position paper on complementary feeding: https://espghan.org/knowledge-center/publications
+- **AESAN** — Agencia Española de Seguridad Alimentaria y Nutrición: https://www.aesan.gob.es/`
   },
   {
     slug: 'blw-que-es-como-empezar',
@@ -368,7 +375,14 @@ No existe el método perfecto: existe el método que funciona para tu familia. S
 
 El BLW es mucho más que una moda: es un enfoque basado en la evidencia que respeta la autonomía del bebé y fomenta una relación saludable con la comida desde el primer día. Si decides practicarlo, hazlo con información, con formación en seguridad y con la tranquilidad de saber que, bien practicado, es una opción tan segura y nutritiva como cualquier otra.
 
-No olvides que el mejor método de alimentación complementaria es el que funciona para tu bebé y tu familia, y que siempre puedes combinar enfoques según tus necesidades. Consulta con tu pediatra si tienes dudas y disfruta de esta etapa tan especial.`
+No olvides que el mejor método de alimentación complementaria es el que funciona para tu bebé y tu familia, y que siempre puedes combinar enfoques según tus necesidades. Consulta con tu pediatra si tienes dudas y disfruta de esta etapa tan especial.
+
+## Fuentes
+
+- **AEP** — Recomendaciones sobre alimentación complementaria: https://www.aeped.es/comite-nutricion-y-lactancia-materna/nutricion-infantil/documentos/recomendaciones-sobre-alimentacion-complementaria
+- **OMS** — Alimentación complementaria: https://www.who.int/health-topics/complementary-feeding
+- **ESPGHAN** — Complementary feeding position paper: https://espghan.org/knowledge-center/publications
+- **Estudio BLISS** (Baby-Led Introduction to SolidS): evidencia sobre seguridad del BLW`
   },
   {
     slug: 'tabla-introduccion-alimentos-bebe',
@@ -602,7 +616,14 @@ Este es solo un ejemplo orientativo. Las cantidades dependerán del apetito de t
 
 ## Conclusión
 
-La introducción de alimentos es un proceso progresivo que debe adaptarse a las señales de cada bebé. Aunque esta tabla te ofrece una guía general basada en las últimas recomendaciones de la AEP y la OMS, recuerda que no hay prisa ni un orden estricto. Lo importante es ofrecer variedad, priorizar el hierro, respetar al bebé y disfrutar de esta etapa. Ante cualquier duda sobre alergias, intolerancias o desarrollo de tu bebé, consulta siempre con tu pediatra.`
+La introducción de alimentos es un proceso progresivo que debe adaptarse a las señales de cada bebé. Aunque esta tabla te ofrece una guía general basada en las últimas recomendaciones de la AEP y la OMS, recuerda que no hay prisa ni un orden estricto. Lo importante es ofrecer variedad, priorizar el hierro, respetar al bebé y disfrutar de esta etapa. Ante cualquier duda sobre alergias, intolerancias o desarrollo de tu bebé, consulta siempre con tu pediatra.
+
+## Fuentes
+
+- **AEP** — Recomendaciones sobre alimentación complementaria: https://www.aeped.es/comite-nutricion-y-lactancia-materna/nutricion-infantil/documentos/recomendaciones-sobre-alimentacion-complementaria
+- **OMS** — Alimentación complementaria: https://www.who.int/health-topics/complementary-feeding
+- **ESPGHAN** — Complementary feeding position paper: https://espghan.org/knowledge-center/publications
+- **AESAN** — Agencia Española de Seguridad Alimentaria: https://www.aesan.gob.es/`
   },
   {
     slug: 'alimentos-prohibidos-bebes',
@@ -805,7 +826,14 @@ La app IntroAlimentar incluye una **referencia de seguridad alimentaria** integr
 
 ## Conclusión
 
-Conocer los alimentos prohibidos y de riesgo no debe generarte ansiedad, sino tranquilidad: saber qué evitar te permite ofrecer todo lo demás con confianza. La alimentación complementaria es un mundo amplio y lleno de posibilidades, y los alimentos a evitar son, en realidad, una lista relativamente corta. Con información de calidad y sentido común, puedes ofrecerle a tu bebé una alimentación segura, variada y nutritiva desde el primer día. Ante cualquier duda, consulta con tu pediatra.`
+Conocer los alimentos prohibidos y de riesgo no debe generarte ansiedad, sino tranquilidad: saber qué evitar te permite ofrecer todo lo demás con confianza. La alimentación complementaria es un mundo amplio y lleno de posibilidades, y los alimentos a evitar son, en realidad, una lista relativamente corta. Con información de calidad y sentido común, puedes ofrecerle a tu bebé una alimentación segura, variada y nutritiva desde el primer día. Ante cualquier duda, consulta con tu pediatra.
+
+## Fuentes
+
+- **AEP** — Recomendaciones sobre alimentación complementaria: https://www.aeped.es/comite-nutricion-y-lactancia-materna/nutricion-infantil/documentos/recomendaciones-sobre-alimentacion-complementaria
+- **OMS** — Alimentación complementaria: https://www.who.int/health-topics/complementary-feeding
+- **AESAN** — Recomendaciones sobre consumo de pescado y mercurio: https://www.aesan.gob.es/
+- **ESPGHAN** — Complementary feeding position paper: https://espghan.org/knowledge-center/publications`
   },
   {
     slug: 'introduccion-alergenos-bebes',
@@ -1043,7 +1071,15 @@ Es importante señalar que, incluso en bebés de alto riesgo, la introducción d
 
 La ciencia es clara: la introducción temprana de alérgenos, realizada de forma segura y metódica a partir de los 6 meses, es una de las mejores estrategias disponibles para prevenir alergias alimentarias en los niños. No se trata de exponer a los bebés a riesgos, sino de aprovechar una ventana inmunológica en la que el organismo del bebé está especialmente receptivo a aprender a tolerar nuevos alimentos.
 
-Consulta siempre con tu pediatra antes de iniciar la alimentación complementaria, especialmente si tu bebé tiene eczema, antecedentes familiares de alergia o alguna condición de salud. Con información de calidad, precaución razonable y un seguimiento adecuado, la introducción de alérgenos es un paso seguro y beneficioso en la alimentación de tu bebé.`
+Consulta siempre con tu pediatra antes de iniciar la alimentación complementaria, especialmente si tu bebé tiene eczema, antecedentes familiares de alergia o alguna condición de salud. Con información de calidad, precaución razonable y un seguimiento adecuado, la introducción de alérgenos es un paso seguro y beneficioso en la alimentación de tu bebé.
+
+## Fuentes
+
+- **AEP** — Recomendaciones sobre alimentación complementaria: https://www.aeped.es/comite-nutricion-y-lactancia-materna/nutricion-infantil/documentos/recomendaciones-sobre-alimentacion-complementaria
+- **Estudio LEAP** (Learning Early About Peanut Allergy) — New England Journal of Medicine, 2015
+- **Estudio EAT** (Enquiring About Tolerance) — New England Journal of Medicine, 2016
+- **OMS** — Alimentación complementaria: https://www.who.int/health-topics/complementary-feeding
+- **ESPGHAN** — Position paper on complementary feeding: https://espghan.org/knowledge-center/publications`
   }
 ];
 

@@ -97,6 +97,33 @@ export default function ReferencePage() {
           </ul>
         </div>
 
+        {/* Fuentes */}
+        <div className="bg-white rounded-2xl border border-cream-dark p-4 mt-4">
+          <h3 className="font-semibold text-text-primary text-sm mb-2">📚 Fuentes</h3>
+          <ul className="space-y-1.5">
+            <li className="text-xs">
+              <a href="https://www.aeped.es/comite-nutricion-y-lactancia-materna/nutricion-infantil/documentos/recomendaciones-sobre-alimentacion-complementaria" target="_blank" rel="noopener noreferrer" className="text-green-app hover:underline">
+                AEP — Recomendaciones sobre alimentación complementaria ↗
+              </a>
+            </li>
+            <li className="text-xs">
+              <a href="https://www.who.int/health-topics/complementary-feeding" target="_blank" rel="noopener noreferrer" className="text-green-app hover:underline">
+                OMS — Alimentación complementaria ↗
+              </a>
+            </li>
+            <li className="text-xs">
+              <a href="https://espghan.org/knowledge-center/publications" target="_blank" rel="noopener noreferrer" className="text-green-app hover:underline">
+                ESPGHAN — Position paper on complementary feeding ↗
+              </a>
+            </li>
+            <li className="text-xs">
+              <a href="https://www.aesan.gob.es/" target="_blank" rel="noopener noreferrer" className="text-green-app hover:underline">
+                AESAN — Seguridad alimentaria ↗
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="text-xs text-text-muted text-center py-4">
           <p>Esta información no sustituye la consulta médica.</p>
           <p>En caso de emergencia, llama al 112.</p>

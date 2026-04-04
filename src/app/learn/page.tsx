@@ -108,6 +108,33 @@ export default function LearnPage() {
             Para uso informativo. Consulta siempre con tu pediatra.
           </p>
         </div>
+
+        {/* Fuentes */}
+        <div className="bg-white rounded-2xl shadow-sm p-4 mt-3">
+          <h3 className="font-semibold text-text-primary text-sm mb-2">📚 Fuentes</h3>
+          <ul className="space-y-1.5">
+            <li className="text-xs">
+              <a href="https://www.aeped.es/comite-nutricion-y-lactancia-materna/nutricion-infantil/documentos/recomendaciones-sobre-alimentacion-complementaria" target="_blank" rel="noopener noreferrer" className="text-green-app hover:underline">
+                AEP — Recomendaciones sobre alimentación complementaria ↗
+              </a>
+            </li>
+            <li className="text-xs">
+              <a href="https://www.who.int/health-topics/complementary-feeding" target="_blank" rel="noopener noreferrer" className="text-green-app hover:underline">
+                OMS — Alimentación complementaria ↗
+              </a>
+            </li>
+            <li className="text-xs">
+              <a href="https://espghan.org/knowledge-center/publications" target="_blank" rel="noopener noreferrer" className="text-green-app hover:underline">
+                ESPGHAN — Position paper on complementary feeding ↗
+              </a>
+            </li>
+            <li className="text-xs">
+              <a href="https://www.aesan.gob.es/" target="_blank" rel="noopener noreferrer" className="text-green-app hover:underline">
+                AESAN — Seguridad alimentaria ↗
+              </a>
+            </li>
+          </ul>
+        </div>
       </main>
 
       <Navigation />

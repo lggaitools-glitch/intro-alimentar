@@ -219,6 +219,25 @@ export default function LandingPage() {
         </div>
       </section>
 
+      {/* Food database CTA */}
+      <section className="py-16 px-4 bg-white">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="text-5xl mb-4">🥕</div>
+          <h2 className="text-3xl font-bold text-text-primary mb-4">
+            Base de datos de alimentos
+          </h2>
+          <p className="text-text-secondary mb-8 max-w-2xl mx-auto">
+            Consulta más de 50 alimentos con información detallada: edad recomendada, cómo preparar, valor nutricional, precauciones y si es alérgeno. Todo basado en las recomendaciones de la AEP.
+          </p>
+          <Link
+            href="/foods"
+            className="inline-block bg-green-app text-white font-semibold px-8 py-3 rounded-xl hover:bg-green-dark transition-colors"
+          >
+            Explorar alimentos →
+          </Link>
+        </div>
+      </section>
+
       {/* Blog preview */}
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto">

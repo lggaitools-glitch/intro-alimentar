@@ -1,11 +1,11 @@
 {
   "nav": {
     "home": "Home",
+    "foods": "Foods",
     "plan": "Plan",
     "diary": "Diary",
-    "learn": "Learn",
     "blog": "Blog",
-    "more": "More"
+    "learn": "Learn"
   },
   "common": {
     "loading": "Loading...",

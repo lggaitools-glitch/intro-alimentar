@@ -10,11 +10,11 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 const navKeys = [
   { href: '/dashboard', key: 'home', emoji: '🏠' },
+  { href: '/foods', key: 'foods', emoji: '🥕' },
   { href: '/plan', key: 'plan', emoji: '📅' },
   { href: '/diary', key: 'diary', emoji: '📓' },
   { href: '/blog', key: 'blog', emoji: '📝' },
   { href: '/learn', key: 'learn', emoji: '📖' },
-  { href: '/reference', key: 'more', emoji: '⚠️' },
 ];
 
 export default function Navigation() {

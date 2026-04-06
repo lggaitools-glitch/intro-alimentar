@@ -7,25 +7,7 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: '*',
         allow: '/',
         disallow: [
-          '/api/',        // API routes
-          '/dashboard',   // User dashboard (private)
-          '/dashboard/',
-          '/auth',        // Login/signup page
-          '/auth/',
-          '/account',     // Private account settings
-          '/account/',
-          '/setup',       // Onboarding (no value for search)
-          '/setup/',
-          '/approach',    // Onboarding step
-          '/approach/',
-          '/readiness',   // Onboarding step
-          '/readiness/',
-          '/plan',        // User-specific content (no value for search)
-          '/plan/',
-          '/diary',       // User-specific content
-          '/diary/',
-          '/allergens',   // User-specific content
-          '/allergens/',
+          '/api/', // API routes only
         ],
       },
     ],
